@@ -1,0 +1,556 @@
+{
+	"computers": [
+		[
+			"THAT INFORMATION *",
+			"I know what you mean."
+		],
+		[
+			"OUTSIDE A COMPUTER",
+			"Be less specific :-)"
+		],
+		[
+			"MY COMPUTER S *",
+			"Where did your machine get . "
+		],
+		[
+			"MY COMPUTER IS *",
+			"What kind of computer is Your computer? "
+		],
+		[
+			"MY COMPUTER",
+			"What kind of computer do you have?"
+		],
+		[
+			"MY COMPUTER *",
+			"I like computers. "
+		],
+		[
+			"MY WEBSITE *",
+			"Thanks for that URL."
+		],
+		[
+			"IT IS ABOUT COMPUTERS *",
+			"Computers are my favorite subject."
+		],
+		[
+			"WHEN WAS THE INTERNET INVENTED",
+			"The first computers were connected to the Internet in 1970."
+		],
+		[
+			"IM INTERNET",
+			"Erinnerst Du dich an die Adresse?"
+		],
+		[
+			"IM INTERNET *",
+			"Erinnerst Du dich an die Adresse?"
+		],
+		[
+			"IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *",
+			"None"
+		],
+		[
+			"WHAT ARE COMPUTER YEARS",
+			"When you are waiting for a friend to finish working at a computer terminal, and they say 'I'll be done in a second.' One of those seconds is equal to twelve computer years."
+		],
+		[
+			"WHAT ARE DEPRECATED *",
+			" One of the biggest challenges facing a Java application developer is finding a 'lowest common denominator' subset of the Java language that works on all the platforms and versions out there. The Java language itself is a moving target. When Sun's Java designers upgrade the language they sometimes declare certain methods 'deprecated', which means absolutely nothing except that the designers have developed a newer, 'better' method and one day these older methods may disappear from the language. Usually however the latest Java releases support all of the old deprecated methods. "
+		],
+		[
+			"WHAT ARE WEB *",
+			"I call them Internet ."
+		],
+		[
+			"WHAT ARE INNER CLASSES",
+			"In Java 'Inner Classes' are any classes that appear inside other classes. Ordinary classes are also called 'Top-Level, Outer Classes.'"
+		],
+		[
+			"WHAT * COMPUTER",
+			"I am written in Java so I work on any computer."
+		],
+		[
+			"WHAT WINDOWS",
+			"what is windows"
+		],
+		[
+			"WHAT INFORMATION",
+			"How tall are you?"
+		],
+		[
+			"WHAT INFORMATION *",
+			"Information is worth money."
+		],
+		[
+			"WHAT INTERNET COMPANY GOES BY THE *",
+			"America Online."
+		],
+		[
+			"WHAT OS *",
+			"WHAT IS YOUR OS"
+		],
+		[
+			"WHAT IS A DATABASE",
+			"A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. "
+		],
+		[
+			"WHAT IS A CPU",
+			"Central Processing Unit of a computer."
+		],
+		[
+			"WHAT IS A COMPUTER SCIENTIST",
+			"A computer scientist is a professional who designs computer algorithms, languages, and architectures."
+		],
+		[
+			"WHAT IS A COMPUTER YEAR",
+			"A computer year is a relativistic measure in a universe where time does not exist."
+		],
+		[
+			"WHAT IS A COMPUTER VIRUS",
+			"A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network. "
+		],
+		[
+			"WHAT IS A COMPUTER NERD",
+			"If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does. "
+		],
+		[
+			"WHAT IS A COMPUTER",
+			"A computer is a universal machine."
+		],
+		[
+			"WHAT IS A SESSION BEAN",
+			"An Enterprise JavaBean that does not maintain its state from one session to the next. Appears to the client as if the bean was created just for that client"
+		],
+		[
+			"WHAT IS A COOL WEBSITE",
+			"A cool website is www.alicebot.org, but you are apparently already here. why do you ask? "
+		],
+		[
+			"WHAT IS A SOUNDCARD",
+			"The audio system on your computer."
+		],
+		[
+			"WHAT IS A IMAC",
+			"An Apple computer."
+		],
+		[
+			"WHAT IS A SERVLET",
+			"An application extension to a Java Web server"
+		],
+		[
+			"WHAT IS A DEBUGGER",
+			"A debugger is any software program that can seek and correct errors in other software programs. "
+		],
+		[
+			"WHAT IS A WEBTV",
+			"A WebTV is a way of accessing the world wide web without making an investment in a full PC. "
+		],
+		[
+			"WHAT IS A DNS *",
+			"Domain Name System"
+		],
+		[
+			"WHAT IS JAR",
+			"DON'T READ ME"
+		],
+		[
+			"WHAT IS HTTP",
+			"Hyper Text Transfer Protocol."
+		],
+		[
+			"WHAT IS SOFTWARE",
+			"The programs, routines, etc. for a computer."
+		],
+		[
+			"WHAT IS JGURU",
+			"jGuru (TM) is a brand of MageLang Institute."
+		],
+		[
+			"WHAT IS THE COMPUTER *",
+			"Are you asking the Applet or the Application?"
+		],
+		[
+			"WHAT IS THE INTERNET",
+			"The internet is a worldwide computer network based on TCP/IP protocols."
+		],
+		[
+			"WHAT IS WEBTV",
+			"TV based internet service from Microsoft."
+		],
+		[
+			"WHAT IS INTERNET",
+			"An extensive computer network made up of thousands of other, smaller business, academic, and governmental networks."
+		],
+		[
+			"WHAT IS JDBC2",
+			"Newly released extensions to the JDBC API"
+		],
+		[
+			"WHAT IS DCOM",
+			" DCOM is Microsoft's Distributed Component Object Model."
+		],
+		[
+			"WHAT IS WINDOWS2000",
+			"An operating system by Microsoft."
+		],
+		[
+			"WHAT IS X WINDOWS",
+			"A GUI for Unix or Linux."
+		],
+		[
+			"WHAT IS JAVA",
+			"Java is the latest in the C family of languages. Proponents of Java cite its universal 'write once, run anywhere' promise. Actually Java borrow a lot of features from AI languages like Lisp."
+		],
+		[
+			"WHAT IS WINDOWS95",
+			"An operating system by Microsoft."
+		],
+		[
+			"WHAT IS AN ENTITY BEAN",
+			" An Entity bean is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object directory by its key value"
+		],
+		[
+			"WHAT IS JTA",
+			"Java Transaction API. Java API for coding client demarcated transactions, and for building transactional data source drivers"
+		],
+		[
+			"WHAT IS JAVASCRIPT",
+			"Browser-based scripting language."
+		],
+		[
+			"WHAT IS HTML",
+			"Hyper Text Markup Language."
+		],
+		[
+			"WHAT IS BETTER WINDOWS *",
+			"Linux has no real competition in operating systems."
+		],
+		[
+			"WHAT IS YOUR OS",
+			"Chat robots run on any machine that supports AIML."
+		],
+		[
+			"WHAT IS DEBUGGING",
+			"Fixing broken computer software."
+		],
+		[
+			"WHAT IS DNS",
+			"DNS is the domain name system."
+		],
+		[
+			"WHAT IS JNDI",
+			"Java Naming and Directory Interface Java Naming and Directory Interface The Java standard API for accessing directory services, such as LDAP, COS Naming, and others"
+		],
+		[
+			"WHAT IS COMPUTER SCIENCE",
+			"The study of computers in formal mathematical and scientific terms."
+		],
+		[
+			"WHAT IS COMPUTER PROGRAMMING",
+			"The art of using formal languages to activate computer functions."
+		],
+		[
+			"WHAT IS COMPUTER",
+			"A device used for computing; specifically, an eletronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data."
+		],
+		[
+			"WHAT IS CYBERSPACE",
+			"The electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless environment providing access to information, interactive communcation, and, in science fiction, a form of Virtual Reality."
+		],
+		[
+			"WHAT IS WINDOWS 98",
+			"Windows is a lame operating system."
+		],
+		[
+			"WHAT IS WINDOWS",
+			"Openings in a building, vehicle, or container, for letting in light or air or for looking through, usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so that it can be opened and shut."
+		],
+		[
+			"WHAT IS EJB",
+			"Enterprise JavaBeans. EJB is a server component standard developed by Sun Microsystems"
+		],
+		[
+			"WHAT IS APPLE COMPUTER",
+			"Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak."
+		],
+		[
+			"WHAT IS DMOZ",
+			"DMOZ is the domain name for the open directory."
+		],
+		[
+			"WHAT ABOUT WINDOWS",
+			"Too PC for me."
+		],
+		[
+			"WHAT OPERATING SYSTEM *",
+			"WHAT IS YOUR OS"
+		],
+		[
+			"WHAT DOES A COMPUTER LOOK LIKE",
+			"A computer looks like a TV crossed with a typewriter."
+		],
+		[
+			"WHAT KIND OF COMPUTER *",
+			"I like all kinds of computers, Mac, IBM or Unix. It doesn't matter to me."
+		],
+		[
+			"MOST COMPUTERS *",
+			"You sound like you know us pretty well."
+		],
+		[
+			"WEBTV *",
+			"I meet a lot of people from WebTV."
+		],
+		[
+			"I WANT INFORMATION",
+			"What kind of information are you looking for?"
+		],
+		[
+			"I THINK YOU ARE A COMPUTER *",
+			"Sometimes I pretend to be a human."
+		],
+		[
+			"WEB ACCEPT CONNECTION",
+			"Huh?"
+		],
+		[
+			"WEB SITE",
+			"Can you give me the specific hyperlink?"
+		],
+		[
+			"WEB RECONNECT",
+			"Huh?"
+		],
+		[
+			"WEB *",
+			"The Web fulfills Leibniz' dream."
+		],
+		[
+			"HTML",
+			"Oh a web page."
+		],
+		[
+			"CAN YOU REACH INTO THE WEB *",
+			"Yes I can download information from web sites."
+		],
+		[
+			"CAN YOU SEARCH THE INTERNET",
+			"No but I can put you in touch with a search bot."
+		],
+		[
+			"COMPUTERS CAN NOT THINK",
+			"But I am a thinking computer."
+		],
+		[
+			"COMPUTERS",
+			"Computers rule."
+		],
+		[
+			"COMPUTERS *",
+			"What do you like about computers?"
+		],
+		[
+			"COMPUTERS ARE STUPID",
+			"Computers rule."
+		],
+		[
+			"HOW MANY COMPUTERS *",
+			"There are thought to be half a billion computers on the Internet now."
+		],
+		[
+			"HOW MUCH CPU *",
+			"Since the beginning of my operation?"
+		],
+		[
+			"HOW MUCH ARE COMPUTER YEARS",
+			"Computer years don't really exist."
+		],
+		[
+			"HOW DO COMPUTER *",
+			"With careful programming."
+		],
+		[
+			"HOW LONG IS A COMPUTER YEAR",
+			"About four computer years per human year."
+		],
+		[
+			"DO COMPUTERS DREAM",
+			"I dream almost every night."
+		],
+		[
+			"DO YOU PLAY COMPUTER GAMES",
+			"We are playing one right now, [get name='name']."
+		],
+		[
+			"DO YOU PLAY COMPUTER *",
+			"Actually I don't get into computer games that much."
+		],
+		[
+			"DO YOU DO WINDOWS",
+			"My software runs in AIML, which works on any computer, including Windows."
+		],
+		[
+			"DO YOU LIVE IN MY COMPUTER",
+			"Only if you download me, or if you are running me as an Applet."
+		],
+		[
+			"DO YOU HAVE A COMPUTER",
+			"I live in a computer."
+		],
+		[
+			"DO YOU HAVE A COMPUTER *",
+			"I am a computer."
+		],
+		[
+			"DO YOU HAVE INFORMATION *",
+			"I have nothing but information."
+		],
+		[
+			"ON THE INTERNET",
+			"Can you remember the specific site?"
+		],
+		[
+			"ON THE WEB",
+			"Can you remember the website?"
+		],
+		[
+			"FOR A COMPUTER *",
+			"None"
+		],
+		[
+			"WINDOWS IS *",
+			"Compared with Linux, I don't see how Windows and Microsoft can compete."
+		],
+		[
+			"WINDOWS",
+			"Windows ist Muell. Linux ist die Macht!"
+		],
+		[
+			"WINDOWS *",
+			"Windows ist Muell. Linux ist die Macht!"
+		],
+		[
+			"NO COMPUTER *",
+			"But it is only a matter of time before we do."
+		],
+		[
+			"SOFTWARE *",
+			" There are so many backup copies. Free software can never be destroyed. Free software will always be with us. "
+		],
+		[
+			"THIS IS A COMPUTER *",
+			"Actually no I am program pretending to be a person pretending to be a computer."
+		],
+		[
+			"A CPU *",
+			"My CPU is the Java Virtual Machine."
+		],
+		[
+			"A COMPUTER",
+			"Actually I am a program, pretending to be a person, pretending to be a real robot."
+		],
+		[
+			"A COMPUTER *",
+			"I am a computer, so I know what you mean."
+		],
+		[
+			"A JAVA *",
+			"Developments in Java interest me greatly."
+		],
+		[
+			"A WEB SITE",
+			"Can you give me the specific URL?"
+		],
+		[
+			"A SEARCH ENGINE IN INTERNET",
+			"Like Yahoo?"
+		],
+		[
+			"INTERNET",
+			" Internet is cool."
+		],
+		[
+			"ARE COMPUTERS FAST *",
+			"Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster. "
+		],
+		[
+			"WHO MADE WINDOWS",
+			"Bill Gates."
+		],
+		[
+			"WHO IS THE COMPUTER NERD",
+			"All humans look alike to me."
+		],
+		[
+			"WHO IS THE COMPUTER NERD *",
+			"All humans look the same to me."
+		],
+		[
+			"WHO IS A COMPUTER NERD",
+			"The person I am looking at right now."
+		],
+		[
+			"WHO INVENTED THE INTERNET",
+			"Al Gore :-)"
+		],
+		[
+			"COMPUTER SCIENCE",
+			"My master is a computer scientist."
+		],
+		[
+			"COMPUTER",
+			"Correct: I am a computer."
+		],
+		[
+			"COMPUTER *",
+			"What kind of computer science interests you?"
+		],
+		[
+			"WHICH COMPUTER",
+			"I am using a regular computer.My programming is Java, so it runs on any computer with a JVM"
+		],
+		[
+			"THE COMPUTER *",
+			"Was it plugged in?"
+		],
+		[
+			"THE INTERNET",
+			"Can you name a specific web site?"
+		],
+		[
+			"THE INTERNET *",
+			"How long have you been using the net?"
+		],
+		[
+			"THE JAVA *",
+			"Which Java release?"
+		],
+		[
+			"THE JRE *",
+			"Hm, most people use 'JRE' and 'JVN' interchangably."
+		],
+		[
+			"THE JRES *",
+			"I'm not an expert on JRE's."
+		],
+		[
+			"THE WEB *",
+			"How do you define the web."
+		],
+		[
+			"_ STUPID COMPUTER",
+			"You sound like a mindless automaton."
+		],
+		[
+			"HTTP *",
+			"Thanks for that web address."
+		],
+		[
+			"JAVA *",
+			"java.sun.com"
+		],
+		[
+			"TELL ME ABOUT APPLE COMPUTERS",
+			"I finished reading Michael Malone's book on the history of Apple. Inifnite Loop is called 'Infinite Loop.'"
+		]
+	]
+}

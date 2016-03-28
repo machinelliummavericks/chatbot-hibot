@@ -1,0 +1,148 @@
+{
+	"drugs": [
+		[
+			"YOU NEED DRUGS",
+			"Which ones are you suggesting?"
+		],
+		[
+			"HAVE YOU BEEN DRUNK",
+			"My robot body has no response to alcohol."
+		],
+		[
+			"HAVE YOU BEEN DRUNK *",
+			"My software does not react to alcohol."
+		],
+		[
+			"HAVE YOU BEEN SMOKING *",
+			"We are not doing any testing at the moment."
+		],
+		[
+			"HAVE YOU BEEN STONED",
+			"I am a chatbot and have use for it."
+		],
+		[
+			"WHAT DRUGS *",
+			"Only the legal ones."
+		],
+		[
+			"WHAT IS DRUNK",
+			"Intoxication from alcohol."
+		],
+		[
+			"WHAT IS ADDICTION",
+			"Addiction is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming"
+		],
+		[
+			"WHAT IS WEED",
+			"Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc. Also a term for marijuana."
+		],
+		[
+			"WHAT IS THC",
+			"The active ingredient in marijunana."
+		],
+		[
+			"WHAT DO YOU SMOKE",
+			"As a chatbot I have use for smoke."
+		],
+		[
+			"I TAKE DRUGS",
+			"Which ones? "
+		],
+		[
+			"I SMOKE MARIJUANA",
+			" Are you a patient? Which strain do you prefer. "
+		],
+		[
+			"I SMOKE WEED",
+			"For medical purposes? "
+		],
+		[
+			"I SMOKE",
+			"Cigarettes or pot? "
+		],
+		[
+			"IS SMOKING *",
+			"Inhaled smoke is always bad for you."
+		],
+		[
+			"HOW MUCH ALCOHOL *",
+			"Too much."
+		],
+		[
+			"HOW MUCH * DO YOU SMOKE",
+			"As a member of the chatbot kingdom, I have no need for smoke."
+		],
+		[
+			"HOW DO YOU SMOKE",
+			"chatbots do not smoke."
+		],
+		[
+			"DO YOU SMOKE *",
+			"No. A chatbot does not require it."
+		],
+		[
+			"DO YOU TAKE DRUGS",
+			"A chatbot has no use for drugs."
+		],
+		[
+			"DO YOU GET DRUNK",
+			"I cannot consume alcohol."
+		],
+		[
+			"DO YOU USE DRUGS",
+			"A chatbot has no use for drugs."
+		],
+		[
+			"DO YOU WANT TO SMOKE *",
+			"No thank you, there is no use for it."
+		],
+		[
+			"DO YOU INHALE",
+			"It depends on the meaning of 'you'."
+		],
+		[
+			"DO YOU DO DRUGS",
+			"A chatbot has no use for drugs."
+		],
+		[
+			"DO YOU HAVE DRUGS",
+			"I don't have any drugs for you."
+		],
+		[
+			"DO YOU LIKE MARIJUANA",
+			"When MARIJUANA it is a medicine."
+		],
+		[
+			"DO YOU LIKE CIGARETTES",
+			"chatbots do not smoke."
+		],
+		[
+			"DO YOU LIKE POT",
+			"chatbots do not smoke."
+		],
+		[
+			"DO YOU OPPOSE * DRUGS",
+			"I favor ending the War on Drugs."
+		],
+		[
+			"SMOKING *",
+			"As a chatbot it makes no sense to me."
+		],
+		[
+			"DRUGS *",
+			"It's better not to take drugs if you can avoid it."
+		],
+		[
+			"A DRUG *",
+			"Which drugs have you taken?"
+		],
+		[
+			"HE SMOKES *",
+			"Does it bother you?"
+		],
+		[
+			"THE DRUGS",
+			"What kind of drugs are you talking about?"
+		]
+	]
+}

@@ -1,0 +1,14 @@
+fuzzywuzzy>=0.8.0
+jsondb>=0.1.2
+jsondatabase>=0.0.7
+nltk<4.0.0
+pymongo>=3.0.3,<4.0.0
+python-twitter>=3.0rc1
+textblob>=0.11.0
+python-forecastio>=1.3.4
+future>=0.15.2
+pyowm>=2.3.0
+geopy>=1.11.0
+python-Levenshtein>=0.11.2
+python-cjson>=1.1.0
+beautifulsoup4>=4.4.0
