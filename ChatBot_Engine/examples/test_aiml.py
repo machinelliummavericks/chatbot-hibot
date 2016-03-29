@@ -8,7 +8,6 @@ chatbot = ChatBot("HiBot", read_only=False,
     storage_adapter="chatbot.adapters.storage.MongoDatabaseAdapter",
     logic_adapters=[
         "chatbot.adapters.logic.AttributeLogicAdapter",
-        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.WeatherLogicAdapter",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.ClosestMatchAdapter"
@@ -17,16 +16,9 @@ chatbot = ChatBot("HiBot", read_only=False,
     database="chatterbot-database")
 
 # Train based on the english corpus
-#chatbot.train("chatterbot.corpus.english")
-##chatbot.train("chatbot.corpus.english.greetings")
 #chatbot.train("chatbot.corpus.english.conversations")
-##chatbot.train("chatbot.corpus.english.trivia")
-#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.ai")
-#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.drugs")
-#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.sex")
+#chatbot.train("chatbot.corpus.english.trivia")
 chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic")
-##chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.science")
-#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.misc")
 
 ## This is needed to create database if does not already exists
 response = chatbot.get_response("")
@@ -105,10 +97,6 @@ print("[User]: " + question)
 chatbot.get_response(question)
 
 question = "will you ever die"
-print("[User]: " + question)
-chatbot.get_response(question)
-
-question = "who is your daddy?"
 print("[User]: " + question)
 chatbot.get_response(question)
 '''

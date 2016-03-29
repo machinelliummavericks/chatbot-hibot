@@ -7,7 +7,6 @@ from chatbot import ChatBot
 bot = ChatBot("Terminal",
     storage_adapter="chatbot.adapters.storage.JsonDatabaseAdapter",
     logic_adapters=[
-        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.WeatherLogicAdapter",
         "chatbot.adapters.logic.ClosestMatchAdapter"

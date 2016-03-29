@@ -11,7 +11,6 @@ chatbot = ChatBot("Terminal", read_only=False,
     storage_adapter="chatbot.adapters.storage.MongoDatabaseAdapter",
     logic_adapters=[
         "chatbot.adapters.logic.AttributeLogicAdapter",
-        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.WeatherLogicAdapter",
         "chatbot.adapters.logic.ClosestMatchAdapter"
