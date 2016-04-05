@@ -312,6 +312,8 @@ and data permits, implement these changes.
         '                The Revenant'
       ```
 
+7.  The Recommendation engine we have developed is based upon Steffen Rendle's paper on [Factorization Machines](http://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf). This is a new class of collaborative filtering models that combines the advantages of Support Vector Machines (SVM) and factorization models. Unlike other models, Factorization Machines's allow us to combine both user based and item based features.
+
 
 ## Getting Started with Git and GitHub
 
