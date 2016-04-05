@@ -1,7 +1,7 @@
 from chatbot.adapters.exceptions import AdapterNotImplementedError
 from .logic import LogicAdapter
 from .mixins import TieBreaking
-
+import time
 
 class BaseMatchAdapter(TieBreaking, LogicAdapter):
     """
@@ -33,6 +33,8 @@ class BaseMatchAdapter(TieBreaking, LogicAdapter):
         # Check if the list is empty
         if not statement_list and self.has_storage_context:
             all_statements = self.context.storage.filter()
+
+            #### VERY SLOW STATEMENT!! Takes almost all of the time
             statement_list = get_response_statements(all_statements)
 
         return statement_list

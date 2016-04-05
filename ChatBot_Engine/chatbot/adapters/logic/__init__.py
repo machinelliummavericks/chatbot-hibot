@@ -6,4 +6,5 @@ from .multi_adapter import MultiLogicAdapter
 from .no_knowledge_adapter import NoKnowledgeAdapter
 from .math_adapter import EvaluateMathematically
 from .weather_adapter import WeatherLogicAdapter
+from .movie_adapter import MovieLogicAdapter
 from .attribute_adapter import AttributeLogicAdapter

@@ -113,7 +113,7 @@ and data permits, implement these changes.
   $ sudo mongod
   ```
 
-3.  Basic Usage and Testing: All examples are found within example/ folder
+3.  Basic Usage and Testing:
 
   Testing of the installed code can be performed as follows:
 
@@ -235,6 +235,82 @@ and data permits, implement these changes.
     user_profile="user.pkl")
   ```
   This will allow you to store and reuse all attributes that you learn about a user.
+
+6.  Running the various scenarios:
+
+    **Weather:** Getting information about the weather
+
+      ```python
+         chatbot = ChatBot("Weather Bot",
+                logic_adapters=[
+                    "chatbot.adapters.logic.TimeLogicAdapter",
+                    "chatbot.adapters.logic.WeatherLogicAdapter",
+                    "chatbot.adapters.logic.ClosestMatchAdapter"
+                ],
+
+                io_adapter="chatbot.adapters.io.NoOutputAdapter",
+                pyowm_api_key="cf798079c1e5c638a93cc16cff6d7171",
+                database="database_weather.db"
+         )
+
+        chatbot.get_response("whats the forecast")
+        'u[ChatBot]: The forecast in Walpole is: 46.8 Fahrenheit'
+
+        chatbot.get_response("whats the weather in Boston")
+        'u[ChatBot]: The forecast in Boston is: 46.8 Fahrenheit'
+
+        chatbot.get_response("whats the extended weather in Boston")
+        'u[ChatBot]: The 7-day forecast in Dallas is:'
+        '                Thursday:  High = 73.11 Low = 66.54'
+        '                Friday:    High = 71.91 Low = 50.52'
+        '                Saturday:  High = 57.33 Low = 49.01'
+        '                Sunday:    High = 71.98 Low = 45.1'
+        '                Monday:    High = 70.38 Low = 41.92'
+        '                Tuesday:   High = 78.03 Low = 53.65'
+        '                Wednesday: High = 83.52 Low = 53.02'
+      ```
+
+    **Movies**: Getting information and making recommendations about movies
+
+      ```python
+         chatbot = ChatBot("Movie Bot",
+                logic_adapters=[
+                    "chatbot.adapters.logic.AttributeLogicAdapter",
+                    "chatbot.adapters.logic.TimeLogicAdapter",
+                    "chatbot.adapters.logic.MovieLogicAdapter",
+                    "chatbot.adapters.logic.ClosestMatchAdapter"
+                ],
+
+                io_adapter="chatbot.adapters.io.NoOutputAdapter",
+                database="database_weather.db"
+         )
+
+        chatbot.get_response("what movies are playing in Boston")
+        'u[ChatBot]:'
+        'AMC Loews Boston Common 19'
+        '175 Tremont Street, Boston, MA - (888) 262-4386'
+        '    Batman v Superman: Dawn of Justice'
+        '    2hr 31min - Rated PG-13 - Action/Adventure/Scifi/Fantasy - [10:00am, 1:00pm, 4:00pm]'
+
+        '    Zootopia'
+        '    1hr 48min - Rated PG - Animation/Action/Adventure - [10:00am, 1:30pm, 3:45pm]'
+
+        '    My Big Fat Greek Wedding 2'
+        '    1hr 34min - Rated PG-13 - Comedy - [10:00am, 5:00pm]'
+
+        '    The Divergent Series: Allegiant'
+        '    2hr 1min - Rated PG-13 - Action/Adventure/Romance/Scifi/Fantasy - [11:00am, 3:30pm, 7:00pm]'
+
+        '    Batman v Superman: Dawn of Justice 3D'
+        '    2hr 31min - Rated PG-13 - Action/Adventure/Scifi/Fantasy - [1:00pm, 4:00pm]'
+
+
+        chatbot.get_response("recommend a movie for me")
+        'u[ChatBot]: Based on what I know about you, the top 3 movies I recommend you seeing are:'
+        '                Batman v Superman: Dawn of Justice'
+        '                Zootpia'
+        '                The Revenant'
+      ```
 
 
 ## Getting Started with Git and GitHub

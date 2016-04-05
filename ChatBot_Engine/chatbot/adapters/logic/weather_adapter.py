@@ -10,6 +10,7 @@ import json
 import datetime
 from datetime import date, timedelta
 import urllib2
+from chatbot.learning.user import User
 
 class WeatherLogicAdapter(LogicAdapter):
     """
@@ -88,9 +89,10 @@ class WeatherLogicAdapter(LogicAdapter):
 
         ## Get the current latitude and longitude of the user based on IP
         if around_me:
-            #lat,lon = self.get_latitude_longitude()
-            #user_input = self.get_user_location(lat,lon)
-            user_input = self.get_user_location()
+            user       = tag_processing.user
+            lat,lon    = user.get_latitude_longitude()
+            user_input = self.get_user_location(lat,lon)
+            #user_input = self.get_user_location()
 
         location = self.get_location(user_input)
 
@@ -108,7 +110,9 @@ class WeatherLogicAdapter(LogicAdapter):
 
 
     def build_output(self, location, extended_forecast):
-
+        """
+        Build string output to display
+        """
         _str = ""
         if extended_forecast:
             _str = "The 7-day forecast in " + location + " is: "
@@ -121,7 +125,7 @@ class WeatherLogicAdapter(LogicAdapter):
                 _str = _str +  "\n\t" + str(self.DAYS[DOW]) + ": High = " + str(o.get_temperature('fahrenheit')['max']) + " Low = " + str(o.get_temperature('fahrenheit')['min'])
                 i = i + 1
         else:
-            _str = "The forecast in " + location + " is: " + str(self.get_weather(location)) + " fahrenheit"
+            _str = "The forecast in " + location + " is: " + str(self.get_weather(location)) + " Fahrenheit"
 
         return _str
 
@@ -148,11 +152,13 @@ class WeatherLogicAdapter(LogicAdapter):
         """
         Returns the current location of the user.
         """
-        #geolocator = Nominatim()
-        #location = geolocator.reverse(str(lat)+","+str(lon))
-        #return location.raw['address']['city']
-
-        return json.load(urllib2.urlopen('http://ipinfo.io/json'))['city']
+        #return json.load(urllib2.urlopen('http://ipinfo.io/json'))['city']
+        geolocator = Nominatim()
+        location = geolocator.reverse(str(lat)+","+str(lon))
+        try:
+            return location.raw['address']['town']
+        except:
+            return location.raw['address']['city']
 
 
     def get_latitude_longitude(self):

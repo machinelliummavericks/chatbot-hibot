@@ -1,26 +1,23 @@
-from os import sys, path
-sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
-
 from chatbot import ChatBot
 
+
 # Create a new instance of a ChatBot
-bot = ChatBot("Terminal",
+bot = ChatBot("No Output",
     storage_adapter="chatbot.adapters.storage.JsonDatabaseAdapter",
-    logic_adapters=[
-        "chatbot.adapters.logic.EvaluateMathematically",
-        "chatbot.adapters.logic.TimeLogicAdapter",
-        "chatbot.adapters.logic.WeatherLogicAdapter",
-        "chatbot.adapters.logic.ClosestMatchAdapter"
-    ],
-    io_adapters=[
-        "chatbot.adapters.io.TerminalAdapter"
-    ],
-    pyowm_api_key="cf798079c1e5c638a93cc16cff6d7171",
+    logic_adapter="chatbot.adapters.logic.ClosestMatchAdapter",
+    io_adapter="chatbot.adapters.io.NoOutputAdapter",
     database="../database.db")
 
+'''
+Manipulating the above statement allows you to edit the
+configuration to make use of different aspects of the
+library. Please see the wiki for in-depth information on
+how to configure chatbot.
+'''
 
 user_input = "Type something to begin..."
 
+# To make this Python 2.x compatible, replace the print() with print "enter print text here"
 print(user_input)
 
 '''
@@ -33,7 +30,7 @@ while True:
     try:
         '''
         chatbot's get_input method uses io adapter to get new input for
-        the bot to respond to. In this example, the TerminalAdapter gets the
+        the bot to respond to. In this example, the NoOutputAdapter gets the
         input from the user's terminal. Other io adapters might retrieve input
         differently, such as from various web APIs.
         '''
@@ -41,10 +38,12 @@ while True:
 
         '''
         The get_response method also uses the io adapter to determine how
-        the bot's output should be returned. In the case of the TerminalAdapter,
-        the output is printed to the user's terminal.
+        the bot's output should be returned. In the case of the NoOutputAdapter,
+        the output is not printed to the terminal.
         '''
         bot_input = bot.get_response(user_input)
+
+        print(bot_input)
 
     except (KeyboardInterrupt, EOFError, SystemExit):
         break

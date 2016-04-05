@@ -6,6 +6,7 @@ from chatbot import ChatBot
 chatbot = ChatBot("HiBot", read_only = True,
     storage_adapter="chatbot.adapters.storage.JsonDatabaseAdapter",
     logic_adapters=[
+        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.ClosestMatchAdapter"
     ])

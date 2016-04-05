@@ -1,7 +1,7 @@
 from chatbot.adapters.exceptions import EmptyDatasetException
 from .base_match import BaseMatchAdapter
 from fuzzywuzzy import process
-
+import time
 
 class ClosestMatchAdapter(BaseMatchAdapter):
     """
@@ -18,6 +18,7 @@ class ClosestMatchAdapter(BaseMatchAdapter):
         Takes a statement string and a list of statement strings.
         Returns the closest matching statement from the list.
         """
+
         statement_list = self.get_available_statements(statement_list)
 
         if not statement_list:

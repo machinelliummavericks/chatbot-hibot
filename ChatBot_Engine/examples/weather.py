@@ -17,13 +17,16 @@ bot = ChatBot("Math & Time Bot", read_only=False,
 
 response = bot.get_response("")
 
-response = bot.get_response("whats the weather")
-print("\n"+response)
+#response = bot.get_response("whats the weather")
+#print("\n"+response)
 
-response = bot.get_response("what time is it")
-print("\n"+response)
+#response = bot.get_response("what time is it")
+#print("\n"+response)
 
 response = bot.get_response("whats the weather in Boston today")
+print("\n"+response)
+
+response = bot.get_response("whats the extended weather in Dallas today")
 print("\n"+response)
 
 '''

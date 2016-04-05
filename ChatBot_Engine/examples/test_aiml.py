@@ -4,29 +4,55 @@ sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 from chatbot import ChatBot
 
 chatbot = ChatBot("HiBot", read_only=False,
-    #storage_adapter="chatterbot.adapters.storage.JsonDatabaseAdapter",
+    storage_adapter="chatbot.adapters.storage.JsonDatabaseAdapter",
+    #storage_adapter="chatbot.adapters.storage.MongoDatabaseAdapter",
+    logic_adapters=[
+        "chatbot.adapters.logic.AttributeLogicAdapter",
+        "chatbot.adapters.logic.EvaluateMathematically",
+        "chatbot.adapters.logic.WeatherLogicAdapter",
+        "chatbot.adapters.logic.TimeLogicAdapter",
+        "chatbot.adapters.logic.ClosestMatchAdapter"
+    ],
+    pyowm_api_key="cf798079c1e5c638a93cc16cff6d7171",
+    database="chaerbot-database_test.db")
+
+# Train based on the english corpus
+#chatbot.train("chatterbot.corpus.english")
+chatbot.train("chatbot.corpus.english.greetings")
+#chatbot.train("chatbot.corpus.english.conversations")
+chatbot.train("chatbot.corpus.english.trivia")
+#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.ai")
+#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.drugs")
+#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.sex")
+#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic")
+##chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.science")
+#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.misc")
+
+'''
+chatbot = ChatBot("HiBot", read_only=False,
+    #storage_adapter="chatbot.adapters.storage.JsonDatabaseAdapter",
     storage_adapter="chatbot.adapters.storage.MongoDatabaseAdapter",
     logic_adapters=[
         "chatbot.adapters.logic.AttributeLogicAdapter",
+        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.WeatherLogicAdapter",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.ClosestMatchAdapter"
     ],
     pyowm_api_key="cf798079c1e5c638a93cc16cff6d7171",
     database="chatterbot-database")
-
-# Train based on the english corpus
-#chatbot.train("chatbot.corpus.english.conversations")
-#chatbot.train("chatbot.corpus.english.trivia")
-chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic")
+'''
 
 ## This is needed to create database if does not already exists
 response = chatbot.get_response("")
 
-question = "WHO AM I"
+#question = "WHO AM I"
+#question = "do you like cats"
+question = "Hello"
 print("[User]: " + question)
 chatbot.get_response(question)
 
+'''
 question = "Learn my name is Mike"
 print("[User]: " + question)
 chatbot.get_response(question)
@@ -46,7 +72,7 @@ chatbot.get_response(question)
 
 #print("Saving user attributes to file...")
 #chatbot.save_user_attributes(file_name = 'user.pkl')
-
+'''
 
 '''
 # Get a response to an input statement
@@ -97,6 +123,10 @@ print("[User]: " + question)
 chatbot.get_response(question)
 
 question = "will you ever die"
+print("[User]: " + question)
+chatbot.get_response(question)
+
+question = "who is your daddy?"
 print("[User]: " + question)
 chatbot.get_response(question)
 '''

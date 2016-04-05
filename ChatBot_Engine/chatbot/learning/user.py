@@ -12,7 +12,9 @@ class User(BaseUser):
         self.location    = 'Boston'
         self.personality = 'great'
         self.job         = 'Physicists'
-        self.intrests    = ['']
+        self.intrests    = ['Comedy']
+        self.latitude    = '42.1386410'
+        self.longitude   = '-71.2474770'
 
     def who_am_i(self):
         print "I am the user SFL"
@@ -52,8 +54,11 @@ class User(BaseUser):
     def set_intrests(self, value):
         self.intrests = value
 
-
-
+    def get_latitude_longitude(self):
+        return self.latitude, self.longitude
+    def set_latitude_longitude(self, latitude, longitude):
+        self.latitude = latitude
+        self.longitude = longitude
 
 
 

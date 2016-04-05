@@ -7,22 +7,26 @@ from chatbot import ChatBot
 ### > sudo mongod
 
 # Create a new instance of a ChatBot
-chatbot = ChatBot("Terminal", read_only=False,
+chatbot = ChatBot("Terminal", read_only=True,
     storage_adapter="chatbot.adapters.storage.MongoDatabaseAdapter",
     logic_adapters=[
         "chatbot.adapters.logic.AttributeLogicAdapter",
+        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.WeatherLogicAdapter",
+        "chatbot.adapters.logic.MovieLogicAdapter",
         "chatbot.adapters.logic.ClosestMatchAdapter"
     ],
     io_adapter="chatbot.adapters.io.TerminalAdapter",
     pyowm_api_key="cf798079c1e5c638a93cc16cff6d7171",
-    user_profile="user.pkl",
+    #user_profile="user.pkl",
     database="chatterbot-database")
 
+#chatbot.train("chatbot.corpus.english")
 #chatbot.train("chatbot.corpus.english.greetings")
 #chatbot.train("chatbot.corpus.english.conversations")
 #chatbot.train("chatbot.corpus.english.trivia")
+#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON")
 #chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic")
 
 user_input = "Type something to begin...\n"
@@ -38,7 +42,7 @@ ctrl-c or ctrl-d on the keyboard.
 while True:
     try:
         '''
-        ChatterBot's get_input method uses io adapter to get new input for
+        ChatBot's get_input method uses io adapter to get new input for
         the bot to respond to. In this example, the TerminalAdapter gets the
         input from the user's terminal. Other io adapters might retrieve input
         differently, such as from various web APIs.

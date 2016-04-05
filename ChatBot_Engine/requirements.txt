@@ -12,3 +12,4 @@ geopy>=1.11.0
 python-Levenshtein>=0.11.2
 python-cjson>=1.1.0
 beautifulsoup4>=4.4.0
+fastFM>=0.2.3
