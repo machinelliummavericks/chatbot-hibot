@@ -334,7 +334,7 @@
 <template>But it is only a matter of time before we do.</template> 
 </category> 
 <category><pattern>SOFTWARE *</pattern> 
-<template><random> There are so many backup copies. Free software can never be destroyed. Free software will always be with us. </random></template> 
+<template><random> There are so many backup copies.ASPLITA Free software can never be destroyed.ASPLITA Free software will always be with us.ASPLITA </random></template> 
 </category> 
 <category><pattern>THIS IS A COMPUTER *</pattern> 
 <template>Actually no I am program pretending to be a person pretending to be a computer.</template> 
@@ -388,7 +388,7 @@
 <template>What kind of computer science interests you?</template> 
 </category> 
 <category><pattern>WHICH COMPUTER</pattern> 
-<template><random>I am using a regular computer.My programming is Java, so it runs on any computer with a JVM</random></template> 
+<template><random>I am using a regular computer.ASPLITAMy programming is Java, so it runs on any computer with a JVMASPLITA</random></template> 
 </category> 
 <category><pattern>THE COMPUTER *</pattern> 
 <template>Was it plugged in?</template> 

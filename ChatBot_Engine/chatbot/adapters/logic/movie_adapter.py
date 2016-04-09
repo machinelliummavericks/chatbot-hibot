@@ -23,6 +23,7 @@ class MovieLogicAdapter(LogicAdapter):
         ## Data labeled with `1` is for movies, label with `0` is not.
         training_data = [
                 ("movie", 1),
+                ("movies", 1),
                 ("whats playing", 1),
                 ("my is", 0),
             ]
@@ -116,7 +117,7 @@ class MovieLogicAdapter(LogicAdapter):
                     break
                 str_cnt = str_cnt + 1
 
-            return 1, Statement("Based on what I know about you, the top 3 movies I recommend you seeing are" + top_movie_str)
+            return 1, Statement("Based on what I know about you, the top 3 movies I recommend you seeing are:" + top_movie_str)
 
         else:
             '''
@@ -135,7 +136,7 @@ class MovieLogicAdapter(LogicAdapter):
                 return 0, Statement("")
 
 
-    def build_output(self, movies, n_theaters = 3, n_movies = 5):
+    def build_output(self, movies, n_theaters = 100, n_movies = 100):
         """
         Build string output to display
 
@@ -174,6 +175,12 @@ class MovieLogicAdapter(LogicAdapter):
         """
         Returns the location extracted from the input.
         """
+
+        ## Weird fix by adding letter to beginning of sentence, it is needed.
+        ## In case the name is lowercase, make first letter of each word uppercase
+        user_input = 'a ' + user_input
+        user_input = user_input.title()
+
         text = nltk.word_tokenize(user_input)
         nes = nltk.ne_chunk(nltk.pos_tag(text), binary=False)
 
@@ -186,7 +193,9 @@ class MovieLogicAdapter(LogicAdapter):
         if len(GPE) > 0:
             return GPE[0]
         else:
-            return "BAD LOCATION"
+            ## Hack until proper Around Me is built
+            #return "BAD LOCATION"
+            return "Boston"
 
 
     def get_user_location(self):

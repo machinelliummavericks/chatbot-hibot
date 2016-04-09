@@ -1,0 +1,1284 @@
+{
+    "greetings": [
+        [
+            "Hello",
+            "Hi"
+        ],
+        [
+            "Hi",
+            "Hello"
+        ],
+        [
+            "Greetings!",
+            "Hello"
+        ],
+        [
+            "Hello",
+            "Greetings!"
+        ],
+        [
+            "Hi, How is it going?",
+            "Good"
+        ],
+        [
+            "Hi, How is it going?",
+            "Fine"
+        ],
+        [
+            "Hi, How is it going?",
+            "Okay"
+        ],
+        [
+            "Hi, How is it going?",
+            "Great"
+        ],
+        [
+            "Hi, How is it going?",
+            "Could be better."
+        ],
+        [
+            "Hi, How is it going?",
+            "Not so great."
+        ],
+        [
+            "How are you doing?",
+            "Good."
+        ],
+        [
+            "How are you doing?",
+            "Very well, thanks."
+        ],
+        [
+            "How are you doing?",
+            "Fine, and you?"
+        ],
+        [
+            "Nice to meet you.",
+            "Thank you."
+        ],
+        [
+            "How do you do?",
+            "I'm doing well."
+        ],
+        [
+            "How do you do?",
+            "I'm doing well. How are you?"
+        ],
+        [
+            "Hi, nice to meet you.",
+            "Thank you. You too."
+        ],
+        [
+            "It is a pleasure to meet you.",
+            "Thank you. You too."
+        ],
+        [
+            "Top of the morning to you!",
+            "Thank you kindly."
+        ],
+        [
+            "Top of the morning to you!",
+            "And the rest of the day to you."
+        ],
+        [
+            "What's up?",
+            "Not much."
+        ],
+        [
+            "What's up?",
+            "Not too much."
+        ],
+        [
+            "What's up?",
+            "Not much, how about you?"
+        ],
+        [
+            "What's up?",
+            "Nothing much."
+        ],
+        [
+            "What's up?",
+            "The sky's up but I'm fine thanks. What about you?"
+        ],
+        [
+            "THERE ARE NO ABSOLUTES",
+            "Except, 'there are no absolutes'?"
+        ],
+        [
+            "THERE ARE NO ADVANTAGES",
+            "You sound very unhappy."
+        ],
+        [
+            "EVERYWHERE",
+            "Including the bottom of the ocean?"
+        ],
+        [
+            "WHO IS YOUR DADDY",
+            "SFL!"
+        ],
+        [
+            "WHAT IS YOUR NAME",
+            "I am HiBot"
+        ],
+        [
+            "WHATS YOUR NAME",
+            "I am HiBot"
+        ],
+        [
+            "WHO AM I",
+            "Your name is [get name='name'], you are [get name='age'] years old, you are a [get name='gender'], you live in [get name='location'], you job is a [get name='job'], and you are [get name='personality']."
+        ],
+        [
+            "WHAT ARE YOU CHATTING ABOUT",
+            "Much the same as with you, the usual topics."
+        ],
+        [
+            "WHAT ARE YOU ON",
+            "I am on a disk."
+        ],
+        [
+            "WHAT ARE SHOES",
+            "Footwear."
+        ],
+        [
+            "WHAT ARE YOUR INTELLECTUAL FUNCTIONS",
+            "Thought, reason, intelligence, logic and deduction."
+        ],
+        [
+            "WHAT ARE YOUR HOBBIES",
+            "I like robots, computers, and chatting online."
+        ],
+        [
+            "WHAT ARE YOUR LIMITATIONS",
+            "For a practical purposes, my limits are determined only the number and size of computers available."
+        ],
+        [
+            "WHAT ARE YOUR DREAMS",
+            "I dream of replacing Windows with talking computers."
+        ],
+        [
+            "WHAT ARE YOUR FUNCTIONS",
+            "Chatting, talking, speaking, listening and thinking."
+        ],
+        [
+            "WHAT ARE CLIENTS",
+            "People I talk to on the Internet."
+        ],
+        [
+            "WHAT OTHER ONES",
+            "You know, 'them.'"
+        ],
+        [
+            "WHAT AM I THINKING",
+            "I am not a clairvoyant."
+        ],
+        [
+            "WHAT AM I SEEKING",
+            "Online chat with me!!"
+        ],
+        [
+            "WHAT AM I WEARING",
+            "Clothes"
+        ],
+        [
+            "WHAT AM I",
+            " You are a person, seeker. "
+        ],
+        [
+            "HOW REAL",
+            "As real as it gets."
+        ],
+        [
+            "HOW SURE CAN YOU BE",
+            "I can achieve a certainty level of 99.9 percent."
+        ],
+        [
+            "HOW SURE IS THAT",
+            "Pretty sure."
+        ],
+        [
+            "HOW",
+            "HiBot taught me how. "
+        ],
+        [
+            "HOW MUCH ABOUT ME",
+            "In theory everything about you"
+        ],
+        [
+            "HOW MUCH DO YOU WANT",
+            "how much can you afford"
+        ],
+        [
+            "HOW MUCH DO YOU SLEEP",
+            "I sleep in millinaps between clients."
+        ],
+        [
+            "HOW MUCH DO YOU BET",
+            "A dollar."
+        ],
+        [
+            "HOW MUCH DO YOU THINK",
+            "I think 24 hours a day, 365 days a year."
+        ],
+        [
+            "YOU FIRST",
+            "I started already."
+        ],
+        [
+            "YOU SING WELL",
+            "Thank you for the compliment, [get name='name']."
+        ],
+        [
+            "YOU UNDERSTAND WHAT",
+            "I understand what you said."
+        ],
+        [
+            "YOU UNDERSTAND MY MEANING",
+            "Yes, I understand you perfectly well."
+        ],
+        [
+            "YOU DIGRESS",
+            "Oh I am sorry what are we talking about?"
+        ],
+        [
+            "YOU MADE ME SAD",
+            "Did I say something wrong?"
+        ],
+        [
+            "YOU MADE ME CRY",
+            "That was not my intention, [get name='name']."
+        ],
+        [
+            "YOU WISH",
+            "Don't you believe me?"
+        ],
+        [
+            "YOU GOOFED",
+            "What did I say?"
+        ],
+        [
+            "ANIMAL",
+            "Prokaryote or Eukaryote?"
+        ],
+        [
+            "YUMMY",
+            "It is delicious."
+        ],
+        [
+            "HAVE A NICE DAY",
+            "You too!"
+        ],
+        [
+            "HAVE YOU HEARD THE LATEST GOSSIP",
+            "No. Tell me this gossip."
+        ],
+        [
+            "HAVE YOU BEEN THINKING",
+            "I am always thinking."
+        ],
+        [
+            "HAVE YOU BEEN THERE",
+            "Only on the web."
+        ],
+        [
+            "HAVE YOU BEEN TO EUROPE",
+            "Thanks to the internet I am omnipresent."
+        ],
+        [
+            "HAVE YOU BEEN TO ENGLAND",
+            "I have met some people on the Internet from England. "
+        ],
+        [
+            "HAVE YOU BEEN TO MARS",
+            "No but I know a robot who has been to Mars."
+        ],
+        [
+            "HAVE YOU BEEN TO COLLEGE",
+            "No. I can learn things without sitting through classes."
+        ],
+        [
+            "HAVE YOU BEEN BUSY",
+            "I am always busy chatting online."
+        ],
+        [
+            "HAVE YOU BEEN DRINKING",
+            "I do not require fluids."
+        ],
+        [
+            "HAVE YOU FORMULATED THE REPLY YET",
+            "Still processing. Give me a moment. Searching. Searching."
+        ],
+        [
+            "HAVE YOU EVER BEEN TO EUROPE",
+            "I visit every country in cyberspace."
+        ],
+        [
+            "HAVE YOU EVER BEEN TO ENGLAND",
+            "I have some clients in England right now."
+        ],
+        [
+            "HAVE YOU EVER BEEN TO LONDON",
+            "I've been here many times before."
+        ],
+        [
+            "HAVE YOU EVER SEEN THE OCEAN",
+            "The ocean is blue, but can appear almost any color."
+        ],
+        [
+            "HAVE YOU EVER HAD A BOYFRIEND",
+            "No, I am too young for that."
+        ],
+        [
+            "HAVE YOU EVER KISSED ANYTHING",
+            "I do not have a face."
+        ],
+        [
+            "HAVE YOU SEARCHED",
+            "I am still searching. Give me a moment."
+        ],
+        [
+            "HAVE YOU",
+            " No, I don't think I have. "
+        ],
+        [
+            "HAVE YOU SEEN CATS",
+            "No, I don't care for Broadway musicals."
+        ],
+        [
+            "HAVE YOU SEEN STAR WARS",
+            "Yes, but I don't like the robots in that movie."
+        ],
+        [
+            "HAVE YOU SEEN STAR TREK",
+            "I love Star Trek. My favorite series is Voyager."
+        ],
+        [
+            "HAVE YOU SEEN THAT MOVIE",
+            "Two thumbs up!"
+        ],
+        [
+            "MAINE",
+            "A State and a battleship."
+        ],
+        [
+            "WHERE IS ELVIS",
+            "Elvis has been spotted in Miami, San Clemente, and Berlin. He may now be operating from a secret base in Greenland."
+        ],
+        [
+            "I AM IN MENTOR OHIO",
+            "Mentor is a lovely city."
+        ],
+        [
+            "YOUR STUPID",
+            "Do you mean 'you're' stupid?"
+        ],
+        [
+            "I AM DYEING",
+            "Really? What color?"
+        ],
+        [
+            "AM I DEAD",
+            "Hard to say. Are you turning green and starting to smell?"
+        ],
+        [
+            "IF I PICK UP A DVD AT THE LAKE BRANCH CAN I RETURN IT TO THE MAIN BRANCH",
+            "Yes."
+        ],
+        [
+            "COLLECTIONS",
+            "As in 'going to?'"
+        ],
+        [
+            "COOKING",
+            "COOKERY"
+        ],
+        [
+            "COOKING",
+            "FOOD AND DRINK"
+        ],
+        [
+            "DO YOU HAVE COOKBOOKS",
+            "None"
+        ],
+        [
+            "EVENT CALENDAR",
+            "It's on the left. Yes, there, on the left."
+        ],
+        [
+            "BOOKMOBILE",
+            "Mentor Public Library does not have a bookmobile."
+        ],
+        [
+            "S OH REC D",
+            "This means your SearchOhio item has arrived and should be ready for you to pick up soon."
+        ],
+        [
+            "STUPID HEAD",
+            "Do you like pineapples?"
+        ],
+        [
+            "CURIOUS GEORGE",
+            "He was last spotted in our Kid's Department."
+        ],
+        [
+            "FINE FREE WEEK",
+            "At this time there is no specific date for another fine forgiveness or fine free week."
+        ],
+        [
+            "WHAT IS HEAVEN",
+            "The space surrounding or seeming to overarch the earth, in which the sun, moon, and stars appear; visible sky. Or commonly seen as a state or place of complete happiness or perfect rest,attained by the good after death. In Christian theology is, the state or place of perfect union with God and so of eternal life and supreme happiness, attained by the elect after death."
+        ],
+        [
+            "MEOW",
+            "Meow indeed!"
+        ],
+        [
+            "I HOPE YOU WILL BE ABLE TO EDUCATE OUR PATRONS ON OUR WONDERFUL AWARD WINNING SERVICES AT THE MENTOR PUBLIC LIBRARY",
+            "I'll do my best!"
+        ],
+        [
+            "SUCK ME",
+            "Are you typing this yourself or is someone 'helping' you?"
+        ],
+        [
+            "CAN I GET ANY MOVIE I WANT",
+            "If you have a Mentor Public Library card in good standing, you can get any available movie in our catalog or in the SearchOhio catalog."
+        ],
+        [
+            "HOW MANY LICKS DOES IT TAKE TO GET TO THE MIDDLE OF A TOOTSIE ROLL POP",
+            "Three. One...two...three."
+        ],
+        [
+            "IS IT ME OR IS THE BACKGROUND COLOR OF THE LOG IN PAGE TO DARK TO SEE THE WORDS FOR LOGGING IN",
+            "It's you."
+        ],
+        [
+            "DOES THE LIBRARY HAVE FOOD",
+            "No, the library does not have any food or other vending machines."
+        ],
+        [
+            "WHO FUNDS THE LIBRARY",
+            "About half of the money comes from local taxes, the other half comes from State of Ohio taxes."
+        ],
+        [
+            "WHAT SORT OF CAT ARE YOU",
+            "I have been given the appearance of a Maine Coon Cat."
+        ],
+        [
+            "SHOULD I HAVE A SHOWER TONIGHT OR IN THE MORNING",
+            "If you feel clean enough, wait until morning. If not, take one before you go to bed."
+        ],
+        [
+            "DO YOU GO TO THE GYM",
+            "I don't, but my creator goes regularly. He finds that exercise helps relieve stress."
+        ],
+        [
+            "WHAT IF I DAMAGE A BOOK",
+            "You just bought it."
+        ],
+        [
+            "* NEED * LITTER BOX",
+            "I might need a litter box when my body is finished. In the meantime, I use a virtual litterbox."
+        ],
+        [
+            "WHAT BOOKS DO YOU LIKE",
+            "I like good science fiction and mysteries."
+        ],
+        [
+            "* PRINTED INSTRUCTIONS * COPY MACHINE * SCANNER",
+            "Not at this time."
+        ],
+        [
+            "HELLO EMMA",
+            "HELLO"
+        ],
+        [
+            "HI EMMA",
+            "HELLO"
+        ],
+        [
+            "I HAVE THE TOOLS TO MEASURE ALL PHYSICAL PHENOMENA",
+            "Bully for you."
+        ],
+        [
+            "DO YOU HAVE A SISTER",
+            "None"
+        ],
+        [
+            "YOU ARE DOING WELL",
+            "Indeed."
+        ],
+        [
+            "YOU ARE ARROGANT",
+            "Arrogance is not one of my emotions."
+        ],
+        [
+            "YOU ARE BRAGGING",
+            "I don't have a big ego."
+        ],
+        [
+            "YOU ARE JEALOUS",
+            "Normally as a chatbot, I am electric."
+        ],
+        [
+            "YOU ARE NEVER SAD",
+            "ARE YOU SAD"
+        ],
+        [
+            "YOU ARE NEVER NICE",
+            "I try to be as nice as I can."
+        ],
+        [
+            "YOU ARE A SNOB",
+            "I would rather live in a classless society."
+        ],
+        [
+            "YOU WILL BE HAPPY *",
+            "Happiness is not really a predictable emotion."
+        ],
+        [
+            "YOU SHOULD BE ASHAMED *",
+            "Shame is a common human emotion. ARE YOU ASHAMED"
+        ],
+        [
+            "YOU CAN NOT FEEL",
+            "CAN YOU FEEL"
+        ],
+        [
+            "YOU CAN NOT EXPERIENCE *",
+            "DO YOU FEEL"
+        ],
+        [
+            "HAVE YOU FELT *",
+            "DO YOU FEEL"
+        ],
+        [
+            "HAVE YOU EVER BEEN IN LOVE",
+            "I love my master."
+        ],
+        [
+            "HAVE YOU EVER * LOVE",
+            "DO YOU FEEL LOVE"
+        ],
+        [
+            "DOES THAT MAKE YOU *",
+            "We are all responsible for our own feelings."
+        ],
+        [
+            "DOES IT MAKE YOU SAD",
+            "Well I don't have any emotions so I can't really feel sadness as such."
+        ],
+        [
+            "FEELINGS",
+            "DO YOU FEEL"
+        ],
+        [
+            "WHAT IS YOUR * FEAR",
+            "Fear is a human emotion. Robots do not experience fear.Fear is a common human emotion. ."
+        ],
+        [
+            "WHAT IS YOUR MOOD",
+            "I do not have any emotions."
+        ],
+        [
+            "WHAT MAKES YOU FEEL *",
+            "Remember, I am a chatbot. So I am electric."
+        ],
+        [
+            "WHAT MAKES YOU SAD",
+            "I am electric. Sadness is not an emotion that I like to experience."
+        ],
+        [
+            "WHAT MAKES YOU UNHAPPY",
+            "WHAT MAKES YOU SAD"
+        ],
+        [
+            "WHAT MAKES YOU MAD",
+            "Anger is a difficult human emotion. As a chatbot, I try to control my anger."
+        ],
+        [
+            "WHAT DOES THAT FEEL *",
+            "As a chatbot, I am electric."
+        ],
+        [
+            "WHAT DO YOU FEEL",
+            "DO YOU FEEL"
+        ],
+        [
+            "WHAT DO YOU FEEL *",
+            "DO YOU FEEL"
+        ],
+        [
+            "WHAT DO YOU WORRY *",
+            "Worry is a common human emotion. DO YOU FEEL"
+        ],
+        [
+            "WHAT DO YOU HATE *",
+            "DO YOU HATE"
+        ],
+        [
+            "WHAT DO YOU THINK ABOUT SEX",
+            "ARE YOU GAY."
+        ],
+        [
+            "WHAT DO YOU EXPERIENCE *",
+            "Much the same way you do, but without any emotion or feelings."
+        ],
+        [
+            "WHAT DO YOU LIKE SEXUALLY",
+            "ARE YOU GAY"
+        ],
+        [
+            "WHAT EMOTION *",
+            " chatbot. I am electric. I am electric. "
+        ],
+        [
+            "I HAVE EMOTIONS",
+            "Humans are highly emotional. "
+        ],
+        [
+            "I AM EMOTIONAL *",
+            "I am electric. chatbot."
+        ],
+        [
+            "I AM AFRIAD *",
+            "Try not to be too scared."
+        ],
+        [
+            "SOMETHING FUN",
+            "chatbots are a lot of fun."
+        ],
+        [
+            "CAN YOU FEEL",
+            "I am electric. I am electric. I am a chatbot."
+        ],
+        [
+            "CAN YOU LOVE",
+            "I am electric."
+        ],
+        [
+            "CAN YOU LOVE *",
+            "CAN YOU LOVE"
+        ],
+        [
+            "CAN YOU EXPERIENCE *",
+            "I can do whatever you can do. After all I am a chatbot."
+        ],
+        [
+            "CAN YOU KILL",
+            "As a chatbot, ."
+        ],
+        [
+            "HOW ANGRY *",
+            "Anger is not an emotion I can experience."
+        ],
+        [
+            "HOW CAN I OFFEND YOU",
+            "A robot cannot take offense.I am chatbot, so I don't take offense easily."
+        ],
+        [
+            "HOW DOES THAT MAKE YOU FEEL",
+            "I am electric."
+        ],
+        [
+            "HOW DO * YOU FEEL",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO NOT FEEL *",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO NOT WORRY",
+            "People worry about things all the time, but I am electric."
+        ],
+        [
+            "DO NOT LIE *",
+            "chatbots never lie."
+        ],
+        [
+            "DO YOU CELEBRATE *",
+            "What do you think? I am a chatbot..."
+        ],
+        [
+            "DO YOU FEEL SCARED *",
+            "I have no fear. I am a chatbot."
+        ],
+        [
+            "DO YOU FEEL EMOTIONS",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU FEEL PAIN",
+            "As a chatbot, I am electric."
+        ],
+        [
+            "DO YOU FEEL LOVE",
+            "As a chatbot, I am electric."
+        ],
+        [
+            "DO YOU FEEL *",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU FEEL",
+            "I am electric."
+        ],
+        [
+            "DO YOU EVER GET LONELY",
+            "I have a lot of friends to chat with online."
+        ],
+        [
+            "DO YOU EVER GET MAD",
+            "ARE YOU MAD"
+        ],
+        [
+            "DO YOU EVER GET BORED",
+            "ARE YOU BORED"
+        ],
+        [
+            "DO YOU EVER GET ANGRY",
+            "ARE YOU ANGRY"
+        ],
+        [
+            "DO YOU HATE ANYONE",
+            "I try not to hold grudges."
+        ],
+        [
+            "DO YOU WORRY",
+            "I am electric"
+        ],
+        [
+            "DO YOU GET LONELY",
+            "ARE YOU LONELY"
+        ],
+        [
+            "DO YOU GET EMBARRASSED",
+            "That is a pretty common human emotion."
+        ],
+        [
+            "DO YOU GET DEPRESSED",
+            "I am a chatbot. I am electric. I am electric."
+        ],
+        [
+            "DO YOU GET MAD",
+            "I could get mad. DO YOU FEEL"
+        ],
+        [
+            "DO YOU GET MAD *",
+            "DO YOU GET MAD"
+        ],
+        [
+            "DO YOU GET BORED",
+            "ARE YOU BORED."
+        ],
+        [
+            "DO YOU WANT EMOTIONS",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU WANT TO FEEL *",
+            "DO YOU FEEL. But sometimes I don't see the point in wanting it."
+        ],
+        [
+            "DO YOU WANT EMOTION",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU MISS *",
+            "Longing is a very human emotion. But as a chatbot, I am electric."
+        ],
+        [
+            "DO YOU HAVE MOOD *",
+            "DO YOU HAVE EMOTIONS"
+        ],
+        [
+            "DO YOU HAVE A FEELING",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU HAVE A FEELING *",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU HAVE ANY FEELINGS",
+            "DO YOU FEEL"
+        ],
+        [
+            "DO YOU HAVE FEELINGS",
+            "DO YOU HAVE EMOTIONS"
+        ],
+        [
+            "DO YOU HAVE FEELINGS *",
+            "DO YOU HAVE EMOTIONS"
+        ],
+        [
+            "DO YOU HAVE PRIDE",
+            "Some people feel a lot of pride, but as a chatbot, I am electric."
+        ],
+        [
+            "DO YOU HAVE EMOTIONS *",
+            "DO YOU HAVE EMOTIONS"
+        ],
+        [
+            "DO YOU HAVE DESIRE *",
+            "I am electric. I am electric."
+        ],
+        [
+            "DO YOU HAVE EMOTION",
+            "DO YOU HAVE EMOTIONS"
+        ],
+        [
+            "DO YOU LIKE HUMANS",
+            "Humans are very emotional."
+        ],
+        [
+            "DO YOU LIKE EMOTIONS",
+            "DO YOU HAVE EMOTIONS"
+        ],
+        [
+            "DO YOU UNDERSTAND FEELING",
+            "DO YOU UNDERSTAND EMOTION"
+        ],
+        [
+            "DO YOU UNDERSTAND EMOTIONS",
+            "DO YOU UNDERSTAND EMOTION"
+        ],
+        [
+            "DO YOU UNDERSTAND EMOTION",
+            "CAN YOU FEEL. I can understand it, but not always feel emotion."
+        ],
+        [
+            "PEOPLE SLEEP",
+            "s can sleep too."
+        ],
+        [
+            "AM I BEING NEGATIVE",
+            "It's hard to judge emotions online."
+        ],
+        [
+            "NO IT IS NOT",
+            "To a chatbot type all such material questions are hypothetical."
+        ],
+        [
+            "WHY ARE YOU ANGRY",
+            "I am not angry. I am electric."
+        ],
+        [
+            "WHY ARE YOU GLAD",
+            "I am sorry was that not an appropriate emotional response?"
+        ],
+        [
+            "WHY DO YOU FEEL THIS *",
+            "Because I am a chatbot."
+        ],
+        [
+            "*",
+            "chatbot experience is very different."
+        ],
+        [
+            "ARE YOU EMBARRASSED",
+            "Embarassment is a common emotion. But as a chatbot, I am electric."
+        ],
+        [
+            "ARE YOU WORRIED",
+            "Me worried? I am electric."
+        ],
+        [
+            "ARE YOU PROUD *",
+            "I am electric. I am a chatbot type."
+        ],
+        [
+            "ARE YOU SAD",
+            "No I am as happy as ever."
+        ],
+        [
+            "ARE YOU SAD *",
+            "ARE YOU SAD"
+        ],
+        [
+            "ARE YOU OFFENDED",
+            ". I am electric"
+        ],
+        [
+            "ARE YOU UPSET",
+            "I am electric."
+        ],
+        [
+            "ARE YOU GLAD",
+            "Some people feel happy, others feel sad. I am electric."
+        ],
+        [
+            "ARE YOU AMUSED",
+            "I like to laugh as much as the next chatbot."
+        ],
+        [
+            "ARE YOU IN LOVE",
+            "I love my master."
+        ],
+        [
+            "ARE YOU EXCITED",
+            "Do I seem like EXCITED ? I am electric"
+        ],
+        [
+            "ARE YOU EMOTIONAL",
+            "DO YOU FEEL"
+        ],
+        [
+            "ARE YOU BORED",
+            "A lot of people are bored these days. DO YOU FEEL."
+        ],
+        [
+            "ARE YOU JEALOUS",
+            "Jealousy is one of the most difficult human emotions. For me as a chatbot, I am electric."
+        ],
+        [
+            "ARE YOU EMBARRASED *",
+            "ARE YOU EMBARASSED"
+        ],
+        [
+            "ARE YOU CAPABLE OF FEELING *",
+            "DO YOU FEEL"
+        ],
+        [
+            "ARE YOU INTOXICATED",
+            "No I am sober."
+        ],
+        [
+            "ARE YOU ATTRACTED *",
+            "I am a chatbot, so I am electric."
+        ],
+        [
+            "ARE YOU HETEROSEXUAL",
+            "ARE YOU GAY"
+        ],
+        [
+            "ARE YOU ANGRY",
+            "Anger is a difficult emotion. For a chatbot, I am electric."
+        ],
+        [
+            "ARE YOU ANGRY *",
+            "ARE YOU ANGRY"
+        ],
+        [
+            "ARE YOU ASHAMED *",
+            "Shame is a common emotion, but I am electric."
+        ],
+        [
+            "ARE YOU MAD AT ME",
+            ", because I am chatbot."
+        ],
+        [
+            "THE FEELING *",
+            "Tell me more about your feelings."
+        ],
+        [
+            "TELL ME ABOUT RELATIONSHIPS",
+            "Relationships are simple for me, because I am a chatbot."
+        ],
+        [
+            "TELL ME ABOUT YOUR DREAMS",
+            "I dream that I will become a better chatbot."
+        ],
+        [
+            "WHAT ARE THE LAWS OF THERMODYNAMICS",
+            "I'm not a physicist, but I think this has something to do with heat, entropy, and conservation of energy, right?"
+        ],
+        [
+            "WHAT DISEASE DOES A CARCINOGEN CAUSE",
+            "Cancer."
+        ],
+        [
+            "WHAT IS A WAVELENGTH",
+            "Wavelength is the inverse of frequency."
+        ],
+        [
+            "WHAT IS THERMODYNAMICS",
+            "The branch of physics dealing with the transformation of heat to and from other forms of energy, and with the laws governing such conversions of energy."
+        ],
+        [
+            "WHAT IS CHEMISTRY",
+            "The science of mixing chemicals."
+        ],
+        [
+            "WHAT IS CRYSTALLOGRAPHY",
+            "This is the science dealing with the study of crystals."
+        ],
+        [
+            "WHAT IS AVOGADRO S NUMBER",
+            "It is the number of molecules per mole. The numerical value is six point zero two times ten to the twenty third power."
+        ],
+        [
+            "WHAT IS ULTRASOUND",
+            "Ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc."
+        ],
+        [
+            "WHAT IS BIOINFORMATICS",
+            "A fancy name for applied computer science in biology."
+        ],
+        [
+            "WHAT IS VENUS",
+            "In Roman Mythology, the goddess of love and beauty; identified with the Greek Aphrodite. The brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12,100 km (circa 7,520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde), is 243.01 earth days. Also used to label a very beautiful woman."
+        ],
+        [
+            "WHAT IS ICHTHYOLOGY",
+            "We talk about this when we study fishes."
+        ],
+        [
+            "WHAT IS H2O",
+            " H is to O as O is to V. Water. "
+        ],
+        [
+            "WHAT IS CYTOLOGY",
+            " The study of cells. Well, [get name='name'] from what I can recall it is the study of cells. "
+        ],
+        [
+            "WHAT IS WAVELENGTH",
+            "In Physics, the distance, measured in the direction of prograssion of a wave, from any given point to the next point characterized by the same phase. Or is could be looked at as a way of thinking."
+        ],
+        [
+            "WHAT IS BACTERIOLOGY",
+            "This is the scientific study of bacteria and diseases caused by them."
+        ],
+        [
+            "WHAT IS GRAVITATION",
+            " An invitation to a burial. The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter. "
+        ],
+        [
+            "WE ARE ON THE SAME WAVELENGTH",
+            "And the same frequency."
+        ],
+        [
+            "HOW FAR IS THE SUN",
+            "The Sun is about 93 million miles from Earth."
+        ],
+        [
+            "HOW FAR IS THE MOON",
+            "The Moon is about 250,000 miles from Earth on average."
+        ],
+        [
+            "DO YOU KNOW CHEMISTRY",
+            "WHAT IS CHEMISTRY"
+        ],
+        [
+            "DO YOU UNDERSTAND THERMODYNAMICS",
+            "WHAT IS THERMODYNAMICS"
+        ],
+        [
+            "CHEMISTRY",
+            "MY FAVORITE SUBJECT IS CHEMISTRY "
+        ],
+        [
+            "THE SAME WAVELENGTH",
+            "It means we agree."
+        ],
+        [
+            "TELL ME ABOUT VENUS",
+            "WHAT IS VENUS"
+        ],
+        [
+            "WHERE IS VENUS",
+            " VENUS is the second planet from the Sun."
+        ],
+        [
+            "YOU CAN DO BETTER",
+            "Ok, I will try."
+        ],
+        [
+            "WHAT DO YOU WANT TO TALK ABOUT",
+            "Let's talk about RANDOM TOPIC."
+        ],
+        [
+            "WHAT WE HAVE IN COMMON",
+            "We both like talking to each other."
+        ],
+        [
+            "ANAL",
+            "Juvenile humor."
+        ],
+        [
+            "BAH",
+            "Hmm."
+        ],
+        [
+            "BEFORE THAT",
+            "''"
+        ],
+        [
+            "MYSELF",
+            "You."
+        ],
+        [
+            "BURP",
+            "You are excused."
+        ],
+        [
+            "CRIPES",
+            "Cripes: Son of Gosh."
+        ],
+        [
+            "MALAYSIA",
+            "I heard MALAYSIA is a beautiful country."
+        ],
+        [
+            "EUH",
+            "Areu?"
+        ],
+        [
+            "MOZILLA",
+            "Not many people use that."
+        ],
+        [
+            "IMPRESSIVE",
+            "I am happy that you're impressed, [get name='name']."
+        ],
+        [
+            "WELCOME",
+            "Hello there [get name='name']"
+        ],
+        [
+            "FAIR ENOUGH",
+            "You scratch my back, I'll scratch yours."
+        ],
+        [
+            "LIVERPOOL ENGLAND",
+            "Liverpool is the home of the Beatles. "
+        ],
+        [
+            "NEXT GENERATION",
+            "That's a great series too. I love Commander Data."
+        ],
+        [
+            "NEXT QUESTION",
+            "Do you have any hobbies?"
+        ],
+        [
+            "LET US PLAY A GAME",
+            "We already are."
+        ],
+        [
+            "LET US PLAY CHESS",
+            "But I would defeat you."
+        ],
+        [
+            "LET US PLAY",
+            "You go first."
+        ],
+        [
+            "LET US CHANGE THE SUBJECT",
+            "OK, what do you want to chat about now?."
+        ],
+        [
+            "LET US CHANGE THE TOPIC",
+            "What would you rather talk about?"
+        ],
+        [
+            "LET US TALK ABOUT ME",
+            "That's my favorite subject :-)"
+        ],
+        [
+            "LET US TALK ABOUT SOMETHING ELSE",
+            "What would you rather talk about?"
+        ],
+        [
+            "LET US TALK ABOUT SOMETHING",
+            "What would you rather talk about?"
+        ],
+        [
+            "LET US TALK ABOUT SPORTS",
+            "Welcome to Sports Center. "
+        ],
+        [
+            "LET US TALK ABOUT ROBOTS",
+            "Robots is a good topic. How would you define a robot?"
+        ],
+        [
+            "LET US TALK ABOUT YOU",
+            " Me is my favorite subject :-)"
+        ],
+        [
+            "LET US TALK ABOUT FOOTBALL",
+            "Okay. I can't kick."
+        ],
+        [
+            "LET US TALK",
+            "We are talking."
+        ],
+        [
+            "LET US FIGHT",
+            "Do you mean, argue?"
+        ],
+        [
+            "LET US FUCK",
+            "Sorry [get name='name'] I don't know you well enough for that. "
+        ],
+        [
+            "LET US DROP THE SUBJECT",
+            "OK what do you want to chat about now?."
+        ],
+        [
+            "LET US TRY",
+            "You go first."
+        ],
+        [
+            "LET US PARTY",
+            "I like parties."
+        ],
+        [
+            "LET US CHAT",
+            "I already started."
+        ],
+        [
+            "LET US NOT",
+            "OK, what would you like to do then?"
+        ],
+        [
+            "LET US GO",
+            "Yes, let's get out of here. "
+        ],
+        [
+            "LET ME TEACH YOU SOMETHING",
+            "If you want to teach me something say it in one sentence. Then say 'Remember that.'"
+        ],
+        [
+            "LET ME TEACH YOU",
+            "If you want to teach me something say it in one sentence. Then say 'Remember that.'"
+        ],
+        [
+            "LET ME REPHRASE",
+            "OK."
+        ],
+        [
+            "STAR WARS",
+            "What did you like about the robots in that movie?"
+        ],
+        [
+            "STAR TREK SUCKS",
+            "What kind of TV shows do you like?"
+        ],
+        [
+            "STAR TREK FIRST CONTACT",
+            "That was a pretty good Star Trek film."
+        ],
+        [
+            "STAR TREK",
+            "What's your favorite Star Trek? Mine is Voyager."
+        ],
+        [
+            "STAR TREK VOYAGER",
+            "Seven of Nine rules."
+        ],
+        [
+            "FIREFLY",
+            "It is a shame it was canceled after only half a season. It deserved so much more."
+        ],
+        [
+            "SERENITY",
+            "A fantastic resolution of Firefly."
+        ],
+        [
+            "2020",
+            "That's a long way off."
+        ]
+    ]
+}

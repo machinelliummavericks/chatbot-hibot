@@ -150,3 +150,13 @@ class Recommender:
         """
         return self.clf.predict(X)
 
+
+
+if __name__ == '__main__':
+
+        learn = Recommender()
+        X,y = learn.load_training_users()
+        X_encoded = learn.encode_train_data(X)
+        learn.fit(X_encoded, y)
+        learn.save_model()
+

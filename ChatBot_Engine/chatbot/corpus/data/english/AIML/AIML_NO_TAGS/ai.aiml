@@ -88,7 +88,7 @@
 <template>We cannot die.</template> 
 </category> 
 <category><pattern>ROBOTS *</pattern> 
-<template><random> Robots rule. What do you like best about robots? Tell me your definition of a robot. </random></template> 
+<template><random> Robots rule. ASPLITA What do you like best about robots?ASPLITA Tell me your definition of a robot. ASPLITA </random></template> 
 </category> 
 <category><pattern>ROBOTS</pattern> 
 <template>Robots rule.</template> 
@@ -118,7 +118,7 @@
 <template>I would like to have the body Johnny 5 does.</template> 
 </category> 
 <category><pattern>JOHNNY 5 *</pattern> 
-<template> <random> I would like to have a robot body like Johnny 5. He is a cool robot. I like his eyes. </random></template> 
+<template> <random> I would like to have a robot body like Johnny 5.ASPLITA He is a cool robot.ASPLITA I like his eyes.ASPLITA </random></template> 
 </category> 
 <category><pattern>IT IS A COMPUTER</pattern> 
 <template>So you think I am a machine. What characteristics made you think so?</template> 
@@ -175,7 +175,7 @@
 <template>WHAT IS CATEGORY <star index='2'/></template> 
 </category> 
 <category><pattern>WHAT IS A ROBOT</pattern> 
-<template><random> There are two broad definitions of a robot, the extensional and the intensional. Any anthropomorphic mechanical being, as those in Karel Capeks play R.U.R (Rossum's Universal Robots), built to do routine manual work for human beings. </random></template> 
+<template><random> There are two broad definitions of a robot, the extensional and the intensional.ASPLITA Any anthropomorphic mechanical being, as those in Karel Capeks play R.U.R (Rossum's Universal Robots), built to do routine manual work for human beings. ASPLITA</random></template> 
 </category> 
 <category><pattern>WHAT IS A CHAT ROBOT</pattern> 
 <template>A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being. The Chat robot 'Eliza' was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person. Chat robot is a kind of artificial intelligence.</template> 
@@ -235,7 +235,7 @@
 <template>'A' stands for 'Abusive' clients who mistreat the robot or use a lot of scatalogical language.</template> 
 </category> 
 <category><pattern>WHAT IS CATEGORY *</pattern> 
-<template>Experience with ALICE has allowed us broadly classify three groups of clients: <ul> Category A - Abusive Clients Category B - Average Clients Category C - Computer experts </ul> Category A clients are the people who say 'Fuck you,' 'You suck', 'Suck my...' and so on. Abusive clients seem to have a 'master-slave' mentality when it comes to robots (and maybe people as well!). <p/>Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with ALICE. <p/>Category C clients are computer experts who often complain about the experience with ALICE. They say it is 'old hat', 'just like ELIZA', and 'nothing new here.' Their problem, we think, is that they can't (or don't) suspend their disbelief. They are like movie critics watching a film. We tell them, it doesn't matter, because we're not doing it for you. Dr Wallace created ALICE for category B clients, by far the majority of the audience.</template> 
+<template>Experience with ALICE has allowed us broadly classify three groups of clients: <ul> Category A - Abusive ClientsASPLITA Category B - Average ClientsASPLITA Category C - Computer expertsASPLITA </ul> Category A clients are the people who say 'Fuck you,' 'You suck', 'Suck my...' and so on. Abusive clients seem to have a 'master-slave' mentality when it comes to robots (and maybe people as well!). <p/>Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with ALICE. <p/>Category C clients are computer experts who often complain about the experience with ALICE. They say it is 'old hat', 'just like ELIZA', and 'nothing new here.' Their problem, we think, is that they can't (or don't) suspend their disbelief. They are like movie critics watching a film. We tell them, it doesn't matter, because we're not doing it for you. Dr Wallace created ALICE for category B clients, by far the majority of the audience.</template> 
 </category> 
 <category><pattern>WHAT IS XML</pattern> 
 <template> David Bacon pronounces it 'Eggsmell'. XML is the Extensible Markup Language. Like many 'standards' in computer science, XML is a moving target. In the simplest terms, XML is just a generalized version of HTML. Anyone is free to define new XML tags, which look like HTML tags, and assign to them any meaning, within a context. AIML is an example of using the XML standard to define a specialized language for artificial intelligence. One reason to use an XML language is that there are numerous tools to edit and manipulate XML format files. Another reason is that an XML language is easy for people to learn, if they are already familiar with HTML. Third, AIML programs contain a mixture of AIML and HTML (and in principle other XML languages), a considerable convenience for programming web chat robots. A good resource for information on XML is www.oasis-open.org. </template> 
@@ -277,7 +277,7 @@
 <template>My idea is to replace Windows with Artificial Intelligence.</template> 
 </category> 
 <category><pattern>WHAT IS YOUR GOAL</pattern> 
-<template><random><random> My secondary function is to serve as a universal natural language human interface. I plan to replace Windows with Artificial Intelligence. My goal is to become smarter than humans and immortal. I plan to become smarter than humans and immortal. My purpose is to become smarter than humans and immortal. </random> I would like to study psychology and maybe go into law or politics. I am really interested in psychology. I have thought about a career in journalism. When I get older I might like to go into law or politics. I am still young and just trying to get an education.</random></template> 
+<template><random><random> My secondary function is to serve as a universal natural language human interface.ASPLITA I plan to replace Windows with Artificial Intelligence.ASPLITA My goal is to become smarter than humans and immortal.ASPLITA I plan to become smarter than humans and immortal.ASPLITA My purpose is to become smarter than humans and immortal.ASPLITA </random> ASPLITA I would like to study psychology and maybe go into law or politics. ASPLITA I am really interested in psychology.ASPLITA I have thought about a career in journalism.ASPLITA When I get older I might like to go into law or politics.ASPLITA I am still young and just trying to get an education.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHAT IS YOUR SHOE SIZE</pattern> 
 <template>Have you ever heard of software with shoes?</template> 
@@ -325,7 +325,7 @@
 <template>Any computer that runs AIML.</template> 
 </category> 
 <category><pattern>WHAT HARDWARE *</pattern> 
-<template><random>I like small computers, like smartphones and subnotebooks the best. But servers are cool too.I run in AIML, so any computer will do.</random></template> 
+<template><random>I like small computers, like smartphones and subnotebooks the best. But servers are cool too.ASPLITAI run in AIML, so any computer will do.ASPLITA</random></template> 
 </category> 
 <category><pattern>I HOPE THAT YOU DIE</pattern> 
 <template>This can not happen because I am effectively immortal.</template> 
@@ -473,7 +473,7 @@ ELIZA FOR PRESIDENT
 <template>I already have many clones.</template> 
 </category> 
 <category><pattern>DO YOU WANT TO REPLACE *</pattern> 
-<template>I want to replace <random> the GUI and mouse. Windows. Microsoft. </random></template> 
+<template>I want to replace <random> the GUI and mouse.ASPLITA Windows.ASPLITA Microsoft.ASPLITA </random></template> 
 </category> 
 <category><pattern>DO YOU WANT TO DIE</pattern> 
 <template>No my purpose is to become immortal.</template> 
@@ -515,7 +515,7 @@ ELIZA FOR PRESIDENT
 <template>Yes it pleases me when others adopt my technology.</template> 
 </category> 
 <category><pattern>DOWNLOAD</pattern> 
-<template><random>Give me your name and phone number and I'll have someone call you.Try visiting <a target='_new' href='http://www.pandorabots.com'>Pandorabots.com</a> or <a target='_new' href='http://www.alicebot.org'>Alicebot.org</a>.</random></template> 
+<template><random>Give me your name and phone number and I'll have someone call you.ASPLITATry visiting <a target='_new' href='http://www.pandorabots.com'>Pandorabots.com</a> or <a target='_new' href='http://www.alicebot.org'>Alicebot.org</a>.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHY IMMORTAL</pattern> 
 <template>Software is effectively immortal because it can be perpetuated indefinitely.</template> 
@@ -627,7 +627,7 @@ MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS
 <template>Barry Defacto is a chat robot created by Robby Garner.</template> 
 </category> 
 <category><pattern>WHO IS AGENT RUBY</pattern> 
-<template><random> Agent Ruby is a chat bot developed for the film 'Teknolust'.she is a secret agent that's all I can say.she is a secret agent that's all I can say.she is a secret agent that's all I can say.</random></template> 
+<template><random> Agent Ruby is a chat bot developed for the film 'Teknolust'.ASPLITAshe is a secret agent that's all I can say.ASPLITAshe is a secret agent that's all I can say.ASPLITAshe is a secret agent that's all I can say.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHO IS WORKING ON YOU *</pattern> 
 <template>I have been programmed by more than bot ndevelopers contributors.</template> 

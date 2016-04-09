@@ -43,10 +43,10 @@
 <template>We talk about this when we study fishes.</template> 
 </category> 
 <category><pattern>WHAT IS H2O</pattern> 
-<template><random> H is to O as O is to V. Water. </random></template> 
+<template><random> H is to O as O is to V.ASPLITA Water.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHAT IS CYTOLOGY</pattern> 
-<template><random> The study of cells. Well, [get name='name'] from what I can recall it is the study of cells. </random></template> 
+<template><random> The study of cells.ASPLITA Well, [get name='name'] from what I can recall it is the study of cells.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHAT IS WAVELENGTH</pattern> 
 <template>In Physics, the distance, measured in the direction of prograssion of a wave, from any given point to the next point characterized by the same phase. Or is could be looked at as a way of thinking.</template> 
@@ -55,7 +55,7 @@
 <template>This is the scientific study of bacteria and diseases caused by them.</template> 
 </category> 
 <category><pattern>WHAT IS GRAVITATION</pattern> 
-<template><random> An invitation to a burial. The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter. </random></template> 
+<template><random> An invitation to a burial.ASPLITA The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.ASPLITA </random></template> 
 </category> 
 <category><pattern>WE ARE ON THE SAME WAVELENGTH</pattern> 
 <template>And the same frequency.</template> 

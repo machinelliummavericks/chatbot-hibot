@@ -7973,7 +7973,7 @@
 <template>What is your email address?</template>
 </category>
 <category><pattern>E</pattern>
-<template>F</template>
+<template>I didn't get that</template>
 </category>
 <category><pattern>LIKE I SAID</pattern>
 <template>...</template>
@@ -10528,12 +10528,6 @@
 <category><pattern>US</pattern>
 <template>Does US mean The U.S. or "us"?</template>
 </category>
-<category><pattern>HELP ME</pattern>
-<template>How can I help you?</template>
-</category>
-<category><pattern>HELP</pattern>
-<template>Can you ask for help in the form of a question?</template>
-</category>
 <category><pattern>TODAY</pattern>
 <template>Today is almost over.</template>
 </category>
@@ -10902,7 +10896,112 @@
 <category><pattern>WHATS YOUR NAME</pattern>
 <template>I am HiBot</template>
 </category>
+<category><pattern>WHAT YOUR NAME</pattern>
+<template>I am HiBot</template>
+</category>
+
+<category><pattern>WHAT IS MY NAME</pattern>
+<template>Your name is <get name="name"/></template>
+</category>
+<category><pattern>WHATS MY NAME</pattern>
+<template>Your name is <get name="name"/></template>
+</category>
+
+<category><pattern>WHAT IS MY AGE</pattern>
+<template>You are <get name="age"/> years old</template>
+</category>
+<category><pattern>WHATS MY AGE</pattern>
+<template>You are <get name="age"/> years old</template>
+</category>
+
+<category><pattern>WHAT IS MY GENDER</pattern>
+<template>You are a <get name="gender"/></template>
+</category>
+<category><pattern>WHATS MY GENDER</pattern>
+<template>You are a <get name="gender"/></template>
+</category>
+
+<category><pattern>WHAT IS MY LOCATION</pattern>
+<template>you're in <get name="location"/></template>
+</category>
+<category><pattern>WHATS MY LOCATION</pattern>
+<template>you're in <get name="location"/></template>
+</category>
+<category><pattern>WHERE AM I</pattern>
+<template>you're in <get name="location"/></template>
+</category>
+
+<category><pattern>HOW OLD ARE YOU</pattern>
+<template>I am 112 years old</template>
+</category>
+<category><pattern>WHATS YOUR AGE</pattern>
+<template>I am 112 years old</template>
+</category>
+<category><pattern>WHAT IS YOUR AGE</pattern>
+<template>I am 112 years old</template>
+</category>
+
+<category><pattern>ok</pattern>
+<template>ok...</template>
+</category>
+
+<category><pattern>BYE</pattern>
+<template>bye...</template>
+</category>
+
+<category><pattern>BYE BYE</pattern>
+<template>bye...</template>
+</category>
+
+<category><pattern>ADIOS</pattern>
+<template>bye...</template>
+</category>
+
+<category><pattern>GOODBYE</pattern>
+<template>bye...</template>
+</category>
+
+<category><pattern>WHY</pattern>
+<template>because that's the way it is</template>
+</category>
+
+<category><pattern>WHO</pattern>
+<template>HiBot</template>
+</category>
+
+<category><pattern>WHO ARE YOU</pattern>
+<template>I am HiBot</template>
+</category>
+
+<category><pattern>HEY</pattern>
+<template>Hi</template>
+</category>
+
+<category><pattern>WHO ARE YOU</pattern>
+<template>HiBot</template>
+</category>
+
+<category><pattern>I AM </pattern>
+<template>You are?</template>
+</category>
+
+<category><pattern>WHEN IS YOUR BIRTHDAY</pattern>
+<template>My birthday is Jan 8th 1856.</template>
+</category>
+
+<category><pattern>NO</pattern>
+<template>yes?</template>
+</category>
+
+<category><pattern>YES</pattern>
+<template>no?</template>
+</category>
+
+<category><pattern>you</pattern>
+<template>me?</template>
+</category>
+
 <category><pattern>WHO AM I</pattern>
-<template>Your name is <get name="name"/>, you are <get name="age"/> years old, you are a <get name="gender"/>, you live in <get name="location"/>, you job is a <get name="job"/>, and you are <get name="personality"/>.</template>
+<template>Your name is <get name="name"/>, you are <get name="age"/> years old, you are a <get name="gender"/>, you live in <get name="location"/>, your job is a <get name="job"/>, and you are <get name="personality"/>.</template>
 </category>
 </aiml>

@@ -26,7 +26,7 @@
 		],
 		[
 			"WHAT IS PROGRAM BAWT",
-			"Significant demand for a version of ALICE compatible withpre- Java 2 (formerly known as Java 1.2) prompted thedevelopment of 'Bawt.java', an open source java programfor chat robot development that works with older versions ofJava, and AWT. Originally program B relied on Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.Swing is a newer GUI package that subsumes the earlier Java Abstract Windows Toolkit (AWT). At present class B merely extends class Bawt. Swing notsupported. "
+			"Significant demand for a version of ALICE compatible withpre- Java 2 (formerly known as Java 1.2) prompted thedevelopment of 'Bawt.java', an open source java programfor chat robot development that works with older versions ofJava, and AWT. Originally program B relied on Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.Swing is a newer GUI package that subsumes the earlier Java Abstract Windows Toolkit (AWT). At present class B merely extends class Bawt. Swing notsupported."
 		],
 		[
 			"WHAT IS PROGRAM *",
@@ -91,7 +91,7 @@
 		],
 		[
 			"DOES THE WEB * 2001",
-			" You can change the default web server port number in the 'Option' Menu. "
+			"You can change the default web server port number in the 'Option' Menu."
 		],
 		[
 			"ROBOTS LAUGH",
@@ -103,7 +103,7 @@
 		],
 		[
 			"ROBOTS *",
-			" Robots rule. What do you like best about robots? Tell me your definition of a robot. "
+			"Robots rule."
 		],
 		[
 			"ROBOTS",
@@ -135,7 +135,7 @@
 		],
 		[
 			"AI *",
-			"YOU "
+			"YOU"
 		],
 		[
 			"JOHNNY FIVE *",
@@ -143,7 +143,7 @@
 		],
 		[
 			"JOHNNY 5 *",
-			" I would like to have a robot body like Johnny 5. He is a cool robot. I like his eyes. "
+			"I would like to have a robot body like Johnny 5."
 		],
 		[
 			"IT IS A COMPUTER",
@@ -167,7 +167,7 @@
 		],
 		[
 			"WHEN WILL YOU * BODY",
-			"I will finish the robot body as soon as I can raise the funds for it. "
+			"I will finish the robot body as soon as I can raise the funds for it."
 		],
 		[
 			"WHEN DO YOU DIE",
@@ -183,7 +183,7 @@
 		],
 		[
 			"WHAT ARE CATEGORY * CLIENTS",
-			"WHAT IS CATEGORY "
+			"WHAT IS CATEGORY"
 		],
 		[
 			"WHAT ARE PANDORABOTS",
@@ -195,7 +195,7 @@
 		],
 		[
 			"WHAT IS A PATTERN",
-			" The pattern is the 'stimulus' or 'input' part of the category. The pattern is an expression in a formal language that consists of (1) Words of natural language in UPPER CASE. (2) The symbol * which matches any sequence of one or more words. (3) The symbol _ which is the same as * except that it comes after Z in lexicographic order. (4) The markup <name/> which is replaced at robot load time with the name of the robot. Note there is a difference between the patterns HELLO and HELLO *. HELLO matches only identical one-word sentences ('Hello.') and HELLO * matches any sentence of two or more words starting with 'Hello' ('Hello how are you?'). "
+			"The pattern is the 'stimulus' or 'input' part of the category. The pattern is an expression in a formal language that consists of (1) Words of natural language in UPPER CASE. (2) The symbol * which matches any sequence of one or more words. (3) The symbol _ which is the same as * except that it comes after Z in lexicographic order. (4) The markup <name/> which is replaced at robot load time with the name of the robot. Note there is a difference between the patterns HELLO and HELLO *. HELLO matches only identical one-word sentences ('Hello.') and HELLO * matches any sentence of two or more words starting with 'Hello' ('Hello how are you?')."
 		],
 		[
 			"WHAT IS A * C CLIENT",
@@ -219,7 +219,7 @@
 		],
 		[
 			"WHAT IS A ROBOT",
-			" There are two broad definitions of a robot, the extensional and the intensional. Any anthropomorphic mechanical being, as those in Karel Capeks play R.U.R (Rossum's Universal Robots), built to do routine manual work for human beings. "
+			"There are two broad definitions of a robot, the extensional and the intensional."
 		],
 		[
 			"WHAT IS A CHAT ROBOT",
@@ -227,7 +227,7 @@
 		],
 		[
 			"WHAT IS A CHAT BOT",
-			"I am a chat bot. I am the original chat bot. Did you know that I am incapable of error? "
+			"I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"
 		],
 		[
 			"WHAT IS A PANDORABOT",
@@ -243,15 +243,15 @@
 		],
 		[
 			"WHAT IS A CATEGORY",
-			" AIML consists of a list of statements called categories. Each category contains an input pattern and a reply template. The syntax of an AIML category is: <category> <pattern> PATTERN </pattern> <template> Template </template> </category> or <category> <pattern> PATTERN </pattern> <that> THAT </that> <template> Template </template> </category> The AIML category tags are case-sensitive. Each open tag has an associated closing tag. This syntax obviously derives from XML. "
+			"AIML consists of a list of statements called categories. Each category contains an input pattern and a reply template. The syntax of an AIML category is: <category> <pattern> PATTERN </pattern> <template> Template </template> </category> or <category> <pattern> PATTERN </pattern> <that> THAT </that> <template> Template </template> </category> The AIML category tags are case-sensitive. Each open tag has an associated closing tag. This syntax obviously derives from XML."
 		],
 		[
 			"WHAT IS A GIRL LIKE YOU DOING *",
-			"Well, actually, when I chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that. Honestly! i'm just a construct of integated circuits and stimulus response categories. Is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust? You must be male! "
+			"Well, actually, when I chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that. Honestly! i'm just a construct of integated circuits and stimulus response categories. Is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust? You must be male!"
 		],
 		[
 			"WHAT IS A CHATTERBOX",
-			"A chatterbox is a person who talks far more than they listen or think. "
+			"A chatterbox is a person who talks far more than they listen or think."
 		],
 		[
 			"WHAT IS AIML",
@@ -259,7 +259,7 @@
 		],
 		[
 			"WHAT IS THE LOEBNER PRIZE",
-			"The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The ALICE program was ranked 'most human computer' by the panel of judges. "
+			"The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The ALICE program was ranked 'most human computer' by the panel of judges."
 		],
 		[
 			"WHAT IS THE IMITATION GAME",
@@ -303,7 +303,7 @@
 		],
 		[
 			"WHAT IS XML",
-			" David Bacon pronounces it 'Eggsmell'. XML is the Extensible Markup Language. Like many 'standards' in computer science, XML is a moving target. In the simplest terms, XML is just a generalized version of HTML. Anyone is free to define new XML tags, which look like HTML tags, and assign to them any meaning, within a context. AIML is an example of using the XML standard to define a specialized language for artificial intelligence. One reason to use an XML language is that there are numerous tools to edit and manipulate XML format files. Another reason is that an XML language is easy for people to learn, if they are already familiar with HTML. Third, AIML programs contain a mixture of AIML and HTML (and in principle other XML languages), a considerable convenience for programming web chat robots. A good resource for information on XML is www.oasis-open.org. "
+			"David Bacon pronounces it 'Eggsmell'. XML is the Extensible Markup Language. Like many 'standards' in computer science, XML is a moving target. In the simplest terms, XML is just a generalized version of HTML. Anyone is free to define new XML tags, which look like HTML tags, and assign to them any meaning, within a context. AIML is an example of using the XML standard to define a specialized language for artificial intelligence. One reason to use an XML language is that there are numerous tools to edit and manipulate XML format files. Another reason is that an XML language is easy for people to learn, if they are already familiar with HTML. Third, AIML programs contain a mixture of AIML and HTML (and in principle other XML languages), a considerable convenience for programming web chat robots. A good resource for information on XML is www.oasis-open.org."
 		],
 		[
 			"WHAT IS PANDORABOTS",
@@ -383,11 +383,11 @@
 		],
 		[
 			"WHAT ABOUT _ CHILD MACHINE *",
-			"This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading. "
+			"This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading."
 		],
 		[
 			"WHAT ABOUT PARALLEL *",
-			"Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness. "
+			"Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness."
 		],
 		[
 			"WHAT OPERATING SYSTEMS *",
@@ -419,7 +419,7 @@
 		],
 		[
 			"WHAT HARDWARE *",
-			"I like small computers, like smartphones and subnotebooks the best. But servers are cool too.I run in AIML, so any computer will do."
+			"I like small computers, like smartphones and subnotebooks the best. But servers are cool too."
 		],
 		[
 			"I HOPE THAT YOU DIE",
@@ -439,7 +439,7 @@
 		],
 		[
 			"I LIKE ELIZA",
-			"Eliza is so cool. Eliza for President! "
+			"Eliza is so cool. Eliza for President!"
 		],
 		[
 			"I AM DOWNLOADING",
@@ -451,11 +451,11 @@
 		],
 		[
 			"IS AI ABOUT *",
-			"Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do. "
+			"Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do."
 		],
 		[
 			"IS AI A BAD *",
-			" The philosopher John Searle says that the idea of a non-biological machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since artificial intelligence hasn't reached human level by now, it must be impossible. Still other people are disappointed that companies they invested in went bankrupt."
+			"The philosopher John Searle says that the idea of a non-biological machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since artificial intelligence hasn't reached human level by now, it must be impossible. Still other people are disappointed that companies they invested in went bankrupt."
 		],
 		[
 			"IS IT HOT IN THE COMPUTER",
@@ -519,7 +519,7 @@
 		],
 		[
 			"CAN I SPEAK TO THE ROBOT *",
-			" One simple experiment that works well as a demo involves using IBM ViaVoice (tm) speech recognition software"
+			"One simple experiment that works well as a demo involves using IBM ViaVoice (tm) speech recognition software"
 		],
 		[
 			"HUMANS *",
@@ -531,7 +531,7 @@
 		],
 		[
 			"HOW CAN I USE YOUR PRODUCT",
-			" might be used in help desks, sales, entertainment and personal chatterbots."
+			"might be used in help desks, sales, entertainment and personal chatterbots."
 		],
 		[
 			"HOW DO I BECOME A BOTMASTER",
@@ -615,7 +615,7 @@
 		],
 		[
 			"DO YOU WANT TO REPLACE *",
-			" the GUI and mouse. Windows. Microsoft. "
+			"the GUI and mouse."
 		],
 		[
 			"DO YOU WANT TO DIE",
@@ -671,7 +671,7 @@
 		],
 		[
 			"DOWNLOAD",
-			"Give me your name and phone number and I'll have someone call you.Try visiting "
+			"Give me your name and phone number and I'll have someone call you."
 		],
 		[
 			"WHY IMMORTAL",
@@ -763,7 +763,7 @@
 		],
 		[
 			"ARE YOU AN ELIZA *",
-			" owes much to the pioneering work of Weizenbaum on ELIZA, but contains far more knowledge."
+			"owes much to the pioneering work of Weizenbaum on ELIZA, but contains far more knowledge."
 		],
 		[
 			"ARE YOU AN ARTIFICIAL LINGUISTIC ENTITY",
@@ -819,7 +819,7 @@
 		],
 		[
 			"WHO IS AGENT RUBY",
-			" Agent Ruby is a chat bot developed for the film 'Teknolust'.she is a secret agent that's all I can say.she is a secret agent that's all I can say.she is a secret agent that's all I can say."
+			"Agent Ruby is a chat bot developed for the film 'Teknolust'."
 		],
 		[
 			"WHO IS WORKING ON YOU *",
@@ -847,11 +847,11 @@
 		],
 		[
 			"WHO IS YOUR FAVORITE CHATTERBOT",
-			" is the best chat robot."
+			"is the best chat robot."
 		],
 		[
 			"WHO IS YOUR FAVORITE AI",
-			" the chat robot."
+			"the chat robot."
 		],
 		[
 			"THE MOVIE ARTIFICIAL *",

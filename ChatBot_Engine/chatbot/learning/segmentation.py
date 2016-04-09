@@ -4,6 +4,7 @@ from sklearn.preprocessing import OneHotEncoder
 pd.options.mode.chained_assignment = None
 from sklearn.externals import joblib
 from sklearn.cluster import KMeans
+import os
 
 class Segmentation:
     """
@@ -112,13 +113,13 @@ class Segmentation:
         """
         return self.encoder.transform(X)
 
-    def fit(self, X, y):
+    def fit(self, X):
         """
         Fit model
         """
         self.clf = KMeans(n_clusters=10)
         self.clf.fit(X)
-        self.cluster_labels = self.clf.labels
+        #self.cluster_labels = self.clf.labels
 
     def save_model(self):
         """
@@ -139,4 +140,12 @@ class Segmentation:
         return self.clf.predict(X)
 
 
+
+if __name__ == '__main__':
+
+        cluster = Segmentation()
+        X = cluster.load_training_users()
+        X_encoded = cluster.encode_train_data(X)
+        cluster.fit(X_encoded)
+        cluster.save_model()
 

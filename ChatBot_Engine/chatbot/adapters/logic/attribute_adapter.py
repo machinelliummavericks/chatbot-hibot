@@ -64,7 +64,6 @@ class AttributeLogicAdapter(LogicAdapter):
 
         #if "Learn" in user_input:
         if learn_confidence == 1:
-
             ## If specific tag in user input, extract tag and update user
             tag = self.find_tag(user_input_to_check)
             if tag is not None:
@@ -72,7 +71,8 @@ class AttributeLogicAdapter(LogicAdapter):
                 tag_processing.set_user_tags(tag, att)
                 return 1, Statement("Ok, I Learned your " + tag + " is " + att)
             else:
-                return 0, Statement("")
+                txt = "I didn't get that. Please use the exact syntax for one of the following options:\n\tLearn my name is (your name)\n\tLearn my age is (your age)\n\tLearn my gender is (your gender)\n\tLearn my location is (your location)\n\tLearn my personality is (your personality)\n\tLearn my job is (your job)"
+                return 1, Statement(txt)
 
         else:
             return 0, Statement("")

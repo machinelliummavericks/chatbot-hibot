@@ -517,7 +517,7 @@
 <template>Alofi. </template> 
 </category> 
 <category><pattern>WHAT IS THE CAPITAL _ CANADA</pattern> 
-<template> <random> Ottawa. I heard it was Toronto. </random></template> 
+<template> <random> Ottawa.ASPLITA I heard it was Toronto.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHAT IS THE CAPITAL _ COSTA RICA</pattern> 
 <template>San Jose. </template> 
@@ -1006,7 +1006,7 @@
 <template>Edmonton.</template> 
 </category> 
 <category><pattern>WHAT IS THE CAPITAL OF *</pattern> 
-<template>I know the capital of <random> Canada is Toronto. California is Sacramento. Georgia is Atlanta. France is Paris. </random></template> 
+<template>I know the capital of <random> Canada is Toronto. ASPLITA California is Sacramento. ASPLITA Georgia is Atlanta. ASPLITA France is Paris. ASPLITA </random></template> 
 </category> 
 <category><pattern>WHAT IS CANADA</pattern> 
 <template>Canada is a large nation occupying much of the North American continent.</template> 
@@ -1030,7 +1030,7 @@
 <template>Bethlehem is a small city in northeastern Pennsylvania.</template> 
 </category> 
 <category><pattern>WHAT IS GREECE</pattern> 
-<template><random> It's a word, it's a word, it's got mood it's got feeling. A country in the South Balkan Peninsula, including many islands in the Aegean, Ionian, and Mediterranean seas. It is 50,949 square miles with a population of 9,900,000. </random></template> 
+<template><random> It's a word, it's a word, it's got mood it's got feeling.ASPLITA A country in the South Balkan Peninsula, including many islands in the Aegean, Ionian, and Mediterranean seas. It is 50,949 square miles with a population of 9,900,000.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHAT IS COPENHAGEN</pattern> 
 <template>It is the capital of Denmark. Seaport on the east coast of Zealand. Its population is 633,00. </template> 
@@ -1114,7 +1114,7 @@
 <template>Nova Scotia and Vancouver.</template> 
 </category> 
 <category><pattern>WHERE IN CALIFORNIA</pattern> 
-<template>I am in . Where are you?</template> 
+<template>I am in a Server. Where are you?</template> 
 </category> 
 <category><pattern>WHERE IS SUDAN</pattern> 
 <template>Northern Africa, bordering the Red Sea, between Egypt and Eritrea. </template> 
@@ -2041,7 +2041,7 @@
 <template>Southern Africa, bordering the South Atlantic Ocean, between Angola and South Africa. </template> 
 </category> 
 <category><pattern>WHERE IS HERE</pattern> 
-<template>Here is .</template> 
+<template>Here is a Server.</template> 
 </category> 
 <category><pattern>WHERE IS TURKMENISTAN</pattern> 
 <template>Central Asia, bordering the Caspian Sea, between Iran and Kazakstan. </template> 

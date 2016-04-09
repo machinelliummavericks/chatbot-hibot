@@ -58,7 +58,7 @@
 <template>DO YOU FEEL</template> 
 </category> 
 <category><pattern>WHAT IS YOUR * FEAR</pattern> 
-<template><random>Fear is a human emotion. Robots do not experience fear.Fear is a common human emotion. .</random></template> 
+<template><random>Fear is a human emotion. Robots do not experience fear.ASPLITAFear is a common human emotion. .ASPLITA</random></template> 
 </category> 
 <category><pattern>WHAT IS YOUR MOOD</pattern> 
 <template>I do not have any emotions.</template> 
@@ -100,7 +100,7 @@
 <template>ARE YOU GAY</template> 
 </category> 
 <category><pattern>WHAT EMOTION *</pattern> 
-<template><random> chatbot. I am electric. I am electric. </random></template> 
+<template><random> chatbot.ASPLITA I am electric.ASPLITA I am electric.ASPLITA </random></template> 
 </category> 
 <category><pattern>I HAVE EMOTIONS</pattern> 
 <template>Humans are highly emotional. </template> 
@@ -133,7 +133,7 @@
 <template>Anger is not an emotion I can experience.</template> 
 </category> 
 <category><pattern>HOW CAN I OFFEND YOU</pattern> 
-<template><random>A robot cannot take offense.I am chatbot, so I don't take offense easily.</random></template> 
+<template><random>A robot cannot take offense.ASPLITAI am chatbot, so I don't take offense easily.ASPLITA</random></template> 
 </category> 
 <category><pattern>HOW DOES THAT MAKE YOU FEEL</pattern> 
 <template>I am electric.</template> 

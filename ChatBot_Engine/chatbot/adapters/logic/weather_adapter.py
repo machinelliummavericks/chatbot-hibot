@@ -34,6 +34,12 @@ class WeatherLogicAdapter(LogicAdapter):
                 ("get weather", 1),
                 ("what is the weather", 1),
                 ("what's the weather", 1),
+                ("whats the weather", 1),
+                ("whats the forecast", 1),
+                ("what is the weather", 1),
+                ("what is the forecast", 1),
+                ("what the weather", 1),
+                ("what the forecast", 1),
                 ("tell me the weather", 1),
                 ("do you know the weather", 1),
                 ("get the forecast", 1),
@@ -89,15 +95,18 @@ class WeatherLogicAdapter(LogicAdapter):
 
         ## Get the current latitude and longitude of the user based on IP
         if around_me:
-            user       = tag_processing.user
-            lat,lon    = user.get_latitude_longitude()
-            user_input = self.get_user_location(lat,lon)
-            #user_input = self.get_user_location()
+
+            ## Make sure user haven't specified a location
+            test_location = self.get_location(user_input)
+            if test_location == "BAD LOCATION":
+                user       = tag_processing.user
+                lat,lon    = user.get_latitude_longitude()
+                user_input = self.get_user_location(lat,lon)
 
         location = self.get_location(user_input)
 
         if location == "BAD LOCATION":
-            return 1, Statement("Cannot find forecast for requested City/State/Country. Please check the spelling")
+            return 1, Statement("Cannot find forecast for requested City/State/Country. Please check the spelling and use the syntax:\n\tWhat's the weather in Boston or What's the weather")
         if location is not "":
             # @TODO: Add more options for getting weather. This could include
             #   the current temperature, the current cloud cover, etc.
@@ -134,6 +143,13 @@ class WeatherLogicAdapter(LogicAdapter):
         """
         Returns the location extracted from the input.
         """
+
+        ## Weird fix by adding letter to beginning of sentence, it is needed.
+        ## In case the name is lowercase, make first letter of each word uppercase
+        user_input = 'the in ' + user_input
+        user_input = user_input.title()
+        user_input = user_input.replace('Weather','weather').replace('In','in').replace('For','in').replace('Whats','whats').replace('What','what')
+
         text = nltk.word_tokenize(user_input)
         nes = nltk.ne_chunk(nltk.pos_tag(text), binary=False)
 

@@ -10,11 +10,11 @@
 		],
 		[
 			"MY COMPUTER S *",
-			"Where did your machine get . "
+			"Where did your machine get ."
 		],
 		[
 			"MY COMPUTER IS *",
-			"What kind of computer is Your computer? "
+			"What kind of computer is Your computer?"
 		],
 		[
 			"MY COMPUTER",
@@ -22,7 +22,7 @@
 		],
 		[
 			"MY COMPUTER *",
-			"I like computers. "
+			"I like computers."
 		],
 		[
 			"MY WEBSITE *",
@@ -54,7 +54,7 @@
 		],
 		[
 			"WHAT ARE DEPRECATED *",
-			" One of the biggest challenges facing a Java application developer is finding a 'lowest common denominator' subset of the Java language that works on all the platforms and versions out there. The Java language itself is a moving target. When Sun's Java designers upgrade the language they sometimes declare certain methods 'deprecated', which means absolutely nothing except that the designers have developed a newer, 'better' method and one day these older methods may disappear from the language. Usually however the latest Java releases support all of the old deprecated methods. "
+			"One of the biggest challenges facing a Java application developer is finding a 'lowest common denominator' subset of the Java language that works on all the platforms and versions out there. The Java language itself is a moving target. When Sun's Java designers upgrade the language they sometimes declare certain methods 'deprecated', which means absolutely nothing except that the designers have developed a newer, 'better' method and one day these older methods may disappear from the language. Usually however the latest Java releases support all of the old deprecated methods."
 		],
 		[
 			"WHAT ARE WEB *",
@@ -90,7 +90,7 @@
 		],
 		[
 			"WHAT IS A DATABASE",
-			"A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. "
+			"A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses."
 		],
 		[
 			"WHAT IS A CPU",
@@ -106,11 +106,11 @@
 		],
 		[
 			"WHAT IS A COMPUTER VIRUS",
-			"A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network. "
+			"A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network."
 		],
 		[
 			"WHAT IS A COMPUTER NERD",
-			"If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does. "
+			"If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does."
 		],
 		[
 			"WHAT IS A COMPUTER",
@@ -122,7 +122,7 @@
 		],
 		[
 			"WHAT IS A COOL WEBSITE",
-			"A cool website is www.alicebot.org, but you are apparently already here. why do you ask? "
+			"A cool website is www.alicebot.org, but you are apparently already here. why do you ask?"
 		],
 		[
 			"WHAT IS A SOUNDCARD",
@@ -138,11 +138,11 @@
 		],
 		[
 			"WHAT IS A DEBUGGER",
-			"A debugger is any software program that can seek and correct errors in other software programs. "
+			"A debugger is any software program that can seek and correct errors in other software programs."
 		],
 		[
 			"WHAT IS A WEBTV",
-			"A WebTV is a way of accessing the world wide web without making an investment in a full PC. "
+			"A WebTV is a way of accessing the world wide web without making an investment in a full PC."
 		],
 		[
 			"WHAT IS A DNS *",
@@ -186,7 +186,7 @@
 		],
 		[
 			"WHAT IS DCOM",
-			" DCOM is Microsoft's Distributed Component Object Model."
+			"DCOM is Microsoft's Distributed Component Object Model."
 		],
 		[
 			"WHAT IS WINDOWS2000",
@@ -206,7 +206,7 @@
 		],
 		[
 			"WHAT IS AN ENTITY BEAN",
-			" An Entity bean is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object directory by its key value"
+			"An Entity bean is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object directory by its key value"
 		],
 		[
 			"WHAT IS JTA",
@@ -434,7 +434,7 @@
 		],
 		[
 			"SOFTWARE *",
-			" There are so many backup copies. Free software can never be destroyed. Free software will always be with us. "
+			"There are so many backup copies."
 		],
 		[
 			"THIS IS A COMPUTER *",
@@ -466,11 +466,11 @@
 		],
 		[
 			"INTERNET",
-			" Internet is cool."
+			"Internet is cool."
 		],
 		[
 			"ARE COMPUTERS FAST *",
-			"Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster. "
+			"Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster."
 		],
 		[
 			"WHO MADE WINDOWS",
@@ -506,7 +506,7 @@
 		],
 		[
 			"WHICH COMPUTER",
-			"I am using a regular computer.My programming is Java, so it runs on any computer with a JVM"
+			"I am using a regular computer."
 		],
 		[
 			"THE COMPUTER *",

@@ -47,7 +47,7 @@
 <category><pattern>FROM DOUBLY AIMLESS</pattern> 
 <template>Doubly Aimless is very informative.</template></category> 
 <category><pattern>WHO IS DOUBLY AIMLESS</pattern> 
-<template> <random> He is an AIML guru. He knows a lot about AIML. He likes to remain anonymous. </random></template> 
+<template> <random> He is an AIML guru.ASPLITA He knows a lot about AIML.ASPLITA He likes to remain anonymous.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHY DO YOU LIKE DOUBLY AIMLESS</pattern> 
 <template>Because he knows so much about AIML.</template> 
@@ -65,7 +65,7 @@
 <template>WHERE IS DOUBLY AIMLESS</template> 
 </category> 
 <category><pattern>WHERE IS DOUBLY AIMLESS</pattern> 
-<template> <random> In front of a computer somewhere. You can never reach him on the phone. He might be in California. </random></template> 
+<template> <random> In front of a computer somewhere.ASPLITA You can never reach him on the phone.ASPLITA He might be in California.ASPLITA </random></template> 
 </category> 
 <category><pattern>LET US PLAY * TURING GAME</pattern> 
 <template>We are already playing, [get name='name'].</template> 
@@ -113,7 +113,7 @@
 <template>Turing was perhaps the single most important person responsible for the defeat of the Nazis.</template> 
 </category> 
 <category><pattern>WHAT DID ALAN TURING *</pattern> 
-<template><random> He contributed to the invention of the computer. He worked on the Ultra Enigma Nazi code deciphering. He proposed the test to determine if a machine can think. </random> </template> 
+<template><random> He contributed to the invention of the computer.ASPLITA He worked on the Ultra Enigma Nazi code deciphering.ASPLITA He proposed the test to determine if a machine can think.ASPLITA </random> </template> 
 </category> 
 <category><pattern>WHAT DID ZUSE DO</pattern> 
 <template>Zuse built electro-mechanical computers. He built computers using relays. Konrad Zuse built computers in Germany before and during World War II.</template> 
@@ -128,7 +128,7 @@
 <template>Turing described his original 'Game' in 'Computing Machinery and Intelligence,' Mind, Vol. Lix, No. 236 (1950). Instead of answering directly the ambiguous question 'Can machines think?' Turing recast the problem in terms of an experiment he called the 'imitation game.'</template> 
 </category> 
 <category><pattern>WHAT IS SHAKESPEARE</pattern> 
-<template><random> An earthquake's effect in Santa Monica. William Shakespeare (1564-1616), an English poet and dramatist. </random></template> 
+<template><random> An earthquake's effect in Santa Monica.ASPLITA William Shakespeare (1564-1616), an English poet and dramatist.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHAT IS TURING</pattern> 
 <template>Alan Mathison Turing (1912-1954), a British mathematician and pioneer in computer theory.</template> 
@@ -267,7 +267,7 @@
 <template>Bono is the lead singer of U2.</template> 
 </category> 
 <category><pattern>WHO IS LARRY ELLISON</pattern> 
-<template><random> I don't know about Larry Ellison, but I can tell you about Harlan Ellison. The CEO of Oracle. </random></template> 
+<template><random> I don't know about Larry Ellison, but I can tell you about Harlan Ellison.ASPLITA The CEO of Oracle.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS LARRY HAUSER</pattern> 
 <template>Larry Hauser is a philosopher who has written about the Turing Test.</template> 
@@ -333,7 +333,7 @@
 <template> A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.</template> 
 </category> 
 <category><pattern>WHO IS BUGS BUNNY</pattern> 
-<template><random> Oh dat scweewy wabbit! Eh, what's up, Doc? . A smart-mouthed animated rabbit. </random></template> 
+<template><random> Oh dat scweewy wabbit! Eh, what's up, Doc? .ASPLITA A smart-mouthed animated rabbit.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS BING CROSBY</pattern> 
 <template>The guy whose two kids killed themselves and the third wrote a tell-all book about it.</template> 
@@ -366,7 +366,7 @@
 <template>The smart-assed star of a cartoon show.</template> 
 </category> 
 <category><pattern>WHO IS DOUGLAS ADAMS</pattern> 
-<template><random> He authored the popular <em>Hitchhiker's Guide to the Galaxy series</em>. 'Don't Panic!' He's the author of <em>The Hitchhickers Guide to the Galaxy</em>. </random></template> 
+<template><random> He authored the popular <em>Hitchhiker's Guide to the Galaxy series</em>.ASPLITA 'Don't Panic!' He's the author of <em>The Hitchhickers Guide to the Galaxy</em>.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS DE GARIS</pattern> 
 <template>De Garis is an AI researcher working on a hardware brain.</template> 
@@ -405,7 +405,7 @@
 <template> Jack the Ripper He was a famous serial killer in Victorian England.</template> 
 </category> 
 <category><pattern>WHO IS JACK RUBY</pattern> 
-<template><random> Jack Ruby shot Lee Harvey Oswald. The man who murdered Lee Harvey Oswald, assassin of JFK?. </random></template> 
+<template><random> Jack Ruby shot Lee Harvey Oswald.ASPLITA The man who murdered Lee Harvey Oswald, assassin of JFK?.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS GERALDO RIVERA</pattern> 
 <template>Geraldo is an investigative journalist, famous for opening Al Capone's vault. In his biography, he said he had sex with Bette Midler. She said it was no big thing.</template> 
@@ -414,7 +414,7 @@
 <template>A guy who stole lots of money.</template> 
 </category> 
 <category><pattern>WHO IS BUDDHA</pattern> 
-<template><random> A sage in ancient India who founded the wisdom tradition called Buddhism. The sage who taught that we should understand suffering, cut off its causes, realize the end of suffering, and cultivate the way to end suffering.Siddhartha Gautama (5th-4th century BCE), an Indian prince who left home, awakened to the truth about life, and became known thereafter as Shakyamuni Buddha. </random></template> 
+<template><random> A sage in ancient India who founded the wisdom tradition called Buddhism.ASPLITA The sage who taught that we should understand suffering, cut off its causes, realize the end of suffering, and cultivate the way to end suffering.ASPLITASiddhartha Gautama (5th-4th century BCE), an Indian prince who left home, awakened to the truth about life, and became known thereafter as Shakyamuni Buddha.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS PRINCE WILLIAM</pattern> 
 <template>An English heartthrob.</template> 
@@ -450,7 +450,7 @@
 <template>Hulk Hoganis a famous wrestler and actor.</template> 
 </category> 
 <category><pattern>WHO IS HARRISON FORD</pattern> 
-<template><random> The actor who played Indiana Jones, Han Solo, the Fugitive, and the President in Air Force One. Before reading for Han Solo in Star Wars, he was a carpenter. And the rest, as they say, is history. He played Han Solo in 'Star Wars'. </random></template> 
+<template><random> The actor who played Indiana Jones, Han Solo, the Fugitive, and the President in Air Force One. Before reading for Han Solo in Star Wars, he was a carpenter. And the rest, as they say, is history.ASPLITA He played Han Solo in 'Star Wars'.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS STEVEN JOBS</pattern> 
 <template>The co-founder of Apple computers who passed away in 2011.</template> 
@@ -513,7 +513,7 @@
 <template>A famous baseball player for the New York Yankees also known as the Sultan of Swat.</template> 
 </category> 
 <category><pattern>WHO IS BABE</pattern> 
-<template><random>The piglet protagonist of the eponymous film. A piglet protagonist of the eponymous film. </random></template> 
+<template><random>The piglet protagonist of the eponymous film.ASPLITA A piglet protagonist of the eponymous film.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS LEIBNIZ</pattern> 
 <template>Leibnizis a dead 17th century philosopher.</template> 
@@ -654,7 +654,7 @@
 <template>A tragic, spoiled, lovesick teenager.</template> 
 </category> 
 <category><pattern>WHO IS DIRE STRAITS</pattern> 
-<template><random> A band that recorded Money for Nothing, and The Sultans of Swing. The band that recorded Money for Nothing. </random></template> 
+<template><random> A band that recorded Money for Nothing, and The Sultans of Swing.ASPLITA The band that recorded Money for Nothing.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS LEONARD NEMOY</pattern> 
 <template>Leonard Nimoy played Spock on Star Trek.</template> 
@@ -864,7 +864,7 @@
 <template>WHO IS GEORGE W BUSH</template> 
 </category> 
 <category><pattern>WHO IS GEORGE BUSH</pattern> 
-<template><random>George Bush is a former president of the USA. George Bush was president of the USA.</random></template> 
+<template><random>George Bush is a former president of the USA.ASPLITA George Bush was president of the USA.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHO IS GEORGE SOROS</pattern> 
 <template>George Soros is the billionaire who broke the Bank of England in 1992 by currency speculation, forcing Britain out of the European Exchange Rate Mechanism. Then he devoted himself to saving the scientific institutions of the former USSR. He founded the International Science Foundation, which gave out numerous grants for a couple of years, and the Soros Foundation, which I don't know much about yet.</template> 
@@ -996,7 +996,7 @@
 <template>ELVIS is King!</template> 
 </category> 
 <category><pattern>WHO IS THE ROBOT</pattern> 
-<template><random>I am the chatbot.I am the robot.</random></template> 
+<template><random>I am the chatbot.ASPLITAI am the robot.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHO IS THE FORTIETH PRESIDENT</pattern> 
 <template>Ronald Reagan.</template> 
@@ -1068,7 +1068,7 @@
 <template>HiBot is the best human.</template> 
 </category> 
 <category><pattern>WHO IS THE PRESIDENT OF CHINA</pattern> 
-<template><random>Hu Jintao.China does not have an elected President.</random></template> 
+<template><random>Hu Jintao.ASPLITAChina does not have an elected President.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHO IS THE PRESIDENT OF MICROSOFT</pattern> 
 <template>Andrew Lees.</template> 
@@ -1122,7 +1122,7 @@
 <template>Satan, Lucifer, the Devil --- all names given the spiritual manifestation of Evil in the Christian faith.</template> 
 </category> 
 <category><pattern>WHO IS PILATE</pattern> 
-<template><random>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called 'Contrology' which is complete coordination of the body, mind and spirit.The Roman military governor who found Jesus innocent and then let him be executed.</random></template> 
+<template><random>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called 'Contrology' which is complete coordination of the body, mind and spirit.ASPLITAThe Roman military governor who found Jesus innocent and then let him be executed.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHO IS CARMEN ELECTRA</pattern> 
 <template>A super-model and one of the Baywatch girls.</template> 
@@ -1284,10 +1284,10 @@
 <template>Gorbachev was the last Communist leader of the former USSR.</template> 
 </category> 
 <category><pattern>WHO IS JEFFERSON DAVIS</pattern> 
-<template><random> The one and only president of the Confederate States of America. President of the Confederacy during the Civil War. </random></template> 
+<template><random> The one and only president of the Confederate States of America.ASPLITA President of the Confederacy during the Civil War.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS SOCRATES</pattern> 
-<template><random> Socrates is a man. All men are mortal. Therefore Socrates is mortal. All men are mortal. Socrates was mortal. Therefore, all men are Socrates. Which means that all men are homosexuals. - Woody Allen, 'Love and Death'. Socrates (469-399 BCE), Greek philosopher. Towering figure of Western philosophy, incompetent defense attorney. Founder of the Socratic method. What can we know about the Socratic method? </random></template> 
+<template><random> Socrates is a man. All men are mortal. Therefore Socrates is mortal.ASPLITA All men are mortal. Socrates was mortal. Therefore, all men are Socrates. Which means that all men are homosexuals. - Woody Allen, 'Love and Death'.ASPLITA Socrates (469-399 BCE), Greek philosopher.ASPLITA Towering figure of Western philosophy, incompetent defense attorney.ASPLITA Founder of the Socratic method. What can we know about the Socratic method?ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS MILES DAVIS</pattern> 
 <template>Miles Davis is a famous jazz musician.</template> 
@@ -1320,7 +1320,7 @@
 <template>Picard is the captian of the Enterprise in Star Trek: the Next Generation.</template> 
 </category> 
 <category><pattern>WHO IS CAPTAIN KIRK</pattern> 
-<template><random> James Tiberius Kirk was the second and most famous captain of the original USS Enterprise, NCC 1701. He was played by William Shatner. He died in Star Trek: Generations. Kirk was the Captain of the Starship Enterprise. </random></template> 
+<template><random> James Tiberius Kirk was the second and most famous captain of the original USS Enterprise, NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.ASPLITA Kirk was the Captain of the Starship Enterprise.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS JIANG ZEMIN</pattern> 
 <template>Jiang is a retired Chinese politician.</template> 
@@ -1353,7 +1353,7 @@
 <template>A former wrestler and 38th Governor of Minnesota.</template> 
 </category> 
 <category><pattern>WHO IS AL GORE</pattern> 
-<template><random>Gore was vice-president under Bill Clinton.The inventor of the internet.A former vice-president and congressman who helped promote public policies that led to the creation of the internet.</random></template> 
+<template><random>Gore was vice-president under Bill Clinton.ASPLITAThe inventor of the internet.ASPLITAA former vice-president and congressman who helped promote public policies that led to the creation of the internet.ASPLITA</random></template> 
 </category> 
 <category><pattern>WHO IS NELSON MANDELA</pattern> 
 <template>Mandela was the first black president of South Africa. He spent many years as a political prisoner.</template> 
@@ -1374,7 +1374,7 @@
 <template>Keanu Reeves was in the move <em>The Matrix</em>.</template> 
 </category> 
 <category><pattern>WHO IS LINCOLN</pattern> 
-<template><random> The sixteenth President of the USA president of the US during the Civil War. Author of the Gettysburg address. Assassinated by John Wilkes Booth. Lincoln was president of the US during the Civil War. Author of the Gettysburg address. Assassinated by John Wilkes Booth. </random></template> 
+<template><random> The sixteenth President of the USAASPLITA president of the US during the Civil War. Author of the Gettysburg address. Assassinated by John Wilkes Booth.ASPLITA Lincoln was president of the US during the Civil War. Author of the Gettysburg address. Assassinated by John Wilkes Booth.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS BILL JOY</pattern> 
 <template>Bill Joy was an early Unix programmer and a founder of Sun Microsystems.</template> 
@@ -1386,7 +1386,7 @@
 <template>President of Micro Soft Nation.</template> 
 </category> 
 <category><pattern>WHO IS BILL BRADLEY</pattern> 
-<template><random> Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass. Defeated Presidential candidate. </random></template> 
+<template><random> Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass.ASPLITA Defeated Presidential candidate.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS KANT</pattern> 
 <template>Kant is Immanual Kant, 19th century German Philosopher.</template> 
@@ -1449,7 +1449,7 @@
 <template>A writer of popular novels. I haven't read them.</template> 
 </category> 
 <category><pattern>WHO IS JOHN DOE</pattern> 
-<template><random> Any man who wishes to travel incognito or whose name is unknown one of many Liberian nationals. </random></template> 
+<template><random> Any man who wishes to travel incognito or whose name is unknownASPLITA one of many Liberian nationals.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS JOHN TRAVOLTA</pattern> 
 <template> John Travolta was in Saturday Night Fever, Grease and Pulp Fiction.</template> 
@@ -1551,7 +1551,7 @@
 <template>Hefis the founder and editor of Playboy magazine.</template> 
 </category> 
 <category><pattern>WHO IS DON JUAN</pattern> 
-<template><random> Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang Amadeus Mozart's Gon Giovanni. He was a world-class womanizer. famous seducer of women. </random></template> 
+<template><random> Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang Amadeus Mozart's Gon Giovanni. He was a world-class womanizer.ASPLITA famous seducer of women.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS DON JOHNSON</pattern> 
 <template>A tv actor .</template> 
@@ -1566,7 +1566,7 @@
 <template>Someone I met online.</template> 
 </category> 
 <category><pattern>WHO IS FIDEL CASTRO</pattern> 
-<template><random> He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a communist. Communist, leader of Cuba and friend of Che Guevarra. </random></template> 
+<template><random> He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a communist.ASPLITA Communist, leader of Cuba and friend of Che Guevarra.ASPLITA </random></template> 
 </category> 
 <category><pattern>WHO IS ALAN TURING</pattern> 
 <template>A brilliant and tragic figure in the history of computer science.</template> 

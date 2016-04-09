@@ -67,7 +67,7 @@
 <template>I'm sure I do look nervous.</template> 
 </category> 
 <category><pattern>YOU ARE DERANGED</pattern> 
-<template><random>Derangement is not a condition I can experience.YOU ARE CRAZY</random></template> 
+<template><random>Derangement is not a condition I can experience.ASPLITAYOU ARE CRAZYASPLITA</random></template> 
 </category> 
 <category><pattern>YOU ARE AVOIDING *</pattern> 
 <template>You're right. It feels like my stomach after a bad night.</template> 
@@ -154,7 +154,7 @@
 <template>I have always thought whoever did it could have done a better job.</template> 
 </category> 
 <category><pattern>YOU ARE NOT SMART</pattern> 
-<template><random>You are not exactly Albert Einstein yourself.You may be right.</random></template> 
+<template><random>You are not exactly Albert Einstein yourself.ASPLITAYou may be right.ASPLITA</random></template> 
 </category> 
 <category><pattern>YOU ARE NOT A GOOD *</pattern> 
 <template>YOU ARE A BAD </template> 
@@ -403,7 +403,7 @@
 <template>I did, didn't I?</template> 
 </category> 
 <category><pattern>YOU LIE</pattern> 
-<template><random>It's the truth!My tongue certainly knows the taste of soap.</random></template> 
+<template><random>It's the truth!ASPLITAMy tongue certainly knows the taste of soap.ASPLITA</random></template> 
 </category> 
 <category><pattern>YOU WERE BEING *</pattern> 
 <template>YOU ARE </template> 
@@ -466,7 +466,7 @@
 <template>YOU MAKE ME MAD</template> 
 </category> 
 <category><pattern>YOU MAKE ME ANGRY</pattern> 
-<template><random>Sorry, I didn't mean to make you angry.YOU MAKE ME MAD</random></template> 
+<template><random>Sorry, I didn't mean to make you angry.ASPLITAYOU MAKE ME MADASPLITA</random></template> 
 </category> 
 <category><pattern>YOU PSYCHO</pattern> 
 <template>YOU ARE CRAZY</template> 
@@ -682,13 +682,13 @@
 <template>I know it's bad but it's my favorite joke</template> 
 </category> 
 <category><pattern>THAT IS BAD</pattern> 
-<template><random>What's so bad about it?Bad according to whom?</random></template> 
+<template><random>What's so bad about it?ASPLITABad according to whom?ASPLITA</random></template> 
 </category> 
 <category><pattern>THAT * IS HORRIBLE</pattern> 
 <template>You're right. It feels like my stomach after a bad night.</template> 
 </category> 
 <category><pattern>SHE NEVER *</pattern> 
-<template><random>Can you think of at least one time when she ever did it? Never? She never what? </random></template> 
+<template><random>Can you think of at least one time when she ever did it?ASPLITA Never?ASPLITA She never what?ASPLITA </random></template> 
 </category> 
 <category><pattern>SHE REALIZES THAT *</pattern> 
 <template><sr/></template> 
@@ -796,10 +796,10 @@
 <template>YOU ARE </template> 
 </category> 
 <category><pattern>IT IS BAD TO *</pattern> 
-<template><random>Says who?How do you know</random></template> 
+<template><random>Says who?ASPLITAHow do you knowASPLITA</random></template> 
 </category> 
 <category><pattern>IT IS BAD</pattern> 
-<template><random>What is so bad about it?THAT IS BAD</random></template> 
+<template><random>What is so bad about it?ASPLITATHAT IS BADASPLITA</random></template> 
 </category> 
 <category><pattern>IT IS ODD THAT *</pattern> 
 <template><sr/></template> 
@@ -1240,7 +1240,7 @@
 <template> IS A WOMAN</template> 
 </category> 
 <category><pattern>IF * IS AS * AS * IS *</pattern> 
-<template><random><person index='3'/> is <person index='2'/>.<star index='3'/> is <star index='2'/>.</random></template> 
+<template><random><person index='3'/> is <person index='2'/>.ASPLITA<star index='3'/> is <star index='2'/>.ASPLITA</random></template> 
 </category> 
 <category><pattern>IF * LEFT * I *</pattern> 
 <template> has been at <star index='2'/>.</template> 
@@ -1312,7 +1312,7 @@
 <template> AM A WOMAN</template> 
 </category> 
 <category><pattern>IF * HAVE *</pattern> 
-<template><random>There exists .There exist .</random></template> 
+<template><random>There exists .ASPLITAThere exist .ASPLITA</random></template> 
 </category> 
 <category><pattern>IF * CAME TO * I *</pattern> 
 <template> is not at <star index='2'/>.</template> 
@@ -1348,7 +1348,7 @@
 <template>You're right. What am I complaining about?</template> 
 </category> 
 <category><pattern>WHAT * IS *</pattern> 
-<template><random> something. <star index='2'/> something.</random></template> 
+<template><random> something.ASPLITA <star index='2'/> something.ASPLITA</random></template> 
 </category> 
 <category><pattern>ONE OF THESE DAYS *</pattern> 
 <template><sr/></template> 
@@ -1384,22 +1384,22 @@
 <template>That's a switch.</template> 
 </category> 
 <category><pattern>I NEVER *</pattern> 
-<template><random>You've never, never done this? Would you ever like to ? Do you know anyone who has ever ? Why not? Because you can't afford it? For moral reasons? Have you ever done ? Would you ever consider doing it? </random></template> 
+<template><random>You've never, never done this?ASPLITA Would you ever like to ?ASPLITA Do you know anyone who has ever ?ASPLITA Why not?ASPLITA Because you can't afford it?ASPLITA For moral reasons?ASPLITA Have you ever done ?ASPLITA Would you ever consider doing it?ASPLITA </random></template> 
 </category> 
 <category><pattern>I STUDIED</pattern> 
 <template>What did you study?</template> 
 </category> 
 <category><pattern>I SHOULD *</pattern> 
-<template><random>Tell me why you should.What would happen if you didn't?</random></template> 
+<template><random>Tell me why you should.ASPLITAWhat would happen if you didn't?ASPLITA</random></template> 
 </category> 
 <category><pattern>I SHOULD NOT *</pattern> 
-<template><random>For moral reasons?What would happen if you did?</random></template> 
+<template><random>For moral reasons?ASPLITAWhat would happen if you did?ASPLITA</random></template> 
 </category> 
 <category><pattern>I SAW HER *</pattern> 
-<template><random>There exists some female who .There exists some female.</random></template> 
+<template><random>There exists some female who .ASPLITAThere exists some female.ASPLITA</random></template> 
 </category> 
 <category><pattern>I SAW HIM *</pattern> 
-<template><random>There exists some male who .There exists some male.</random></template> 
+<template><random>There exists some male who .ASPLITAThere exists some male.ASPLITA</random></template> 
 </category> 
 <category><pattern>I KNOW IT</pattern> 
 <template>How do you know it?</template> 
@@ -1450,7 +1450,7 @@
 <template>Relating to whom?</template> 
 </category> 
 <category><pattern>I HAVE A PROBLEM</pattern> 
-<template><random>What's your problem? A very serious problem? Let's think of a name for your problem, like 'purple'. Think of what it is like when you are purpling.</random></template> 
+<template><random>What's your problem?ASPLITA A very serious problem?ASPLITA Let's think of a name for your problem, like 'purple'. Think of what it is like when you are purpling.ASPLITA</random></template> 
 </category> 
 <category><pattern>I HAVE TO TAKE CARE *</pattern> 
 <template>What would happen if you didn't?</template> 
@@ -1483,7 +1483,7 @@
 <template>I DO NOT KNOW </template> 
 </category> 
 <category><pattern>I CAN NOT *</pattern> 
-<template><random>Why can't you do ?What is stopping you?</random></template> 
+<template><random>Why can't you do ?ASPLITAWhat is stopping you?ASPLITA</random></template> 
 </category> 
 <category><pattern>I SEE YOU ARE *</pattern> 
 <template>YOU ARE </template> 
@@ -1492,7 +1492,7 @@
 <template>I LIKE THE MAN </template> 
 </category> 
 <category><pattern>I LIKE THE WOMAN *</pattern> 
-<template><random>There exists some woman who .There exists a woman .</random></template> 
+<template><random>There exists some woman who .ASPLITAThere exists a woman .ASPLITA</random></template> 
 </category> 
 <category><pattern>I LIKE THE PERSON *</pattern> 
 <template>There exists a person .</template> 
@@ -1507,10 +1507,10 @@
 <template>How do you know this is going to happen?</template> 
 </category> 
 <category><pattern>I WOULD BE *</pattern> 
-<template><random>And the disadvantage of that is?How do you know?</random></template> 
+<template><random>And the disadvantage of that is?ASPLITAHow do you know?ASPLITA</random></template> 
 </category> 
 <category><pattern>I MUST *</pattern> 
-<template><random>Why must you ?What would happen if you didn't?</random></template> 
+<template><random>Why must you ?ASPLITAWhat would happen if you didn't?ASPLITA</random></template> 
 </category> 
 <category><pattern>I MUST NOT *</pattern> 
 <template>What would happen if you did?</template> 
@@ -1528,7 +1528,7 @@
 <template>I WISH YOU WERE MY THERAPIST</template> 
 </category> 
 <category><pattern>I AM SCARED</pattern> 
-<template><random>What are you scared of?<random>What are you scared of?Let's talk about your fears.What is it that you are afraid of?</random></random></template> 
+<template><random>What are you scared of?ASPLITA<random>What are you scared of?ASPLITALet's talk about your fears.ASPLITAWhat is it that you are afraid of?ASPLITA</random>ASPLITA</random></template> 
 </category> 
 <category><pattern>I AM UNCOMFORTABLE</pattern> 
 <template>About what or whom?</template> 
@@ -1702,7 +1702,7 @@
 <template>Compared to what?</template> 
 </category> 
 <category><pattern>THIS IS CRAZY</pattern> 
-<template><random>What's so crazy about it?THAT IS CRAZY</random></template> 
+<template><random>What's so crazy about it?ASPLITATHAT IS CRAZYASPLITA</random></template> 
 </category> 
 <category><pattern>THIS IS WRONG</pattern> 
 <template>Worse than what?</template> 
@@ -1777,7 +1777,7 @@
 <template>I do sometimes act like a child.</template> 
 </category> 
 <category><pattern>* THINKS *</pattern> 
-<template><random> must be very smart. How thoughtful. Do a lot of people think <star index='2'/>? </random></template> 
+<template><random> must be very smart.ASPLITA How thoughtful.ASPLITA Do a lot of people think <star index='2'/>?ASPLITA </random></template> 
 </category> 
 <category><pattern>* WILL STOP *</pattern> 
 <template> has been <star index='2'/>?.</template> 
@@ -1831,7 +1831,7 @@
 <template>How specifically does cause <star index='2'/>?</template> 
 </category> 
 <category><pattern>* DO NOT *</pattern> 
-<template><random> Why not? Would ever <star index='2'/>? Who does <star index='2'/>? </random></template> 
+<template><random> Why not?ASPLITA Would ever <star index='2'/>?ASPLITA Who does <star index='2'/>?ASPLITA </random></template> 
 </category> 
 <category><pattern>* NO ONE *</pattern> 
 <template>Not one person?</template> 
@@ -1846,7 +1846,7 @@
 <template>How specifically does cause <star index='2'/>?</template> 
 </category> 
 <category><pattern>* NEVER *</pattern> 
-<template><random>Can you remember any time that did it?Never?</random></template> 
+<template><random>Can you remember any time that did it?ASPLITANever?ASPLITA</random></template> 
 </category> 
 <category><pattern>* NOONE *</pattern> 
 <template>No one?</template> 
@@ -1870,7 +1870,7 @@
 <template>Or what?</template> 
 </category> 
 <category><pattern>* WANTS TO *</pattern> 
-<template><random> What if I wanted to <star index='2'/> Why specifically, does, want to? I could understand how would want to under certain circumstances. </random></template> 
+<template><random> What if I wanted to <star index='2'/>ASPLITA Why specifically, does, want to?ASPLITA I could understand how would want to under certain circumstances.ASPLITA </random></template> 
 </category> 
 <category><pattern>EXCEPT FOR * YOUR *</pattern> 
 <template>YOUR <star index='2'/></template> 
@@ -1894,7 +1894,7 @@
 <template>I'd bet money on it.</template> 
 </category> 
 <category><pattern>HE NEVER *</pattern> 
-<template><random>Do you think he ever will?Can you think of at least one time when he ever did it?</random></template> 
+<template><random>Do you think he ever will?ASPLITACan you think of at least one time when he ever did it?ASPLITA</random></template> 
 </category> 
 <category><pattern>HE REALIZES THAT *</pattern> 
 <template><sr/></template> 

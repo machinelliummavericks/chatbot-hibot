@@ -27,18 +27,23 @@ def remove_tags(aiml_file, dir_in, dir_out):
 
     def set_attributes(x_new):
         """Hard code user and bot info"""
-        #x_new = x_new.replace('<get name="name"/>','friend')
-        #x_new = x_new.replace('<get name="age"/>','30')
-        #x_new = x_new.replace('<get name="gender"/>','male')
-        #x_new = x_new.replace('<get name="location"/>','Boston')
-        #x_new = x_new.replace('<get name="personality"/>','great')
-        #x_new = x_new.replace('<get name="job"/>','Physicists')
+
+        ## Fix weird formatting found in some files
+        x_new = x_new.replace('" />','"/>')
+
         x_new = x_new.replace('<get name="name"/>','[get name="name"]')
         x_new = x_new.replace('<get name="age"/>','[get name="age"]')
         x_new = x_new.replace('<get name="gender"/>','[get name="gender"]')
         x_new = x_new.replace('<get name="location"/>','[get name="location"]')
         x_new = x_new.replace('<get name="personality"/>','[get name="personality"]')
         x_new = x_new.replace('<get name="job"/>','[get name="job"]')
+
+        x_new = x_new.replace('<get name="name" />','[get name="name"]')
+        x_new = x_new.replace('<get name="age" />','[get name="age"]')
+        x_new = x_new.replace('<get name="gender" />','[get name="gender"]')
+        x_new = x_new.replace('<get name="location" />','[get name="location"]')
+        x_new = x_new.replace('<get name="personality" />','[get name="personality"]')
+        x_new = x_new.replace('<get name="job" />','[get name="job"]')
 
         x_new = x_new.replace('<get name="it"/>','it')
         x_new = x_new.replace('<get name="memory"/>','everything')
@@ -64,13 +69,17 @@ def remove_tags(aiml_file, dir_in, dir_out):
         x_new = x_new.replace('<bot name="feelings"/>','I am electric')
         x_new = x_new.replace('<bot name="size"/>','1,000,000')
         x_new = x_new.replace('<bot name="favoritefood"/>','pizza')
+        x_new = x_new.replace('<bot name="birthday"/>','Jan 8th 1856')
+        x_new = x_new.replace('<bot name="birthplace"/>','Mars')
+        x_new = x_new.replace('<bot name="location"/>','a Server')
+        x_new = x_new.replace('<bot name="nationality"/>','a computer')
 
         return x_new
 
     with open(file_to_run,'r') as f, open (file_to_write, 'w') as w:
         for x in f:
             ## Remove tags
-            x_new = x.replace('</set>','').replace('<li>','').replace('</li>','').replace('<br/>','')\
+            x_new = x.replace('</set>','').replace('<li>','').replace('</li>','ASPLITA').replace('<br/>','')\
                 .replace('<srai>','').replace('</srai>','').replace('<star/>','')\
                 .replace('<condition>','').replace('</condition>','').replace('<date>','').replace('</date>','').replace('<formal>','').replace('</formal>','')\
                 .replace('<gender>','').replace('</gender>','').replace('<id>','').replace('</id>','').replace('<learn>','').replace('</learn>','')\
@@ -144,7 +153,13 @@ def write_JSON(aiml_file, dir_in, dir_out, tag):
                     for j in k:
                         #k.text = str(j.text).split("[" + string.punctuation + "]+")[0]
                         #k.text = re.split("[" + string.punctuation + "]+",str(j.text))[0]
-                        k.text = re.split("[\n]+",str(j.text))[0]
+                        #k.text = re.split("[\n]+",str(j.text))[0]
+                        k.text = re.split("ASPLITA",str(j.text))[0]
+
+                try:
+                    k.text = k.text.strip()
+                except:
+                    k.text = k.text
 
                 ## Don't write a ',' on the last entry
                 if child_cnt == len(child) - 1:
@@ -187,10 +202,10 @@ if __name__ == "__main__":
         aiml_files = [['ai.aiml','ai'],
                       ['astrology.aiml','astrology'],
                       ['atomic.aiml','atomic'],
-                      #['atomic-categories0.aiml','atomic-categories0'],
+                      ['atomic-categories0.aiml','atomic-categories0'],
                       ['biography.aiml','biography'],
                       ['computers.aiml','computers'],
-                      ['drugs.aiml','drugs'],
+                      #['drugs.aiml','drugs'],
                       ['emotion.aiml','emotion'],
                       ['geography.aiml','geography'],
                       ['knowledge.aiml','knowledge'],
@@ -198,9 +213,9 @@ if __name__ == "__main__":
                       ['music.aiml','music'],
                       ['politics.aiml','politics'],
                       ['psychology.aiml','psychology'],
-                      #['pyschology.aiml','pyschology'],
-                      #['religion.aiml','religion'],
-                      ['sex.aiml','sex'],
+                      ##['pyschology.aiml','pyschology'],
+                      ##['religion.aiml','religion'],
+                      #['sex.aiml','sex'],
                       ['sports.aiml','sports'],
                       ['science.aiml','science']
                      ]

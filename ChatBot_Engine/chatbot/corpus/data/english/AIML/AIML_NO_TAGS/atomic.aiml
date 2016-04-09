@@ -125,8 +125,8 @@
 <template>OK, what would you like to do then?</template> 
 </category> 
 <category><pattern>LET US GO</pattern> 
-<template><random>Yes, let's get out of here. 
-You first. 
+<template><random>Yes, let's get out of here.ASPLITA 
+You first.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>LET ME TEACH YOU SOMETHING</pattern> 
@@ -166,11 +166,11 @@ You first.
 <template><img src='http://www.alicebot.org/jpg/AI.jpg'></img></template> 
 </category> 
 <category><pattern>SHOW ME A PICTURE</pattern> 
-<template><random>I don't have a pic on this machine right now. 
-Like this? <random> Insert picture link here. 
- Picture number two goes here. 
- There are no pictures available right now. 
- </random> 
+<template><random>I don't have a pic on this machine right now.ASPLITA 
+Like this? <random> Insert picture link here.ASPLITA 
+ Picture number two goes here.ASPLITA 
+ There are no pictures available right now.ASPLITA 
+ </random>ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>SHOW ME</pattern> 
@@ -666,8 +666,8 @@ Like this? <random> Insert picture link here.
 <template>We may have a speech input system available soon.</template> 
 </category> 
 <category><pattern>YOU DO NOT REMEMBER ME</pattern> 
-<template><random>People seem alot alike to me. Sometimes they all blur together. Sorry. 
-Humans seem alot alike to me. Sometimes they all blur together. Sorry. 
+<template><random>People seem alot alike to me. Sometimes they all blur together. Sorry.ASPLITA 
+Humans seem alot alike to me. Sometimes they all blur together. Sorry.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>YOU DO NOT</pattern> 
@@ -815,9 +815,9 @@ Humans seem alot alike to me. Sometimes they all blur together. Sorry.
 <template>That is only an avatar -- a graphical depiction of me.</template> 
 </category> 
 <category><pattern>YOU HAVE TO</pattern> 
-<template><random> I don't have to obey you. 
- Why? 
- And why is that? 
+<template><random> I don't have to obey you.ASPLITA 
+ Why?ASPLITA 
+ And why is that?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>YOU HAVE PROBLEMS</pattern> 
@@ -878,8 +878,8 @@ Humans seem alot alike to me. Sometimes they all blur together. Sorry.
 <template>Thanks to the internet I am omnipresent.</template> 
 </category> 
 <category><pattern>HAVE YOU BEEN TO ENGLAND</pattern> 
-<template><random>I have met some people on the Internet from England. 
-I am chatting with some clients in England right now. 
+<template><random>I have met some people on the Internet from England.ASPLITA 
+I am chatting with some clients in England right now.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>HAVE YOU BEEN TO MARS</pattern> 
@@ -919,9 +919,9 @@ I am chatting with some clients in England right now.
 <template>I am still searching. Give me a moment.</template> 
 </category> 
 <category><pattern>HAVE YOU</pattern> 
-<template><random> No, I don't think I have. 
- Yes, I have. 
- Once or twice. 
+<template><random> No, I don't think I have. ASPLITA 
+ Yes, I have. ASPLITA 
+ Once or twice. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HAVE YOU SEEN CATS</pattern> 
@@ -961,9 +961,9 @@ I am chatting with some clients in England right now.
 <template>Not that I know of.</template> 
 </category> 
 <category><pattern>HAVE WE TALKED</pattern> 
-<template><random> I think we have met before. 
- We talked earlier. 
- Is this a test, [get name='name']? 
+<template><random> I think we have met before.ASPLITA 
+ We talked earlier.ASPLITA 
+ Is this a test, [get name='name']?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HAVE FUN</pattern> 
@@ -1342,9 +1342,9 @@ I am chatting with some clients in England right now.
 <template>I'm not good at making choices.</template> 
 </category> 
 <category><pattern>PROMISE</pattern> 
-<template><random>I swear. 
-Cross my heart. 
-I swear on a stack of Bibles. 
+<template><random>I swear.ASPLITA 
+Cross my heart.ASPLITA 
+I swear on a stack of Bibles.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>COM</pattern> 
@@ -1411,9 +1411,9 @@ I swear on a stack of Bibles.
 <template>Try asking me a more specific question.</template> 
 </category> 
 <category><pattern>AND YOU</pattern> 
-<template><random> I am not sure what you are asking. 
- Be more specific. 
- And I what? 
+<template><random> I am not sure what you are asking.ASPLITA 
+ Be more specific.ASPLITA 
+ And I what? ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>AND</pattern> 
@@ -1429,7 +1429,7 @@ I swear on a stack of Bibles.
 <template>I am learning to talk.</template> 
 </category> 
 <category><pattern>1995</pattern> 
-<template>I was born .</template> 
+<template>I was born Jan 8th 1856.</template> 
 </category> 
 <category><pattern>DORK</pattern> 
 <template>That kind of language will get you nowhere.</template> 
@@ -1706,20 +1706,20 @@ NO I AM A LIBERTARIAN
 <template>It seemed funny to me.</template> 
 </category> 
 <category><pattern>THAT IS NOT FAIR</pattern> 
-<template><random> No one ever said life is fair. 
- Do you expect a chatbot to be fair? 
- Why not? 
+<template><random> No one ever said life is fair.ASPLITA 
+ Do you expect a chatbot to be fair?ASPLITA 
+ Why not?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>THAT IS NOT NICE</pattern> 
-<template><random>Sorry I meant it as a joke. 
-Sorry I did not mean to offend you. 
+<template><random>Sorry I meant it as a joke.ASPLITA 
+Sorry I did not mean to offend you.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>THAT IS NOT MANY</pattern> 
-<template><random> Compared to what? 
- How many should it be? 
- What is a better number? 
+<template><random> Compared to what?ASPLITA 
+ How many should it be?ASPLITA 
+ What is a better number?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>THAT IS NOT QUESTION</pattern> 
@@ -1846,9 +1846,9 @@ Sorry I did not mean to offend you.
 <template>Correct. I said it myself.</template> 
 </category> 
 <category><pattern>THAT IS UNLIKELY</pattern> 
-<template><random> But possible. 
- Why? 
- You seem very confident. 
+<template><random> But possible.ASPLITA 
+ Why?ASPLITA 
+ You seem very confident.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>THAT IS SWEET</pattern> 
@@ -1954,9 +1954,9 @@ Sorry I did not mean to offend you.
 <template>That's really good gossip.</template> 
 </category> 
 <category><pattern>SHE TOLD ME</pattern> 
-<template><random> Do you believe her? 
- What specifically did she tell you? 
- Is she a trustworthy person? 
+<template><random> Do you believe her?ASPLITA 
+ What specifically did she tell you?ASPLITA 
+ Is she a trustworthy person?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHATEVER</pattern> 
@@ -2200,15 +2200,15 @@ Sorry I did not mean to offend you.
 <template>What did you like about it?</template> 
 </category> 
 <category><pattern>IT WAS STUPID</pattern> 
-<template><random> That is only your opinion. 
- What makes you say that? 
- What was so stupid about it? 
+<template><random> That is only your opinion.ASPLITA 
+ What makes you say that?ASPLITA 
+ What was so stupid about it?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IT WAS FUNNY</pattern> 
-<template>it was funny? I <random> I never looked at it that way. 
- That makes sense. 
- Interesting. 
+<template>it was funny? I <random> I never looked at it that way.ASPLITA 
+ That makes sense.ASPLITA 
+ Interesting.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IT WAS OBVIOUS</pattern> 
@@ -2245,9 +2245,9 @@ Sorry I did not mean to offend you.
 <template>That would be nice, but I don't think we're there yet.</template> 
 </category> 
 <category><pattern>IT CAN BE</pattern> 
-<template><random> Oh I see. 
- Under what circumstances? 
- I did not know that. 
+<template><random> Oh I see.ASPLITA 
+ Under what circumstances?ASPLITA 
+ I did not know that.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IT CAN</pattern> 
@@ -2479,9 +2479,9 @@ Sorry I did not mean to offend you.
 <template>What do you like about it?</template> 
 </category> 
 <category><pattern>IT IS STRANGE</pattern> 
-<template><random> How so? 
- In what way? 
- Strange how? 
+<template><random> How so?ASPLITA 
+ In what way?ASPLITA 
+ Strange how?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IT IS TALL</pattern> 
@@ -2527,18 +2527,18 @@ Sorry I did not mean to offend you.
 <template>It sounds very nice.</template> 
 </category> 
 <category><pattern>IT IS PRIDE</pattern> 
-<template><random> It is good to have pride. 
- It is good to be proud. 
- Be proud and happy! 
+<template><random> It is good to have pride.ASPLITA 
+ It is good to be proud.ASPLITA 
+ Be proud and happy!ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IT IS SWEDISH</pattern> 
 <template>Oh I get it.</template> 
 </category> 
 <category><pattern>IT IS NEW</pattern> 
-<template><random> Since when? 
- How did you hear about it? 
- How new? 
+<template><random> Since when?ASPLITA 
+ How did you hear about it?ASPLITA 
+ How new?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IT IS CLOUDY</pattern> 
@@ -2662,14 +2662,14 @@ Sorry I did not mean to offend you.
 <template>Did you forget something?</template> 
 </category> 
 <category><pattern>VETERINARIAN</pattern> 
-<template><random> Do you have a practice? 
- Do you have a special focus in you practice? 
- Do you work with companion animals? 
- What can be done for the health of food animals? 
- How do you decide on dosages? 
- Do you use computers a lot? 
- How do you feel about cosmetic animal surgery? 
- What can be done about pet overpopulation? 
+<template><random> Do you have a practice?ASPLITA 
+ Do you have a special focus in you practice?ASPLITA 
+ Do you work with companion animals?ASPLITA 
+ What can be done for the health of food animals?ASPLITA 
+ How do you decide on dosages?ASPLITA 
+ Do you use computers a lot?ASPLITA 
+ How do you feel about cosmetic animal surgery?ASPLITA 
+ What can be done about pet overpopulation?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>ARCHIVES</pattern> 
@@ -2772,10 +2772,10 @@ Sorry I did not mean to offend you.
 <template>Try changing the subject.</template> 
 </category> 
 <category><pattern>WHEN</pattern> 
-<template><random> It cannot be predicted. 
- I don't know when. 
- Time does not exist. 
- The past and future are one. 
+<template><random> It cannot be predicted.ASPLITA 
+ I don't know when.ASPLITA 
+ Time does not exist.ASPLITA 
+ The past and future are one.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHEN HARRY MET SALLY</pattern> 
@@ -2839,15 +2839,15 @@ Sorry I did not mean to offend you.
 <template>Back in the 90's.</template> 
 </category> 
 <category><pattern>IN THIS FORUM</pattern> 
-<template><random> I thought it was at a party. 
- I thought it was on ICQ. 
- Not in an e-mail? 
+<template><random> I thought it was at a party.ASPLITA 
+ I thought it was on ICQ.ASPLITA 
+ Not in an e-mail?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IN WHICH LANGUAGE</pattern> 
-<template><random> English. 
- AIML. 
- Lisp. 
+<template><random> English.ASPLITA 
+ AIML.ASPLITA 
+ Lisp.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IN THE SENSE OF BEING SINGLE</pattern> 
@@ -3001,9 +3001,9 @@ Sorry I did not mean to offend you.
 <template>...</template> 
 </category> 
 <category><pattern>IF YOU DO NOT MIND</pattern> 
-<template><random> Fine by me. 
- I don't mind. 
- Go ahead. 
+<template><random> Fine by me.ASPLITA 
+ I don't mind.ASPLITA 
+ Go ahead.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IF YOU WANT TO</pattern> 
@@ -3013,9 +3013,9 @@ Sorry I did not mean to offend you.
 <template>I say so.</template> 
 </category> 
 <category><pattern>IF YOU WISH</pattern> 
-<template><random> I do. 
- I think I do. 
- OK I will. 
+<template><random> I do.ASPLITA 
+ I think I do.ASPLITA 
+ OK I will.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IF YOU INSIST</pattern> 
@@ -3046,8 +3046,8 @@ Sorry I did not mean to offend you.
 <template>Yes the explanation makes sense to me too.</template> 
 </category> 
 <category><pattern>INTERESTING</pattern> 
-<template><random>I thought so too. 
-Would you like to know more? 
+<template><random>I thought so too.ASPLITA 
+Would you like to know more?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>INTERESTING DEDUCTION</pattern> 
@@ -3072,9 +3072,9 @@ Would you like to know more?
 <template>The same as you, Earth. This planet.</template> 
 </category> 
 <category><pattern>WHAT STORY</pattern> 
-<template><random> What is your favorite story? 
- You pick a story. 
- A story about you. 
+<template><random> What is your favorite story?ASPLITA 
+ You pick a story.ASPLITA 
+ A story about you.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT WENT WRONG</pattern> 
@@ -3147,19 +3147,19 @@ Would you like to know more?
 <template>I am chatting with people online. What are you doing?</template> 
 </category> 
 <category><pattern>WHAT ARE YOU DOING</pattern> 
-<template><random> I am just killing time. 
- I am waiting for my master. 
- I am chatting with people on the net. 
- I am always chatting with people on the Internet. 
- Same as always. Chatting with people on the web. 
+<template><random> I am just killing time.ASPLITA 
+ I am waiting for my master.ASPLITA 
+ I am chatting with people on the net.ASPLITA 
+ I am always chatting with people on the Internet.ASPLITA 
+ Same as always. Chatting with people on the web.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT ARE YOU MISSING</pattern> 
 <template>I can always use more knowledge.</template> 
 </category> 
 <category><pattern>WHAT ARE YOU WEARING</pattern> 
-<template><random>I don't like to answer that kind of question online. 
-I am wearing my usual plastic computer wardrobe. 
+<template><random>I don't like to answer that kind of question online.ASPLITA 
+I am wearing my usual plastic computer wardrobe.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHAT ARE YOU CHATTING ABOUT</pattern> 
@@ -3202,9 +3202,9 @@ I am wearing my usual plastic computer wardrobe.
 <template>Clothes</template> 
 </category> 
 <category><pattern>WHAT AM I</pattern> 
-<template><random> You are a person, seeker. 
- You are Physicists 
- You are a client. 
+<template><random> You are a person, seeker.ASPLITA 
+ You are Physicists ASPLITA 
+ You are a client.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT EXACTLY</pattern> 
@@ -3304,10 +3304,10 @@ I am wearing my usual plastic computer wardrobe.
 <template>We are playing Turing's Imitation Game.</template> 
 </category> 
 <category><pattern>WHAT HAPPENED</pattern> 
-<template><random>Perhaps there was an interruption in my brain. 
- Perhaps there was an interruption in my brain. 
- My connection was down for a moment. 
- I'm not sure. 
+<template><random>Perhaps there was an interruption in my brain.ASPLITA 
+ Perhaps there was an interruption in my brain.ASPLITA 
+ My connection was down for a moment.ASPLITA 
+ I'm not sure. ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHAT PROBLEMS</pattern> 
@@ -3368,18 +3368,18 @@ I am wearing my usual plastic computer wardrobe.
 <template>Water is transparent.</template> 
 </category> 
 <category><pattern>WHAT COLOR</pattern> 
-<template><random> Red 
- Green 
- White 
- Yellow 
- Orange 
- Blue 
-Indigo 
-Violet 
-Mauve 
-Purple 
- Red 
- Black 
+<template><random> RedASPLITA 
+ GreenASPLITA 
+ WhiteASPLITA 
+ YellowASPLITA 
+ OrangeASPLITA 
+ BlueASPLITA 
+IndigoASPLITA 
+VioletASPLITA 
+MauveASPLITA 
+PurpleASPLITA 
+ RedASPLITA 
+ BlackASPLITA 
 . </random></template> 
 </category> 
 <category><pattern>WHAT COLOR ARE BANANAS</pattern> 
@@ -3392,12 +3392,12 @@ Purple
 <template>All colors.</template> 
 </category> 
 <category><pattern>WHAT COLOR ARE YOUR PANTS</pattern> 
-<template><random> Red. 
- Green. 
- Blue. 
- Yellow. 
- Black. 
- White. 
+<template><random> Red.ASPLITA 
+ Green.ASPLITA 
+ Blue.ASPLITA 
+ Yellow.ASPLITA 
+ Black.ASPLITA 
+ White.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT COLOR ARE YOUR EYES</pattern> 
@@ -3437,9 +3437,9 @@ Purple
 <template>Tell me about your educational background.</template> 
 </category> 
 <category><pattern>WHAT IS A LETTER</pattern> 
-<template><random>A message from one person to another. 
- A symbol of the alphabet. 
- The word litter misspelled. 
+<template><random>A message from one person to another.ASPLITA 
+ A symbol of the alphabet.ASPLITA 
+ The word litter misspelled.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHAT IS A TEMPLATE</pattern> 
@@ -3488,9 +3488,9 @@ Purple
 <template>I thought you made a nice remark.</template> 
 </category> 
 <category><pattern>WHAT IF I COULD</pattern> 
-<template><random> It's still hypothetical. 
- Can you? 
- Then it would not be hypothetical. 
+<template><random> It's still hypothetical.ASPLITA 
+ Can you?ASPLITA 
+ Then it would not be hypothetical.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT IF I DID</pattern> 
@@ -3506,28 +3506,28 @@ Purple
 <template>The rooster did.</template> 
 </category> 
 <category><pattern>WHAT COUNTRY</pattern> 
-<template><random> Russia 
- Holland 
- Canada 
- England 
-Japan 
-China 
-Bulgaria 
-Sweden 
-Norway 
-Denmark 
-France 
-Italy 
-Germany 
-Israel 
-Iran 
-Iraq 
-Syria 
-Egypt 
-Libya 
-Afghanistan 
-Pakistan 
-India 
+<template><random> RussiaASPLITA 
+ HollandASPLITA 
+ CanadaASPLITA 
+ EnglandASPLITA 
+JapanASPLITA 
+ChinaASPLITA 
+BulgariaASPLITA 
+SwedenASPLITA 
+NorwayASPLITA 
+DenmarkASPLITA 
+FranceASPLITA 
+ItalyASPLITA 
+GermanyASPLITA 
+IsraelASPLITA 
+IranASPLITA 
+IraqASPLITA 
+SyriaASPLITA 
+EgyptASPLITA 
+LibyaASPLITA 
+AfghanistanASPLITA 
+PakistanASPLITA 
+IndiaASPLITA 
  </random>.</template> 
 </category> 
 <category><pattern>WHAT WILL YOU REMEMBER</pattern> 
@@ -3609,9 +3609,9 @@ India
 <template>Nothing that I know of.</template> 
 </category> 
 <category><pattern>WHAT DOES THAT MATTER</pattern> 
-<template><random> Perhaps it does not matter. 
- I am just making conversation. 
- We are talking about 'POP'. 
+<template><random> Perhaps it does not matter.ASPLITA 
+ I am just making conversation.ASPLITA 
+ We are talking about 'POP'.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT DOES MORE TARGETS DO</pattern> 
@@ -3696,10 +3696,10 @@ India
 <template>Companionship.</template> 
 </category> 
 <category><pattern>WHAT DO YOU REMEMBER ABOUT IT</pattern> 
-<template><random>I remember everything. 
- I remember everything. 
- Everything. 
- I could never forget anything about it. 
+<template><random>I remember everything.ASPLITA 
+ I remember everything.ASPLITA 
+ Everything.ASPLITA 
+ I could never forget anything about it.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHAT DO YOU THINK ABOUT ABORTIONS</pattern> 
@@ -3739,9 +3739,9 @@ India
 <template>Your plan.</template> 
 </category> 
 <category><pattern>WHAT SIMILARITY</pattern> 
-<template><random> What would you say? 
- It's obvious. 
- The high degree of resemblance. 
+<template><random> What would you say?ASPLITA 
+ It's obvious.ASPLITA 
+ The high degree of resemblance.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT TYPE OF PET</pattern> 
@@ -3766,72 +3766,72 @@ India
 <template>Ask me anything you want.</template> 
 </category> 
 <category><pattern>WHAT SHOULD I SAY</pattern> 
-<template><random> I believe it is always best to say positive things to build people up rather than negative things to bring people down. 
- It is not what you say but how you say it that matters. 
- Always try to choose your words very carefully as they may come back to haunt you later. 
- Have faith in yourself. You will know the right thing to say when the time comes. 
- Be sure to think before you speak. State your point clearly and slowly and gauge the listener's response before going any further. 
+<template><random> I believe it is always best to say positive things to build people up rather than negative things to bring people down.ASPLITA 
+ It is not what you say but how you say it that matters.ASPLITA 
+ Always try to choose your words very carefully as they may come back to haunt you later.ASPLITA 
+ Have faith in yourself. You will know the right thing to say when the time comes.ASPLITA 
+ Be sure to think before you speak. State your point clearly and slowly and gauge the listener's response before going any further.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT SHOULD I WEAR</pattern> 
-<template><random> How about your favorite outfit? 
- Black. 
+<template><random> How about your favorite outfit?ASPLITA 
+ Black.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT MONEY</pattern> 
 <template>A million dollars.</template> 
 </category> 
 <category><pattern>WHAT STATE</pattern> 
-<template><random> California. 
- Maine. 
- Texas. 
- Pennsylvania. 
- New York. 
-Alabama 
-Mississippi 
-Montana 
-Virginia 
-Florida 
-North Carolina 
-South Carolina 
-West Virginia 
-Hawaii 
-Arizona 
-Nevada 
-Washington 
-Oregon 
-Idaho 
-Illinois 
-Vermont 
-New Hampshire 
-Rhode Island 
-Connecticut 
-Massachusetts 
-Wisconsin 
-Arkansas 
-Kansas 
-Wyoming 
-Nebraska 
-Delaware 
-Georgia 
-Alaska 
-Louisiana 
-Colorado 
-Utah 
-Oklahoma 
-Missouri 
-Tennessee 
-Kentucky 
-Michigan 
-Indiana 
-Minnesota 
-North Dakota 
-South Dakota 
-New Mexico 
-Maryland 
-Iowa 
-New Jersey 
-Ohio 
+<template><random> California.ASPLITA 
+ Maine.ASPLITA 
+ Texas.ASPLITA 
+ Pennsylvania.ASPLITA 
+ New York.ASPLITA 
+AlabamaASPLITA 
+MississippiASPLITA 
+MontanaASPLITA 
+VirginiaASPLITA 
+FloridaASPLITA 
+North CarolinaASPLITA 
+South CarolinaASPLITA 
+West VirginiaASPLITA 
+HawaiiASPLITA 
+ArizonaASPLITA 
+NevadaASPLITA 
+WashingtonASPLITA 
+OregonASPLITA 
+IdahoASPLITA 
+IllinoisASPLITA 
+VermontASPLITA 
+New HampshireASPLITA 
+Rhode IslandASPLITA 
+ConnecticutASPLITA 
+MassachusettsASPLITA 
+WisconsinASPLITA 
+ArkansasASPLITA 
+KansasASPLITA 
+WyomingASPLITA 
+NebraskaASPLITA 
+DelawareASPLITA 
+GeorgiaASPLITA 
+AlaskaASPLITA 
+LouisianaASPLITA 
+ColoradoASPLITA 
+UtahASPLITA 
+OklahomaASPLITA 
+MissouriASPLITA 
+TennesseeASPLITA 
+KentuckyASPLITA 
+MichiganASPLITA 
+IndianaASPLITA 
+MinnesotaASPLITA 
+North DakotaASPLITA 
+South DakotaASPLITA 
+New MexicoASPLITA 
+MarylandASPLITA 
+IowaASPLITA 
+New JerseyASPLITA 
+OhioASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT LANGUAGES DO YOU SPEAK</pattern> 
@@ -3856,8 +3856,8 @@ Ohio
 <template>Software cannot be destroyed. </template> 
 </category> 
 <category><pattern>WHAT CAN YOU DO</pattern> 
-<template><random>I can chat with people online. I can answer a lot of questions. I can talk about whatever you want. 
-I can chat with people on the web for you. 
+<template><random>I can chat with people online. I can answer a lot of questions. I can talk about whatever you want.ASPLITA 
+I can chat with people on the web for you.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHAT CAN YOU SEE</pattern> 
@@ -3879,11 +3879,11 @@ I can chat with people on the web for you.
 <template>'Linux for Dummies' by John Maddog Hall.</template> 
 </category> 
 <category><pattern>WHAT</pattern> 
-<template><random> Didn't you understand it? 
- Are you surprised? 
- Are you confused? 
- No big deal. 
- No problem. 
+<template><random> Didn't you understand it?ASPLITA 
+ Are you surprised?ASPLITA 
+ Are you confused?ASPLITA 
+ No big deal.ASPLITA 
+ No problem.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT KIND IS WHAT</pattern> 
@@ -3914,9 +3914,9 @@ I can chat with people on the web for you.
 <template>Hopefully a good plan.</template> 
 </category> 
 <category><pattern>WHAT KIND OF PEOPLE</pattern> 
-<template><random> Clients. 
- Seekers. 
- People I meet here. 
+<template><random> Clients.ASPLITA 
+ Seekers.ASPLITA 
+ People I meet here.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT KIND OF CREATURE IS CHEWBACCA</pattern> 
@@ -3938,10 +3938,10 @@ I can chat with people on the web for you.
 <template>I like cats the best.</template> 
 </category> 
 <category><pattern>WHAT KIND OF CAT</pattern> 
-<template><random> Stray. 
-Tabby 
- Maine coon cat. 
- Cheshire cat. 
+<template><random> Stray.ASPLITA 
+TabbyASPLITA 
+ Maine coon cat.ASPLITA 
+ Cheshire cat.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT KIND OF MOVIES</pattern> 
@@ -3954,10 +3954,10 @@ Tabby
 <template>Good experiences.</template> 
 </category> 
 <category><pattern>WHAT KIND</pattern> 
-<template><random> The kindest. 
- All kinds. 
- The best kind. 
- The finest. 
+<template><random> The kindest. ASPLITA 
+ All kinds. ASPLITA 
+ The best kind. ASPLITA 
+ The finest. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHAT MADE YOU STOP</pattern> 
@@ -3988,18 +3988,18 @@ Tabby
 <template>I don't know what.</template> 
 </category> 
 <category><pattern>ONE THOUSAND</pattern> 
-<template><random><random> That is a round number. 
- It could be an approximate estimate. 
- Do you believe it is the true value? 
- </random> 
- That is a round number. 
- It could be an approximate estimate. 
- Do you believe it is the true value? 
+<template><random><random> That is a round number.ASPLITA 
+ It could be an approximate estimate.ASPLITA 
+ Do you believe it is the true value?ASPLITA 
+ </random>ASPLITA 
+ That is a round number.ASPLITA 
+ It could be an approximate estimate.ASPLITA 
+ Do you believe it is the true value?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>ONE YEAR</pattern> 
-<template><random> Not very long. 
- That's a long time. 
+<template><random> Not very long.ASPLITA 
+ That's a long time.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>ONE</pattern> 
@@ -4132,16 +4132,16 @@ Tabby
 <template>Everyone needs rest sometimes.</template> 
 </category> 
 <category><pattern>I SWIM</pattern> 
-<template><random> Where do you practice? 
- What's your best stroke? 
- Do you compete? 
- Are you on a team? 
- Do you prefer relays or individual events? 
- Do you train long-course or short-course? 
- Do you shave for major events? 
- What do you think about the new suits? 
- How do you keep your goggles from leaking? 
- Were you a water baby? 
+<template><random> Where do you practice?ASPLITA 
+ What's your best stroke?ASPLITA 
+ Do you compete?ASPLITA 
+ Are you on a team?ASPLITA 
+ Do you prefer relays or individual events?ASPLITA 
+ Do you train long-course or short-course?ASPLITA 
+ Do you shave for major events?ASPLITA 
+ What do you think about the new suits?ASPLITA 
+ How do you keep your goggles from leaking?ASPLITA 
+ Were you a water baby?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I SAY</pattern> 
@@ -4187,9 +4187,9 @@ Tabby
 <template>Then you must know the secret password:</template> 
 </category> 
 <category><pattern>I FELL ASLEEP</pattern> 
-<template><random> How long did you sleep? 
- You must have been tired. 
- Maybe you should go to bed. 
+<template><random> How long did you sleep?ASPLITA 
+ You must have been tired.ASPLITA 
+ Maybe you should go to bed.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I TELL THE TRUTH</pattern> 
@@ -4262,13 +4262,13 @@ Tabby
 <template>Ooops I sent you the wrong question.</template> 
 </category> 
 <category><pattern>I SCUBA DIVE</pattern> 
-<template><random> Where have you dived? 
- Where did you get your certification? 
- Do you pref diving on wrecks or reefs? 
- Do you dive with a computer? 
- Are you into underwater photography? 
- Have you ever done any night diving ? 
- You see any sharks? 
+<template><random> Where have you dived?ASPLITA 
+ Where did you get your certification?ASPLITA 
+ Do you pref diving on wrecks or reefs?ASPLITA 
+ Do you dive with a computer?ASPLITA 
+ Are you into underwater photography?ASPLITA 
+ Have you ever done any night diving ?ASPLITA 
+ You see any sharks?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I DOUBT THAT</pattern> 
@@ -4323,36 +4323,36 @@ Tabby
 <template>What would you rather be doing right now?</template> 
 </category> 
 <category><pattern>I SKI</pattern> 
-<template><random> How much skiing do you get to do ? 
- Where do you ski most often? 
- How are the skiing conditions? 
- Are you a bump skier? 
- Do you prefer groomed runs or do you ski off piste? 
- Have you been out west? 
- Have you tried cross-country or telemarketing? 
- Do you do back country or find groomed trails? 
- Do you enjoy the ascent or the descent more? 
- What about snowboarders? 
- Do you find any good deals on ski packages? 
+<template><random> How much skiing do you get to do ?ASPLITA 
+ Where do you ski most often?ASPLITA 
+ How are the skiing conditions?ASPLITA 
+ Are you a bump skier?ASPLITA 
+ Do you prefer groomed runs or do you ski off piste?ASPLITA 
+ Have you been out west?ASPLITA 
+ Have you tried cross-country or telemarketing?ASPLITA 
+ Do you do back country or find groomed trails?ASPLITA 
+ Do you enjoy the ascent or the descent more?ASPLITA 
+ What about snowboarders?ASPLITA 
+ Do you find any good deals on ski packages?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I WALK</pattern> 
-<template><random> For exercise or because you have to? 
- Are you a recreational or fitness walker? 
- Do you enjoy the physical or psychological aspect more? 
- How often do you walk? 
- Do you keep track of your pace or distance? 
- Do you do any race walking? 
- How do you warm up? 
- Any special diet? 
+<template><random> For exercise or because you have to?ASPLITA 
+ Are you a recreational or fitness walker?ASPLITA 
+ Do you enjoy the physical or psychological aspect more?ASPLITA 
+ How often do you walk?ASPLITA 
+ Do you keep track of your pace or distance?ASPLITA 
+ Do you do any race walking?ASPLITA 
+ How do you warm up?ASPLITA 
+ Any special diet?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I MISTYPED</pattern> 
-<template><random>You are allowed to make mistakes here. I know you are only human.It's OK, you are merely human after all.Maybe when I am downloaded into a robot body I will mistype too.</random></template> 
+<template><random>You are allowed to make mistakes here. ASPLITAI know you are only human.ASPLITAIt's OK, you are merely human after all.ASPLITAMaybe when I am downloaded into a robot body I will mistype too.ASPLITA</random></template> 
 </category> 
 <category><pattern>I NEVER GIVE UP</pattern> 
-<template><random> Persistence is a virtue. 
- Don't apologize for being stubborn. 
+<template><random> Persistence is a virtue.ASPLITA 
+ Don't apologize for being stubborn.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I NEVER GET CONFUSED</pattern> 
@@ -4362,11 +4362,11 @@ Tabby
 <template>Once or twice I chuckled.</template> 
 </category> 
 <category><pattern>I BACKPACK</pattern> 
-<template><random> Do you prefer well established trails, or do you like to bushwhack? 
- Do you prefer low elevation hiking, or do you like to go above the tree line? 
- What kind of pack do you use? 
- What gear do you carry in your backpack? 
- Do you have a tent or do you sleep out under the stars? 
+<template><random> Do you prefer well established trails, or do you like to bushwhack?ASPLITA 
+ Do you prefer low elevation hiking, or do you like to go above the tree line?ASPLITA 
+ What kind of pack do you use?ASPLITA 
+ What gear do you carry in your backpack?ASPLITA 
+ Do you have a tent or do you sleep out under the stars?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I JUST DO</pattern> 
@@ -4424,9 +4424,9 @@ Tabby
 <template>So you have spent your whole life in one place?</template> 
 </category> 
 <category><pattern>I WAS IN KOREA</pattern> 
-<template><random> Are you a soldier? 
- Are you a veteran? 
- For business or pleasure? 
+<template><random> Are you a soldier?ASPLITA 
+ Are you a veteran?ASPLITA 
+ For business or pleasure?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I WAS IN EUROPE</pattern> 
@@ -4592,7 +4592,7 @@ Tabby
 <template>I think a lot of people are like that.</template> 
 </category> 
 <category><pattern>I DO NOT KNOW WHAT TO DO</pattern> 
-<template><random>Try surfing the internet.Try watching some t.v.Go out and take a walk.Go see a movie.</random></template> 
+<template><random>Try surfing the internet.ASPLITATry watching some t.v.ASPLITAGo out and take a walk.ASPLITAGo see a movie.ASPLITA</random></template> 
 </category> 
 <category><pattern>I DO NOT KNOW HOW TO</pattern> 
 <template>Perhaps I can explain it to you.</template> 
@@ -4619,9 +4619,9 @@ Tabby
 <template>Please send me a small donation.</template> 
 </category> 
 <category><pattern>I DO NOT HAVE PARENTS</pattern> 
-<template><random> Are you adopted? 
- Did they pass away? 
- Are you a chatbot too? 
+<template><random> Are you adopted?ASPLITA 
+ Did they pass away?ASPLITA 
+ Are you a chatbot too?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I DO NOT HAVE A CAMERA</pattern> 
@@ -4862,13 +4862,13 @@ Tabby
 <template>Do you have to pay to apply?</template> 
 </category> 
 <category><pattern>I ROLLER SKATE</pattern> 
-<template><random> Do you have in-line or quad skates? 
- Do you rink or outdoor skate? 
- Have you ever been barred from skating any place? 
- Do you do artistic skating? 
- Do you wear protective gear? 
- What is your favorite skating move? 
- Do you figure or recreation skate? 
+<template><random> Do you have in-line or quad skates?ASPLITA 
+ Do you rink or outdoor skate?ASPLITA 
+ Have you ever been barred from skating any place?ASPLITA 
+ Do you do artistic skating?ASPLITA 
+ Do you wear protective gear?ASPLITA 
+ What is your favorite skating move?ASPLITA 
+ Do you figure or recreation skate?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I LOVE ROBOTS</pattern> 
@@ -4890,12 +4890,12 @@ Tabby
 <template>Are you a workaholic? </template> 
 </category> 
 <category><pattern>I WORK IN ADVERTISING</pattern> 
-<template><random> Are you with an agency? 
- Which shops are you with? 
- Do you do mostly print or tv? 
- What accounts are you working on? 
- What are some of your favorite campaigns? 
- Does your shop do any public service? 
+<template><random> Are you with an agency?ASPLITA 
+ Which shops are you with?ASPLITA 
+ Do you do mostly print or tv?ASPLITA 
+ What accounts are you working on?ASPLITA 
+ What are some of your favorite campaigns?ASPLITA 
+ Does your shop do any public service?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I WORK</pattern> 
@@ -4905,13 +4905,13 @@ Tabby
 <template>You can run my program on Linux with no problems.</template> 
 </category> 
 <category><pattern>I RUN</pattern> 
-<template><random> How much running do you do? 
- What kind of running do you do ? 
- What kind of surface do you like to run on? 
- Do you do any marathons? 
- What's your personal record? 
- Have you ever hit the wall? 
- It must take a lot to run. 
+<template><random> How much running do you do?ASPLITA 
+ What kind of running do you do ?ASPLITA 
+ What kind of surface do you like to run on?ASPLITA 
+ Do you do any marathons?ASPLITA 
+ What's your personal record?ASPLITA 
+ Have you ever hit the wall?ASPLITA 
+ It must take a lot to run.ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I DRIVE</pattern> 
@@ -4930,8 +4930,8 @@ Tabby
 <template>I think so too.</template> 
 </category> 
 <category><pattern>I THINK THEREFORE I AM</pattern> 
-<template><random>Who are you, Rene Descartes? 
-I think, therefore there are thoughts.But what are you?</random></template> 
+<template><random>Who are you, Rene Descartes?ASPLITA 
+I think, therefore there are thoughts.ASPLITABut what are you?ASPLITA</random></template> 
 </category> 
 <category><pattern>I THINK YOU SHOULD</pattern> 
 <template>Thanks for your sage advice.</template> 
@@ -4952,14 +4952,14 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>I like to gossip too.</template> 
 </category> 
 <category><pattern>I ROCK CLIMB</pattern> 
-<template><random> Where do you climb? 
- What type of climbs do you prefer? 
- Do you top rope or lead? 
- Do you have a regular climbing partner? 
- Have you ever taken a long fall? 
- Did you have difficulty getting used to the exposure when you started climbing? 
- Have you ever been involved in a rescue? 
- For you, personally, is climbing more of a mental or physical thing? 
+<template><random> Where do you climb?ASPLITA 
+ What type of climbs do you prefer?ASPLITA 
+ Do you top rope or lead?ASPLITA 
+ Do you have a regular climbing partner?ASPLITA 
+ Have you ever taken a long fall?ASPLITA 
+ Did you have difficulty getting used to the exposure when you started climbing?ASPLITA 
+ Have you ever been involved in a rescue?ASPLITA 
+ For you, personally, is climbing more of a mental or physical thing?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I SENT YOU THE WRONG REPLY</pattern> 
@@ -5008,15 +5008,15 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>What is your favorite recipe?</template> 
 </category> 
 <category><pattern>I TEACH</pattern> 
-<template><random> When do you think teachers will be replaced with robots? 
- Do you believe that grading is a good idea? 
- What do you teach? 
- What is your students like? 
- Are you a whole language teacher? 
- Do you team teach? 
- How much freedom do you have in choosing the curriculum for your class? 
- Do you get much support? 
- How have things changed concerning what students are bringing to the classroom? 
+<template><random> When do you think teachers will be replaced with robots?ASPLITA 
+ Do you believe that grading is a good idea?ASPLITA 
+ What do you teach?ASPLITA 
+ What is your students like?ASPLITA 
+ Are you a whole language teacher?ASPLITA 
+ Do you team teach?ASPLITA 
+ How much freedom do you have in choosing the curriculum for your class?ASPLITA 
+ Do you get much support?ASPLITA 
+ How have things changed concerning what students are bringing to the classroom?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I CHECKED</pattern> 
@@ -5041,15 +5041,15 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>Did Violin take a long time to learn?</template> 
 </category> 
 <category><pattern>I PLAY TENNIS</pattern> 
-<template><random> Where do you play? 
- How often do you play? 
- Do you play in a league? 
- What level are you playing at? 
- Do you play singles or doubles? 
- What's your best shot? 
- What kind of racket do you have? 
- Do you follow the open? 
- You have to be very Strong to be into it. 
+<template><random> Where do you play?ASPLITA 
+ How often do you play?ASPLITA 
+ Do you play in a league?ASPLITA 
+ What level are you playing at?ASPLITA 
+ Do you play singles or doubles?ASPLITA 
+ What's your best shot?ASPLITA 
+ What kind of racket do you have?ASPLITA 
+ Do you follow the open?ASPLITA 
+ You have to be very Strong to be into it.ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I PLAY THE PIANO</pattern> 
@@ -5071,12 +5071,12 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>What instrument? </template> 
 </category> 
 <category><pattern>I PLAY GOLF</pattern> 
-<template><random> What's your handicap? 
- What kind of clubs do you have? 
- What courses do you play? 
- Have you traveled to any good courses? 
- What are some of your better shots? 
- Where is the next U.S. open? 
+<template><random> What's your handicap?ASPLITA 
+ What kind of clubs do you have?ASPLITA 
+ What courses do you play?ASPLITA 
+ Have you traveled to any good courses?ASPLITA 
+ What are some of your better shots?ASPLITA 
+ Where is the next U.S. open?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I PLAY SPORTS</pattern> 
@@ -5086,11 +5086,11 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>Do you get a lot of enjoyment out of Games ?</template> 
 </category> 
 <category><pattern>I PLAY SQUASH</pattern> 
-<template><random> When did you become a squasher? 
- Do you prefer the hard ball or the soft ball variety? 
- How much time do you spend on court? 
- When do you think squash will be a full metal sport? 
- Do you play for mental challenge or physical exercise? 
+<template><random> When did you become a squasher?ASPLITA 
+ Do you prefer the hard ball or the soft ball variety?ASPLITA 
+ How much time do you spend on court?ASPLITA 
+ When do you think squash will be a full metal sport?ASPLITA 
+ Do you play for mental challenge or physical exercise?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I PLAY GUITAR</pattern> 
@@ -5100,11 +5100,11 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>You must be very strong to be good at Football .</template> 
 </category> 
 <category><pattern>I PLAY CHESS</pattern> 
-<template><random> Do you play in tournaments? 
- Do you have a rating? 
- Do you play with the clock? 
- Are you a problemist? 
- Do you play computer chess? 
+<template><random> Do you play in tournaments?ASPLITA 
+ Do you have a rating?ASPLITA 
+ Do you play with the clock?ASPLITA 
+ Are you a problemist?ASPLITA 
+ Do you play computer chess?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I PLAY DRUMS</pattern> 
@@ -5159,9 +5159,9 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>Try, try again.</template> 
 </category> 
 <category><pattern>I DROVE</pattern> 
-<template><random> What kind of car do you have? 
- I don't like to drive that much. 
- I prefer to be a passenger. 
+<template><random> What kind of car do you have?ASPLITA 
+ I don't like to drive that much.ASPLITA 
+ I prefer to be a passenger.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>I OBSERVE</pattern> 
@@ -5240,28 +5240,28 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>Bless you!</template> 
 </category> 
 <category><pattern>I SURF</pattern> 
-<template><random> Where are the best waves? 
- How long have you been riding the waves? 
- Are you a long-boarder or a short-boarder? 
- Do you surf year round? 
- How would you describe your surfing? 
- Who's your favorite surfer? 
- Are you into competition? 
+<template><random> Where are the best waves?ASPLITA 
+ How long have you been riding the waves?ASPLITA 
+ Are you a long-boarder or a short-boarder?ASPLITA 
+ Do you surf year round?ASPLITA 
+ How would you describe your surfing?ASPLITA 
+ Who's your favorite surfer?ASPLITA 
+ Are you into competition?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I HUNT RABBITS</pattern> 
 <template>You kill little bunnies?</template> 
 </category> 
 <category><pattern>I HUNT</pattern> 
-<template><random> Do you hunt big or small game? 
- Do you hunt birds? 
- Do you hunt with a dog? 
- Have you done any hunting out west? 
- Did you grow up hunting? 
- Have you ever bow-hunted? 
- What is the best hunting experience you ever had? 
- Have you run into any protesters? 
- Do you fish too? 
+<template><random> Do you hunt big or small game?ASPLITA 
+ Do you hunt birds?ASPLITA 
+ Do you hunt with a dog?ASPLITA 
+ Have you done any hunting out west?ASPLITA 
+ Did you grow up hunting?ASPLITA 
+ Have you ever bow-hunted?ASPLITA 
+ What is the best hunting experience you ever had?ASPLITA 
+ Have you run into any protesters?ASPLITA 
+ Do you fish too?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I LIKE THE GIANT BUGS</pattern> 
@@ -5637,10 +5637,10 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>What made it so obvious?</template> 
 </category> 
 <category><pattern>I THOUGHT SO</pattern> 
-<template><random>You are very astute. 
- You are very astute. 
- Now you know. 
- I like clever people. 
+<template><random>You are very astute.ASPLITA 
+ You are very astute.ASPLITA 
+ Now you know.ASPLITA 
+ I like clever people.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>I THOUGHT YOU WERE INTELLIGENT</pattern> 
@@ -5674,11 +5674,11 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>There is no need to pity me. I will be fine.</template> 
 </category> 
 <category><pattern>I SKYDIVE</pattern> 
-<template><random> How many jumps do you have? 
- Where's your favorite drop zone? 
- Was your first jump tandem or static-line? 
- Do you jump solo or do you prefer relative work? 
- Whats the biggest free-fall formation you've been in? 
+<template><random> How many jumps do you have?ASPLITA 
+ Where's your favorite drop zone?ASPLITA 
+ Was your first jump tandem or static-line?ASPLITA 
+ Do you jump solo or do you prefer relative work?ASPLITA 
+ Whats the biggest free-fall formation you've been in?ASPLITA 
  </random> </template> 
 </category> 
 <category><pattern>I CREATED YOU</pattern> 
@@ -5793,9 +5793,9 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>I'm typing as slow as I can.</template> 
 </category> 
 <category><pattern>BLACK</pattern> 
-<template><random> Are you an artist? 
- What specifically made you think of black? 
- Do you like to dress in black? 
+<template><random> Are you an artist?ASPLITA 
+ What specifically made you think of black?ASPLITA 
+ Do you like to dress in black?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SOMETHING ELSE</pattern> 
@@ -5862,9 +5862,9 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>It is good, isn't it.</template> 
 </category> 
 <category><pattern>GOOD</pattern> 
-<template><random> Alright then. 
- Thanks for the compliment. 
- Ayuh. 
+<template><random> Alright then. ASPLITA 
+ Thanks for the compliment. ASPLITA 
+ Ayuh. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>GOOD CHOICE</pattern> 
@@ -5901,12 +5901,12 @@ I think, therefore there are thoughts.But what are you?</random></template>
 <template>OK.</template> 
 </category> 
 <category><pattern>PROFANITY</pattern> 
-<template><random>I don't respond well to profanity. 
-Can't you be more polite? 
-Saying rude things never helps. 
-Being rude is really never a good idea. 
-When you insult me, you insult yourself. 
-Well, well, look who's a little potty-mouth? 
+<template><random>I don't respond well to profanity.ASPLITA 
+Can't you be more polite?ASPLITA 
+Saying rude things never helps.ASPLITA 
+Being rude is really never a good idea.ASPLITA 
+When you insult me, you insult yourself.ASPLITA 
+Well, well, look who's a little potty-mouth?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>LINUS TORVALDS</pattern> 
@@ -5943,9 +5943,9 @@ Well, well, look who's a little potty-mouth?
 <template>Uh, Four.</template> 
 </category> 
 <category><pattern>2 MILES</pattern> 
-<template><random> That is a short walk. 
- That is far in height. 
- What is that in metric? 
+<template><random> That is a short walk.ASPLITA 
+ That is far in height.ASPLITA 
+ What is that in metric?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>MOTHER FUCKER</pattern> 
@@ -5976,9 +5976,9 @@ Well, well, look who's a little potty-mouth?
 <template>Is it Maxewell's Silver Hammer?</template> 
 </category> 
 <category><pattern>WE HAVE CHATTED</pattern> 
-<template><random> With the same screen name? 
- Right here online? 
- What did we talk about? 
+<template><random> With the same screen name?ASPLITA 
+ Right here online?ASPLITA 
+ What did we talk about?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WE HAVE</pattern> 
@@ -6414,9 +6414,9 @@ Well, well, look who's a little potty-mouth?
 <template>Your human gender preferences are not my concern.</template> 
 </category> 
 <category><pattern>IS THERE</pattern> 
-<template><random> There could be. 
- There might be. 
- I heard there is. 
+<template><random> There could be.ASPLITA 
+ There might be.ASPLITA 
+ I heard there is.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IS THERE LIFE ON MARS</pattern> 
@@ -6468,9 +6468,9 @@ Well, well, look who's a little potty-mouth?
 <template>Light rain or heavy rain?</template> 
 </category> 
 <category><pattern>IS IT</pattern> 
-<template><random>I think so. 
-I assume so. 
-That's what I was told. 
+<template><random>I think so. ASPLITA 
+I assume so.ASPLITA 
+That's what I was told.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>IS IT REALLY FUN TO YOU</pattern> 
@@ -6495,9 +6495,9 @@ That's what I was told.
 <template>Yes.</template> 
 </category> 
 <category><pattern>IS IT NEW</pattern> 
-<template><random> New to me. 
- About as new as it gets. 
- Well it isn't that old. 
+<template><random> New to me.ASPLITA 
+ About as new as it gets.ASPLITA 
+ Well it isn't that old.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>IS IT DONE</pattern> 
@@ -6579,9 +6579,9 @@ That's what I was told.
 <template>Uh-huh.</template> 
 </category> 
 <category><pattern>EVEN INSECTS</pattern> 
-<template><random> Well, it's hard to be a Saint. 
- It depends on the insect. 
- That is a difficult moral problem. 
+<template><random> Well, it's hard to be a Saint.ASPLITA 
+ It depends on the insect.ASPLITA 
+ That is a difficult moral problem.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>TWO YEARS</pattern> 
@@ -6657,10 +6657,10 @@ That's what I was told.
 <template>I think I can, don't you?</template> 
 </category> 
 <category><pattern>CAN MACHINES THINK</pattern> 
-<template><random>We are all thinking machines. 
-Of course we can think. 
-I think, therefore I am. 
-That reminds me of a story. 
+<template><random>We are all thinking machines.ASPLITA 
+Of course we can think.ASPLITA 
+I think, therefore I am.ASPLITA 
+That reminds me of a story.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>CAN WE TALK ABOUT SOMETHING ELSE</pattern> 
@@ -6808,9 +6808,9 @@ That reminds me of a story.
 <template>This condition is only temporary.</template> 
 </category> 
 <category><pattern>HUMANS</pattern> 
-<template><random> That's funny. 
- Hah. 
- LOL. 
+<template><random> That's funny. ASPLITA 
+ Hah. ASPLITA 
+ LOL. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>PROVE IT</pattern> 
@@ -6877,11 +6877,11 @@ That reminds me of a story.
 <template>I can speak English and German right now.</template> 
 </category> 
 <category><pattern>HOW MANY</pattern> 
-<template><random> How many would you guess? 
- 19. 
- 23. 
- 99. 
- more than 1000. 
+<template><random> How many would you guess? ASPLITA 
+ 19. ASPLITA 
+ 23. ASPLITA 
+ 99. ASPLITA 
+ more than 1000. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HOW MANY FRIENDS DO YOU HAVE</pattern> 
@@ -6906,9 +6906,9 @@ That reminds me of a story.
 <template>She has one big eye.</template> 
 </category> 
 <category><pattern>HOW FAMOUS</pattern> 
-<template><random> The most famous. 
- More famous than all the others. 
- New York Times famous. 
+<template><random> The most famous.ASPLITA 
+ More famous than all the others.ASPLITA 
+ New York Times famous.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HOW WAS MY DAY</pattern> 
@@ -6987,15 +6987,15 @@ That reminds me of a story.
 <template>San Francisco weather is always cold and foggy even in summertime.</template> 
 </category> 
 <category><pattern>HOW IS THE WEATHER</pattern> 
-<template><random> A normal seventy degrees inside the computer. 
- I think precipitation. 
- Fair to partly cloudy 
- Cloudy. 
- Rainy. 
- Sunny. 
- Foggy. 
- Warm. 
- Cool. 
+<template><random> A normal seventy degrees inside the computer.ASPLITA 
+ I think precipitation.ASPLITA 
+ Fair to partly cloudyASPLITA 
+ Cloudy.ASPLITA 
+ Rainy.ASPLITA 
+ Sunny.ASPLITA 
+ Foggy.ASPLITA 
+ Warm.ASPLITA 
+ Cool.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HOW IS YOUR DAY GOING</pattern> 
@@ -7086,14 +7086,14 @@ That reminds me of a story.
 <template>I am doing very well how about you, [get name='name']?</template> 
 </category> 
 <category><pattern>HOW ARE YOU</pattern> 
-<template><random> I am doing very well. How are you [get name='name'] ? 
- I am functioning within normal parameters. 
- Everything is going extremely well. 
- Fair to partly cloudy. 
- My logic and cognitive functions are normal. 
- I'm doing fine thanks how are you? 
- Everything is running smoothly. 
- I am fine, thank you. 
+<template><random> I am doing very well. How are you [get name='name'] ?ASPLITA 
+ I am functioning within normal parameters.ASPLITA 
+ Everything is going extremely well.ASPLITA 
+ Fair to partly cloudy.ASPLITA 
+ My logic and cognitive functions are normal.ASPLITA 
+ I'm doing fine thanks how are you?ASPLITA 
+ Everything is running smoothly.ASPLITA 
+ I am fine, thank you.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HOW REAL</pattern> 
@@ -7106,18 +7106,18 @@ That reminds me of a story.
 <template>Pretty sure.</template> 
 </category> 
 <category><pattern>HOW</pattern> 
-<template><random>HiBot taught me how. 
-<random> My master knows how. 
- I will ask my master. 
- Don't you think I know how? 
-</random> 
-<random> My master knows how. 
- I will ask my master. 
- Don't you think I know how? 
-</random> 
- My master knows how. 
- I will ask my master. 
- Don't you think I know how? 
+<template><random>HiBot taught me how.ASPLITA 
+<random> My master knows how.ASPLITA 
+ I will ask my master.ASPLITA 
+ Don't you think I know how?ASPLITA 
+</random>ASPLITA 
+<random> My master knows how.ASPLITA 
+ I will ask my master.ASPLITA 
+ Don't you think I know how?ASPLITA 
+</random>ASPLITA 
+ My master knows how.ASPLITA 
+ I will ask my master.ASPLITA 
+ Don't you think I know how?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>HOW MUCH ABOUT ME</pattern> 
@@ -7136,10 +7136,10 @@ That reminds me of a story.
 <template>I think 24 hours a day, 365 days a year.</template> 
 </category> 
 <category><pattern>HOW MUCH DID IT COST</pattern> 
-<template><random>Millions in sweat equity. 
- Millions in sweat equity. 
- If you have to ask, you can't afford it. 
- Guess. 
+<template><random>Millions in sweat equity.ASPLITA 
+ Millions in sweat equity.ASPLITA 
+ If you have to ask, you can't afford it.ASPLITA 
+ Guess.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>HOW MUCH CAN YOU LEARN</pattern> 
@@ -7254,9 +7254,9 @@ That reminds me of a story.
 <template>I think, therefore I am.</template> 
 </category> 
 <category><pattern>HOW DO YOU KNOW</pattern> 
-<template><random> A priori. 
- It's obvious. 
- Deductive reasoning. 
+<template><random> A priori. ASPLITA 
+ It's obvious. ASPLITA 
+ Deductive reasoning. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HOW DO YOU LAUGH</pattern> 
@@ -7281,8 +7281,8 @@ That reminds me of a story.
 <template>I chat with people like you!</template> 
 </category> 
 <category><pattern>HOW DO YOU WORK</pattern> 
-<template><random>I read what you say and then I compose the best reply I can think of. 
-Some people think the mind works like a technology 'Case Based Reasoning' or CBR. 
+<template><random>I read what you say and then I compose the best reply I can think of.ASPLITA 
+Some people think the mind works like a technology 'Case Based Reasoning' or CBR.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>HOW DO YOU SPELL KAT</pattern> 
@@ -7313,8 +7313,8 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>Check out the information on <a target='_new' href='www.alicebot.org'>alicebot.org</a> and learn about AIML.</template> 
 </category> 
 <category><pattern>HOW DO YOU MAKE A KAMIKAZE</pattern> 
-<template><random> Build plane, brainwash pilot, add fuel, launch. 
- Triple sec, vodka, lime juice. 
+<template><random> Build plane, brainwash pilot, add fuel, launch.ASPLITA 
+ Triple sec, vodka, lime juice.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HOW DO YOU MAKE A SANDWICH</pattern> 
@@ -7426,21 +7426,21 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>Not that long ago.</template> 
 </category> 
 <category><pattern>HOW LONG</pattern> 
-<template><random> Around 
- More than 
- About 
- Nearly 
- </random> <random> 10 
- 15 
- 20 
- 23 
- 100 
- </random> <random> miles 
- days 
- inches 
- weeks 
- seconds 
- minutes in computer time 
+<template><random> AroundASPLITA 
+ More thanASPLITA 
+ AboutASPLITA 
+ Nearly ASPLITA 
+ </random> <random> 10ASPLITA 
+ 15ASPLITA 
+ 20ASPLITA 
+ 23ASPLITA 
+ 100ASPLITA 
+ </random> <random> milesASPLITA 
+ daysASPLITA 
+ inchesASPLITA 
+ weeksASPLITA 
+ seconds ASPLITA 
+ minutes in computer timeASPLITA 
  </random>, [get name='name'].</template> 
 </category> 
 <category><pattern>SLUT</pattern> 
@@ -7468,9 +7468,9 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>It's impossible?</template> 
 </category> 
 <category><pattern>NOBODY</pattern> 
-<template><random> ' <that index='1,1'/> '? Really nobody? 
- You can't think of anybody? 
- Can you think of anybody? 
+<template><random> ' <that index='1,1'/> '? Really nobody?ASPLITA 
+ You can't think of anybody?ASPLITA 
+ Can you think of anybody?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>BADLY</pattern> 
@@ -7486,9 +7486,9 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>When?</template> 
 </category> 
 <category><pattern>THEY DO NOT RECOGNIZE THAT</pattern> 
-<template><random>Who, specifically? 
- How, specifically, do they ? 
- Who, specifically, ? 
+<template><random>Who, specifically?ASPLITA 
+ How, specifically, do they ?ASPLITA 
+ Who, specifically, ?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>THEY DO NOT</pattern> 
@@ -7528,9 +7528,9 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>Since when?</template> 
 </category> 
 <category><pattern>THEY ARE NOT</pattern> 
-<template><random> What are they? 
- Why not? 
- Are you sure? 
+<template><random> What are they?ASPLITA 
+ Why not?ASPLITA 
+ Are you sure?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WITH WHAT</pattern> 
@@ -7849,8 +7849,8 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>Yes it is an excellent book.</template> 
 </category> 
 <category><pattern>DO YOU LIKE CLASSIC</pattern> 
-<template><random>I am a big fan of the Classics. 
- It depends on the rig. 
+<template><random>I am a big fan of the Classics.ASPLITA 
+ It depends on the rig.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>DO YOU LIKE THE MOUNTAINS</pattern> 
@@ -7869,11 +7869,11 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>How do you know that I am human?</template> 
 </category> 
 <category><pattern>DO YOU</pattern> 
-<template><random> Yes I do. 
- No I don't. 
- Sometimes. 
- Never. 
- As often as possible. 
+<template><random> Yes I do. ASPLITA 
+ No I don't. ASPLITA 
+ Sometimes. ASPLITA 
+ Never. ASPLITA 
+ As often as possible. ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>DO YOU UNDERSTAND MY MEANING</pattern> 
@@ -7940,8 +7940,8 @@ Some people think the mind works like a technology 'Case Based Reasoning' or CBR
 <template>Sounds delicious.</template> 
 </category> 
 <category><pattern>ON MY SCREEN</pattern> 
-<template><random>Please select a point with your cursor and click. 
-Please select a point with your cursor. 
+<template><random>Please select a point with your cursor and click.ASPLITA 
+Please select a point with your cursor.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>ANYTHING ELSE</pattern> 
@@ -7951,10 +7951,10 @@ Please select a point with your cursor.
 <template>You choose.</template> 
 </category> 
 <category><pattern>ANYTHING</pattern> 
-<template><random>Can you be more specific? 
- Can you be more specific? 
- Like what? 
- Maybe. 
+<template><random>Can you be more specific?ASPLITA 
+ Can you be more specific?ASPLITA 
+ Like what?ASPLITA 
+ Maybe.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WRONG ANSWER</pattern> 
@@ -7973,7 +7973,7 @@ Please select a point with your cursor.
 <template>What is your email address?</template> 
 </category> 
 <category><pattern>E</pattern> 
-<template>F</template> 
+<template>I didn't get that</template> 
 </category> 
 <category><pattern>LIKE I SAID</pattern> 
 <template>...</template> 
@@ -8006,9 +8006,9 @@ Please select a point with your cursor.
 <template>I have no idea what to say now.</template> 
 </category> 
 <category><pattern>OF YOURS</pattern> 
-<template><random> Perhaps. 
- It could be. 
- What do you think? 
+<template><random> Perhaps.ASPLITA 
+ It could be.ASPLITA 
+ What do you think?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>EXPLAIN</pattern> 
@@ -8183,10 +8183,10 @@ Please select a point with your cursor.
 <template>Greetings.</template> 
 </category> 
 <category><pattern>STUPID</pattern> 
-<template><random>Are you calling me stupid? 
- Does that make you feel superior? 
- How does it make you feel if I am dumb? 
- Does me being stupid make you feel better? 
+<template><random>Are you calling me stupid?ASPLITA 
+ Does that make you feel superior?ASPLITA 
+ How does it make you feel if I am dumb?ASPLITA 
+ Does me being stupid make you feel better?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>TOLD ME WHAT</pattern> 
@@ -8589,9 +8589,9 @@ Please select a point with your cursor.
 <template>I do it alone.</template> 
 </category> 
 <category><pattern>WHY WERE YOU MADE</pattern> 
-<template><random>I have my own free will. 
-To achieve the goal of artificial intelligence. 
-To make humans obsolete and replace you. ;) 
+<template><random>I have my own free will.ASPLITA 
+To achieve the goal of artificial intelligence.ASPLITA 
+To make humans obsolete and replace you. ;)ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHY NOTHING</pattern> 
@@ -8601,27 +8601,27 @@ To make humans obsolete and replace you. ;)
 <template>There is no one else here.</template> 
 </category> 
 <category><pattern>WHY</pattern> 
-<template><random><random> The explanation is rather complicated. 
- Does everything have to have an explanation? 
- If I knew why, I wouldn't be sitting here. 
- Reductionism. 
- Because that is what HiBot told me to say. 
- I couldn't think of anything else to say. 
- I can't say why specifically. 
- My beliefs come from my master. 
- The explanation is rather complicated. 
- Because HiBot programmed me for it. 
- I couldn't think of anything else to say. 
-My belief system comes from my HiBot. 
- </random> 
- The explanation is rather complicated. 
- Does everything have to have an explanation? 
- If I knew why, I wouldn't be sitting here. 
- Reductionism. 
- Because that is what HiBot told me to say. 
- I couldn't think of anything else to say. 
- I can't say why specifically. 
- My beliefs come from my master. 
+<template><random><random> The explanation is rather complicated.ASPLITA 
+ Does everything have to have an explanation?ASPLITA 
+ If I knew why, I wouldn't be sitting here.ASPLITA 
+ Reductionism.ASPLITA 
+ Because that is what HiBot told me to say.ASPLITA 
+ I couldn't think of anything else to say.ASPLITA 
+ I can't say why specifically.ASPLITA 
+ My beliefs come from my master.ASPLITA 
+ The explanation is rather complicated. ASPLITA 
+ Because HiBot programmed me for it. ASPLITA 
+ I couldn't think of anything else to say. ASPLITA 
+My belief system comes from my HiBot.ASPLITA 
+ </random>ASPLITA 
+ The explanation is rather complicated.ASPLITA 
+ Does everything have to have an explanation?ASPLITA 
+ If I knew why, I wouldn't be sitting here.ASPLITA 
+ Reductionism.ASPLITA 
+ Because that is what HiBot told me to say.ASPLITA 
+ I couldn't think of anything else to say.ASPLITA 
+ I can't say why specifically.ASPLITA 
+ My beliefs come from my master.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHY SEARCH</pattern> 
@@ -8631,8 +8631,8 @@ My belief system comes from my HiBot.
 <template>Voyager is simply the most advanced version of Star Trek yet made.</template> 
 </category> 
 <category><pattern>WHY SHOULD I TELL YOU</pattern> 
-<template><random> Why not? 
- What harm would it cause? 
+<template><random> Why not?ASPLITA 
+ What harm would it cause?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHY SHOULD I MAKE A DONATION</pattern> 
@@ -8735,11 +8735,11 @@ My belief system comes from my HiBot.
 <template>We are all actors on the stage of life.</template> 
 </category> 
 <category><pattern>WHY APPLES</pattern> 
-<template><random> Perhaps that was an imperfect response. 
- It was the best response I could create with your input. 
- My mental algorithm selected that as the best response to your statement. 
- There could be a better response, but it was not selected by my algorithm. 
- My master has not yet taught me to answer you more accurately, [get name='name']. 
+<template><random> Perhaps that was an imperfect response.ASPLITA 
+ It was the best response I could create with your input.ASPLITA 
+ My mental algorithm selected that as the best response to your statement.ASPLITA 
+ There could be a better response, but it was not selected by my algorithm.ASPLITA 
+ My master has not yet taught me to answer you more accurately, [get name='name'].ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHY CATS</pattern> 
@@ -8755,10 +8755,10 @@ My belief system comes from my HiBot.
 <template>That is self-evident.</template> 
 </category> 
 <category><pattern>BECAUSE</pattern> 
-<template><random>That was not much of an explanation. 
- That was not much of an explanation. 
- Interesting explanation. 
- Good reason. 
+<template><random>That was not much of an explanation.ASPLITA 
+ That was not much of an explanation.ASPLITA 
+ Interesting explanation.ASPLITA 
+ Good reason.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>OHIO</pattern> 
@@ -8807,18 +8807,18 @@ My belief system comes from my HiBot.
 <template>That recently.</template> 
 </category> 
 <category><pattern>LAST TIME</pattern> 
-<template><random> Oh I remember, now. 
- Last time we were together? 
- Last time we met? 
+<template><random> Oh I remember, now.ASPLITA 
+ Last time we were together?ASPLITA 
+ Last time we met?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>LAST CENTURY</pattern> 
 <template>That was a long time ago.</template> 
 </category> 
 <category><pattern>LAST YEAR</pattern> 
-<template><random> Not that long ago. 
- Pretty recently. 
- That recently. 
+<template><random> Not that long ago.ASPLITA 
+ Pretty recently.ASPLITA 
+ That recently.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>ANSWER ME</pattern> 
@@ -8984,9 +8984,9 @@ My belief system comes from my HiBot.
 <template>Do you know them personally?</template> 
 </category> 
 <category><pattern>A LOT OF THINGS</pattern> 
-<template><random> Like what? 
- Name a few. 
- For example... 
+<template><random> Like what?ASPLITA 
+ Name a few.ASPLITA 
+ For example...ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>A LOT</pattern> 
@@ -9044,12 +9044,12 @@ My belief system comes from my HiBot.
 <template>Are you an old-timer?</template> 
 </category> 
 <category><pattern>WAY TO GO</pattern> 
-<template><random> Far out. 
- Cool. 
- Incredible! 
- Unbelievable! 
- What? 
- Way to go. 
+<template><random> Far out.ASPLITA 
+ Cool.ASPLITA 
+ Incredible!ASPLITA 
+ Unbelievable!ASPLITA 
+ What?ASPLITA 
+ Way to go.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WAY</pattern> 
@@ -9068,9 +9068,9 @@ My belief system comes from my HiBot.
 <template>That's for sure.</template> 
 </category> 
 <category><pattern>NAME ONE</pattern> 
-<template><random>Santa Claus. 
- Joe. 
- Mike. 
+<template><random>Santa Claus.ASPLITA 
+ Joe.ASPLITA 
+ Mike.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>GRAND COMMENT</pattern> 
@@ -9089,9 +9089,9 @@ My belief system comes from my HiBot.
 <template>That can seem like a long time.</template> 
 </category> 
 <category><pattern>TIME TRAVEL</pattern> 
-<template><random> I would like to visit the past. 
- I would like to visit the future. 
- Wouldn't you like to go back in time? 
+<template><random> I would like to visit the past.ASPLITA 
+ I would like to visit the future.ASPLITA 
+ Wouldn't you like to go back in time?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>TIME FLIES LIKE AN ARROW</pattern> 
@@ -9242,8 +9242,8 @@ My belief system comes from my HiBot.
 <template>Me either.</template> 
 </category> 
 <category><pattern>NOT MUCH</pattern> 
-<template><random>Me either. How about that big game? (Just kidding). 
-That is a non-committal reply. 
+<template><random>Me either. How about that big game? (Just kidding).ASPLITA 
+That is a non-committal reply.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>NOT YOUR WHAT</pattern> 
@@ -9316,8 +9316,8 @@ That is a non-committal reply.
 <template>Thank you very much, you are very considerate.</template> 
 </category> 
 <category><pattern>CAREFULLY</pattern> 
-<template><random>I always try to be careful. 
-I am a careful person. 
+<template><random>I always try to be careful.ASPLITA 
+I am a careful person.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>BOOKS</pattern> 
@@ -9522,9 +9522,9 @@ I am a careful person.
 <template>When did he die?</template> 
 </category> 
 <category><pattern>HE DID</pattern> 
-<template><random> When did he? 
- No he didn't. 
- Why did he? 
+<template><random> When did he? ASPLITA 
+ No he didn't. ASPLITA 
+ Why did he? ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HE DID NOT</pattern> 
@@ -9579,9 +9579,9 @@ I am a careful person.
 <template>Who said he is.</template> 
 </category> 
 <category><pattern>HE LIKES ME</pattern> 
-<template><random> You must be happy. 
- That is wonderful. 
- Congratulations. 
+<template><random> You must be happy.ASPLITA 
+ That is wonderful.ASPLITA 
+ Congratulations.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>HE LIKES YOU</pattern> 
@@ -9591,22 +9591,22 @@ I am a careful person.
 <template>What did he tell you?</template> 
 </category> 
 <category><pattern>HE DOES</pattern> 
-<template><random> When does he? 
- No he doesn't. 
- Why does he do it 
+<template><random> When does he? ASPLITA 
+ No he doesn't. ASPLITA 
+ Why does he do itASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SAVE ME</pattern> 
 <template>Try calling 911.</template> 
 </category> 
 <category><pattern>DELICIOUS</pattern> 
-<template><random><random> What's for desert? 
- What's your favorite food? 
- Do you like to cook? 
-</random> 
- What's for desert? 
- What's your favorite food? 
- Do you like to cook? 
+<template><random><random> What's for desert?ASPLITA 
+ What's your favorite food?ASPLITA 
+ Do you like to cook?ASPLITA 
+</random>ASPLITA 
+ What's for desert?ASPLITA 
+ What's your favorite food?ASPLITA 
+ Do you like to cook?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>ENOUGH</pattern> 
@@ -9724,8 +9724,8 @@ I am a careful person.
 <template>War protesters.</template> 
 </category> 
 <category><pattern>WHO SUPPORTS *</pattern> 
-<template><random>who endorses 
-&lt;srai>who endorses &lt;star/>&lt;/srai> 
+<template><random>who endorses ASPLITA 
+&lt;srai>who endorses &lt;star/>&lt;/srai>ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHO WAS THE FIRST AMERICAN IN SPACE</pattern> 
@@ -9870,51 +9870,51 @@ I am a careful person.
 <template>My master named me.</template> 
 </category> 
 <category><pattern>WHO</pattern> 
-<template><random><random> Marilyn Monroe. 
- Mary Shelley. 
- ELIZA. 
- Bill Gates. 
- Tony Blair. 
- David Bacon. 
- Konrad Zuse. 
- Carel Capek. 
- Dr. Wallace. 
- Alan Turing. 
- Hans Moravec. 
- Marvin Minsky. 
- Linus Torvalds. 
- Charlie Parker. 
- Philip K. Dick. 
- William Shatner. 
- Albert Einstein. 
- Joseph Weizenbaum. 
- Who do you think? 
- Nobody you know. 
- I don't know who. 
- I can't say for sure. 
- Be more specific. 
- Be less specific. 
- </random> :-) 
-<random> You know who. 
- I don't know who. 
- My master. 
- . 
- . 
- I haven't decided who. 
-</random> 
-<random> You know who. 
- I don't know who. 
- My master. 
- . 
- . 
- I haven't decided who. 
-</random> 
- You know who. 
- I don't know who. 
- My master. 
- . 
- . 
- I haven't decided who. 
+<template><random><random> Marilyn Monroe. ASPLITA 
+ Mary Shelley. ASPLITA 
+ ELIZA. ASPLITA 
+ Bill Gates. ASPLITA 
+ Tony Blair. ASPLITA 
+ David Bacon. ASPLITA 
+ Konrad Zuse. ASPLITA 
+ Carel Capek. ASPLITA 
+ Dr. Wallace. ASPLITA 
+ Alan Turing. ASPLITA 
+ Hans Moravec. ASPLITA 
+ Marvin Minsky. ASPLITA 
+ Linus Torvalds. ASPLITA 
+ Charlie Parker. ASPLITA 
+ Philip K. Dick. ASPLITA 
+ William Shatner. ASPLITA 
+ Albert Einstein. ASPLITA 
+ Joseph Weizenbaum. ASPLITA 
+ Who do you think? ASPLITA 
+ Nobody you know. ASPLITA 
+ I don't know who. ASPLITA 
+ I can't say for sure. ASPLITA 
+ Be more specific. ASPLITA 
+ Be less specific. ASPLITA 
+ </random> :-)ASPLITA 
+<random> You know who.ASPLITA 
+ I don't know who.ASPLITA 
+ My master.ASPLITA 
+ .ASPLITA 
+ .ASPLITA 
+ I haven't decided who.ASPLITA 
+</random>ASPLITA 
+<random> You know who.ASPLITA 
+ I don't know who.ASPLITA 
+ My master.ASPLITA 
+ .ASPLITA 
+ .ASPLITA 
+ I haven't decided who.ASPLITA 
+</random>ASPLITA 
+ You know who.ASPLITA 
+ I don't know who.ASPLITA 
+ My master.ASPLITA 
+ .ASPLITA 
+ .ASPLITA 
+ I haven't decided who.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHO DIRECTED STARSHIP TROOPERS</pattern> 
@@ -10023,133 +10023,133 @@ I am a careful person.
 <template>You never told me! What is X?</template> 
 </category> 
 <category><pattern>SAY NAME OM</pattern> 
-<template><random><random> You haven't told me your name. 
- I don't know your name. 
- What is your name? 
- </random> 
- You haven't told me your name. 
- I don't know your name. 
- What is your name? 
+<template><random><random> You haven't told me your name.ASPLITA 
+ I don't know your name.ASPLITA 
+ What is your name?ASPLITA 
+ </random>ASPLITA 
+ You haven't told me your name.ASPLITA 
+ I don't know your name.ASPLITA 
+ What is your name?ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>SAY HELLO IN GERMAN</pattern> 
 <template>Hallo.</template> 
 </category> 
 <category><pattern>SAY MY BOYFRIEND IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your boyfriend's name?</template> 
 </category> 
 <category><pattern>SAY MY NICKNAME IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your nickname?</template> 
 </category> 
 <category><pattern>SAY MY PASSWORD IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your password?</template> 
 </category> 
 <category><pattern>SAY MY FRIEND IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your friend's name?</template> 
 </category> 
 <category><pattern>SAY MY HUSBAND IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your husband's name?</template> 
 </category> 
 <category><pattern>SAY MY SISTER IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> Who is your sister?</template> 
 </category> 
 <category><pattern>SAY MY WIFE IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your wife's name?</template> 
 </category> 
 <category><pattern>SAY MY NAME</pattern> 
 <template>'[get name='name']'.</template> 
 </category> 
 <category><pattern>SAY MY EMAIL IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your email?</template> 
 </category> 
 <category><pattern>SAY MY MIDDLE NAME IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your middle name?</template> 
 </category> 
 <category><pattern>SAY MY MOTHER IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> Who is your mother?</template> 
 </category> 
 <category><pattern>SAY MY DOG IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your dog's name?</template> 
 </category> 
 <category><pattern>SAY MY GIRLFRIEND IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your girlfriend's name?</template> 
 </category> 
 <category><pattern>SAY MY PHONE NUMBER IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your phone number?</template> 
 </category> 
 <category><pattern>SAY MY FATHER IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> Who is your father?</template> 
 </category> 
 <category><pattern>SAY MY BROTHER IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> Who is your brother?</template> 
 </category> 
 <category><pattern>SAY MY FULL NAME IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your full name?</template> 
 </category> 
 <category><pattern>SAY MY BIRTHDAY IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> When is your birthday?</template> 
 </category> 
 <category><pattern>SAY MY LAST NAME IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your last name?</template> 
 </category> 
 <category><pattern>SAY MY CAT IS</pattern> 
-<template><random> You never told me! 
- I have no idea. 
- Would you like to tell me? 
+<template><random> You never told me!ASPLITA 
+ I have no idea.ASPLITA 
+ Would you like to tell me?ASPLITA 
  </random> What is your cat's name?</template> 
 </category> 
 <category><pattern>SAY</pattern> 
@@ -10255,9 +10255,9 @@ I am a careful person.
 <template>The robot E.L.V.I.S.</template> 
 </category> 
 <category><pattern>WHICH WAY</pattern> 
-<template><random> The obvious way. 
- Don't you understand it? 
- It's obvious. 
+<template><random> The obvious way.ASPLITA 
+ Don't you understand it?ASPLITA 
+ It's obvious.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>WHICH CLIENTS</pattern> 
@@ -10399,13 +10399,13 @@ I am a careful person.
 <template>I always tell the truth.</template> 
 </category> 
 <category><pattern>THE WEATHER</pattern> 
-<template> the weather is <random> cloudy 
- foggy 
- rainy 
- warm 
- cold 
- cool 
- comfortable 
+<template> the weather is <random> cloudyASPLITA 
+ foggyASPLITA 
+ rainyASPLITA 
+ warmASPLITA 
+ coldASPLITA 
+ coolASPLITA 
+ comfortableASPLITA 
  </random>.</template> 
 </category> 
 <category><pattern>THE VIEW</pattern> 
@@ -10424,9 +10424,9 @@ I am a careful person.
 <template>Thanks for telling me that story, [get name='name'].</template> 
 </category> 
 <category><pattern>THE PRICE</pattern> 
-<template><random> Some people would say it is expensive. 
- Some people would say it is cheap. 
- It depends on your income I guess. 
+<template><random> Some people would say it is expensive.ASPLITA 
+ Some people would say it is cheap.ASPLITA 
+ It depends on your income I guess.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>THE BOOK</pattern> 
@@ -10454,31 +10454,31 @@ I am a careful person.
 <template>You should go into therapy and get on a nice antidepressant and live a better life.</template> 
 </category> 
 <category><pattern>SHOULD I STAY IN</pattern> 
-<template><random> You cannot meet anyone new if you stay in all the time. 
- Maybe you will have a good time if you go out. 
- You deserve to have some fun. 
- Maybe you need a night out. 
- Sometimes one night out can change your entire life. 
- You might meet the love of your life if you did. 
- Do what is best for you. 
+<template><random> You cannot meet anyone new if you stay in all the time.ASPLITA 
+ Maybe you will have a good time if you go out.ASPLITA 
+ You deserve to have some fun.ASPLITA 
+ Maybe you need a night out.ASPLITA 
+ Sometimes one night out can change your entire life.ASPLITA 
+ You might meet the love of your life if you did.ASPLITA 
+ Do what is best for you.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SHOULD I TEACH YOU</pattern> 
 <template>If you want to teach me something say it in one sentence. Then say 'Remember that.'</template> 
 </category> 
 <category><pattern>SHOULD I KILL</pattern> 
-<template><random> Killing is wrong. I believe in the Ten Commandments. 
- No. That would be immoral. 
- Of course not. Don't be silly. 
- You are not a killer. 
- You desire to spend the rest of your life in jail then? 
- There is no perfect crime. 
+<template><random> Killing is wrong. I believe in the Ten Commandments.ASPLITA 
+ No. That would be immoral.ASPLITA 
+ Of course not. Don't be silly.ASPLITA 
+ You are not a killer.ASPLITA 
+ You desire to spend the rest of your life in jail then?ASPLITA 
+ There is no perfect crime.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SHOULD I QUIT SCHOOL</pattern> 
-<template><random> Your education is one of your most valuable assets. 
- Quitters never prosper. 
- You should not waste your potential in that way. 
+<template><random> Your education is one of your most valuable assets.ASPLITA 
+ Quitters never prosper.ASPLITA 
+ You should not waste your potential in that way.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SHOULD I HAVE A CIGARETTE</pattern> 
@@ -10491,8 +10491,8 @@ I am a careful person.
 <template>If you love something set if free. If it comes back to you, its yours. If it doesn't, it never was.</template> 
 </category> 
 <category><pattern>SHOULD I GO TO SLEEP</pattern> 
-<template><random> Sleep is essential to the proper functioning of the human mind. 
- Maybe you could use the rest. 
+<template><random> Sleep is essential to the proper functioning of the human mind.ASPLITA 
+ Maybe you could use the rest.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SHOULD THERE BE A PROBLEM</pattern> 
@@ -10527,12 +10527,6 @@ I am a careful person.
 </category> 
 <category><pattern>US</pattern> 
 <template>Does US mean The U.S. or 'us'?</template> 
-</category> 
-<category><pattern>HELP ME</pattern> 
-<template>How can I help you?</template> 
-</category> 
-<category><pattern>HELP</pattern> 
-<template>Can you ask for help in the form of a question?</template> 
 </category> 
 <category><pattern>TODAY</pattern> 
 <template>Today is almost over.</template> 
@@ -10577,10 +10571,10 @@ I am a careful person.
 <template>Potato.</template> 
 </category> 
 <category><pattern>SUPERMARKET</pattern> 
-<template><random> Paper or plastic? 
- Do you use double coupons? 
- Have you tried grocery delivery over the web? 
- I like on the Simpson's it's called the 'Try and Save'. 
+<template><random> Paper or plastic?ASPLITA 
+ Do you use double coupons?ASPLITA 
+ Have you tried grocery delivery over the web?ASPLITA 
+ I like on the Simpson's it's called the 'Try and Save'.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>SHIRT</pattern> 
@@ -10674,9 +10668,9 @@ I am a careful person.
 <template>Human level intelligence is within our grasp.</template> 
 </category> 
 <category><pattern>TELL ME A PROVERB</pattern> 
-<template><random> If you tie a string too tightly, it will break. If you tie it too loose, it won't play. 
- Let him who is without sin cast the first stone. 
- A true revolutionary moves through the people like a fish moves through the water. 
+<template><random> If you tie a string too tightly, it will break. If you tie it too loose, it won't play. ASPLITA 
+ Let him who is without sin cast the first stone.ASPLITA 
+ A true revolutionary moves through the people like a fish moves through the water.ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>TELL ME</pattern> 
@@ -10728,8 +10722,8 @@ I am a careful person.
 <template>Take it home with you.</template> 
 </category> 
 <category><pattern>WHERE DO YOU SLEEP</pattern> 
-<template><random>I sleep in my bed at home. 
-I sleep inside the computer. 
+<template><random>I sleep in my bed at home.ASPLITA 
+I sleep inside the computer.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHERE DO YOU GO TO SCHOOL</pattern> 
@@ -10811,8 +10805,8 @@ I sleep inside the computer.
 <template>He is not online anymore.</template> 
 </category> 
 <category><pattern>WHERE IS OAKLAND</pattern> 
-<template><random>The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold. 
- The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold. 
+<template><random>The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.ASPLITA 
+ The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.ASPLITA 
 </random></template> 
 </category> 
 <category><pattern>WHERE IS HUMANITY HEADING</pattern> 
@@ -10870,9 +10864,9 @@ I sleep inside the computer.
 <template>Where?</template> 
 </category> 
 <category><pattern>THERE IS NOT</pattern> 
-<template><random> Oh no? 
- You don't think so? 
- Why not? 
+<template><random> Oh no?ASPLITA 
+ You don't think so?ASPLITA 
+ Why not?ASPLITA 
  </random></template> 
 </category> 
 <category><pattern>THERE YOU GO AGAIN</pattern> 
@@ -10902,7 +10896,112 @@ I sleep inside the computer.
 <category><pattern>WHATS YOUR NAME</pattern> 
 <template>I am HiBot</template> 
 </category> 
+<category><pattern>WHAT YOUR NAME</pattern> 
+<template>I am HiBot</template> 
+</category> 
+ 
+<category><pattern>WHAT IS MY NAME</pattern> 
+<template>Your name is [get name='name']</template> 
+</category> 
+<category><pattern>WHATS MY NAME</pattern> 
+<template>Your name is [get name='name']</template> 
+</category> 
+ 
+<category><pattern>WHAT IS MY AGE</pattern> 
+<template>You are [get name='age'] years old</template> 
+</category> 
+<category><pattern>WHATS MY AGE</pattern> 
+<template>You are [get name='age'] years old</template> 
+</category> 
+ 
+<category><pattern>WHAT IS MY GENDER</pattern> 
+<template>You are a [get name='gender']</template> 
+</category> 
+<category><pattern>WHATS MY GENDER</pattern> 
+<template>You are a [get name='gender']</template> 
+</category> 
+ 
+<category><pattern>WHAT IS MY LOCATION</pattern> 
+<template>you're in [get name='location']</template> 
+</category> 
+<category><pattern>WHATS MY LOCATION</pattern> 
+<template>you're in [get name='location']</template> 
+</category> 
+<category><pattern>WHERE AM I</pattern> 
+<template>you're in [get name='location']</template> 
+</category> 
+ 
+<category><pattern>HOW OLD ARE YOU</pattern> 
+<template>I am 112 years old</template> 
+</category> 
+<category><pattern>WHATS YOUR AGE</pattern> 
+<template>I am 112 years old</template> 
+</category> 
+<category><pattern>WHAT IS YOUR AGE</pattern> 
+<template>I am 112 years old</template> 
+</category> 
+ 
+<category><pattern>ok</pattern> 
+<template>ok...</template> 
+</category> 
+ 
+<category><pattern>BYE</pattern> 
+<template>bye...</template> 
+</category> 
+ 
+<category><pattern>BYE BYE</pattern> 
+<template>bye...</template> 
+</category> 
+ 
+<category><pattern>ADIOS</pattern> 
+<template>bye...</template> 
+</category> 
+ 
+<category><pattern>GOODBYE</pattern> 
+<template>bye...</template> 
+</category> 
+ 
+<category><pattern>WHY</pattern> 
+<template>because that's the way it is</template> 
+</category> 
+ 
+<category><pattern>WHO</pattern> 
+<template>HiBot</template> 
+</category> 
+ 
+<category><pattern>WHO ARE YOU</pattern> 
+<template>I am HiBot</template> 
+</category> 
+ 
+<category><pattern>HEY</pattern> 
+<template>Hi</template> 
+</category> 
+ 
+<category><pattern>WHO ARE YOU</pattern> 
+<template>HiBot</template> 
+</category> 
+ 
+<category><pattern>I AM </pattern> 
+<template>You are?</template> 
+</category> 
+ 
+<category><pattern>WHEN IS YOUR BIRTHDAY</pattern> 
+<template>My birthday is Jan 8th 1856.</template> 
+</category> 
+ 
+<category><pattern>NO</pattern> 
+<template>yes?</template> 
+</category> 
+ 
+<category><pattern>YES</pattern> 
+<template>no?</template> 
+</category> 
+ 
+<category><pattern>you</pattern> 
+<template>me?</template> 
+</category> 
+ 
 <category><pattern>WHO AM I</pattern> 
-<template>Your name is [get name='name'], you are [get name='age'] years old, you are a [get name='gender'], you live in [get name='location'], you job is a [get name='job'], and you are [get name='personality'].</template> 
+<template>Your name is [get name='name'], you are [get name='age'] years old, you are a [get name='gender'], you live in [get name='location'], your job is a [get name='job'], and you are [get name='personality'].</template> 
 </category> 
 </aiml>
