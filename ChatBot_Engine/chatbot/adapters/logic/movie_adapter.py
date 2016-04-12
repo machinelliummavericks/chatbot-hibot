@@ -9,6 +9,7 @@ from chatbot.learning.recommender import Recommender
 from chatbot.learning.segmentation import Segmentation
 import pandas as pd
 import numpy as np
+from geopy.geocoders import Nominatim
 
 
 class MovieLogicAdapter(LogicAdapter):
@@ -128,10 +129,19 @@ class MovieLogicAdapter(LogicAdapter):
 
             #if "Learn" in user_input:
             if learn_confidence == 1:
-                location = self.get_location(user_input)
-                movies = MovieShowtimes(location,'','')
-                movies = movies.parse()
-                return 1, Statement(self.build_output(movies))
+                location = self.get_location(user_input, tag_processing)
+
+                if location == 'ERROR':
+                    return 1, Statement("Bad user location based on latitude and longitude. Please try again.")
+                if location == 'TIMEOUT':
+                    return 1, Statement("Server HTTP Error 429 timeout. Please try again by specifying exact location, ex: 'movies in Boston'.")
+
+                try:
+                    movies = MovieShowtimes(location,'','')
+                    movies = movies.parse()
+                    return 1, Statement(self.build_output(movies))
+                except:
+                    return 1, Statement("Sorry, I could not process your movie request. Please try again later.")
             else:
                 return 0, Statement("")
 
@@ -142,7 +152,6 @@ class MovieLogicAdapter(LogicAdapter):
 
         ## How many movie theaters and movies to display in output
         """
-
         movie_str = ""
 
         theater_cnt = 0
@@ -170,8 +179,7 @@ class MovieLogicAdapter(LogicAdapter):
 
         return movie_str
 
-
-    def get_location(self, user_input):
+    def get_location(self, user_input, tag_processing):
         """
         Returns the location extracted from the input.
         """
@@ -195,14 +203,32 @@ class MovieLogicAdapter(LogicAdapter):
         else:
             ## Hack until proper Around Me is built
             #return "BAD LOCATION"
-            return "Boston"
+            #return "Boston"
+            user       = tag_processing.user
+            lat,lon    = user.get_latitude_longitude()
+            user_input = self.get_user_location(lat,lon)
+            return user_input
 
 
-    def get_user_location(self):
+    def get_user_location(self, lat=None, lon=None):
         """
         Returns the current location of the user.
         """
-        return json.load(urllib2.urlopen('http://ipinfo.io/json'))['city']
+        geolocator = Nominatim()
+        try:
+            location = geolocator.reverse(str(lat)+","+str(lon))
 
+            if 'town' in location.raw['address']:
+                return location.raw['address']['town']
+            elif 'city' in location.raw['address']:
+                return location.raw['address']['city']
+            elif 'state' in location.raw['address']:
+                return location.raw['address']['state']
+            elif 'country' in location.raw['address']:
+                return location.raw['address']['country']
+            else:
+                return "ERROR"
+        except:
+            return "TIMEOUT"
 
 

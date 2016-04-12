@@ -11,7 +11,6 @@ chatbot = ChatBot("Terminal", read_only=True,
     storage_adapter="chatbot.adapters.storage.MongoDatabaseAdapter",
     logic_adapters=[
         "chatbot.adapters.logic.AttributeLogicAdapter",
-        "chatbot.adapters.logic.EvaluateMathematically",
         "chatbot.adapters.logic.TimeLogicAdapter",
         "chatbot.adapters.logic.WeatherLogicAdapter",
         "chatbot.adapters.logic.MovieLogicAdapter",
@@ -22,13 +21,25 @@ chatbot = ChatBot("Terminal", read_only=True,
     #user_profile="user.pkl",
     database="chatterbot-database")
 
-#chatbot.train("chatbot.corpus.english")
-#chatbot.train("chatbot.corpus.english.greetings")
-#chatbot.train("chatbot.corpus.english.conversations")
-#chatbot.train("chatbot.corpus.english.trivia")
-#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON")
-#chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic")
-
+'''
+chatbot.train("chatbot.corpus.english.overview")
+chatbot.train("chatbot.corpus.english.greetings")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.atomic-categories0")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.knowledge")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.ai")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.astrology")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.biography")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.computers")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.emotion")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.geography")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.misc")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.music")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.politics")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.psychology")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.sports")
+chatbot.train("chatbot.corpus.english.AIML.AIML_IN_JSON.science")
+'''
 user_input = "Type something to begin...\n"
 
 print(user_input)
@@ -54,7 +65,11 @@ while True:
         the bot's output should be returned. In the case of the TerminalAdapter,
         the output is printed to the user's terminal.
         '''
-        bot_input = chatbot.get_response(user_input)
+
+        #bot_input = chatbot.get_response(user_input)
+        user_location = "latitude:42.1386410 longitude:-71.2474770"   #Walpole
+        #user_location = "latitude:17.3850 longitude:78.4867"         #Hyderabad
+        bot_input = chatbot.get_response(user_input, user_location)
 
     except (KeyboardInterrupt, EOFError, SystemExit):
         break

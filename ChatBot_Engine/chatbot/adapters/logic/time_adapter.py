@@ -2,6 +2,7 @@ from .logic import LogicAdapter
 from chatbot.conversation import Statement
 from textblob.classifiers import NaiveBayesClassifier
 from datetime import datetime
+from geopy import geocoders
 
 
 class TimeLogicAdapter(LogicAdapter):
@@ -32,9 +33,19 @@ class TimeLogicAdapter(LogicAdapter):
         if "time" not in user_input:
             return 0, Statement("")
 
-        now = datetime.now()
+        try:
+            # Find the time zone of the user based on latitude and longitude to get the correct time
+            g          = geocoders.GoogleV3()
+            user       = tag_processing.user
+            lat,lon    = user.get_latitude_longitude()
+            timezone   = g.timezone((lat,lon))
 
-        confidence = self.classifier.classify(user_input)
-        response = Statement("The current time is " + now.strftime("%I:%M %p"))
+            now = datetime.now(timezone)
+
+            confidence = self.classifier.classify(user_input)
+            response = Statement("The current time is " + now.strftime("%I:%M %p"))
+        except:
+            confidence = self.classifier.classify(user_input)
+            response = Statement("Sorry. I cannot find the current time. Possible bad user location based on latitude and longitude. Please try again later")
 
         return confidence, response

@@ -95,13 +95,17 @@ class WeatherLogicAdapter(LogicAdapter):
 
         ## Get the current latitude and longitude of the user based on IP
         if around_me:
-
             ## Make sure user haven't specified a location
             test_location = self.get_location(user_input)
             if test_location == "BAD LOCATION":
                 user       = tag_processing.user
                 lat,lon    = user.get_latitude_longitude()
                 user_input = self.get_user_location(lat,lon)
+
+                if user_input == 'ERROR':
+                    return 1, Statement("Bad user location based on latitude and longitude. Please try again.")
+                if user_input == 'TIMEOUT':
+                    return 1, Statement("Server HTTP Error 429 timeout. Please try again by specifying exact location, ex: 'weather in Boston'.")
 
         location = self.get_location(user_input)
 
@@ -170,12 +174,21 @@ class WeatherLogicAdapter(LogicAdapter):
         """
         #return json.load(urllib2.urlopen('http://ipinfo.io/json'))['city']
         geolocator = Nominatim()
-        location = geolocator.reverse(str(lat)+","+str(lon))
         try:
-            return location.raw['address']['town']
-        except:
-            return location.raw['address']['city']
+            location = geolocator.reverse(str(lat)+","+str(lon))
 
+            if 'town' in location.raw['address']:
+                return location.raw['address']['town']
+            elif 'city' in location.raw['address']:
+                return location.raw['address']['city']
+            elif 'state' in location.raw['address']:
+                return location.raw['address']['state']
+            elif 'country' in location.raw['address']:
+                return location.raw['address']['country']
+            else:
+                return "ERROR"
+        except:
+            return "TIMEOUT"
 
     def get_latitude_longitude(self):
         """

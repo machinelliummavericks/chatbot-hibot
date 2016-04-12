@@ -7,6 +7,9 @@ from .conversation import Statement
 from .learning.user import User
 from .learning.tag_processing import TagProcessing
 import cPickle as pickle
+from nltk import word_tokenize
+#from .utils.pos_tagger import POSTagger
+import re
 
 class ChatBot(object):
 
@@ -63,6 +66,7 @@ class ChatBot(object):
         else:
             self.user = User()
         self.tag_processing = TagProcessing(self.user)
+        #self.tagger = POSTagger()
 
     @property
     def storage(self):
@@ -93,11 +97,17 @@ class ChatBot(object):
     def get_input(self):
         return self.io.process_input()
 
-    def get_response(self, input_text):
+    def get_response(self, input_text, user_location = None):
         """
         Return the bot's response based on the input.
         """
         input_statement = Statement(input_text)
+
+        # Update current location of the user
+        if user_location is not None:
+            latitude  = self.get_latitude(user_location)
+            longitude = self.get_longitude(user_location)
+            self.user.set_latitude_longitude(latitude,longitude)
 
         # Select a response to the input statement
         confidence, response = self.logic.process(input_statement, self.tag_processing)
@@ -149,5 +159,33 @@ class ChatBot(object):
             pickle.dump(self.user, output, -1)
 
 
+    def get_latitude(self, user_input):
+        """
+        Returns the latitude extracted from the input.
+        """
+        #for token in word_tokenize(user_input):
+        #    if "latitude;" in token:
+        #        return re.sub("latitude;", "", token)
+        #return ""
+        match = re.search("latitude:(.*)\s", user_input)
+        if match:
+            result = match.group(1)
+        else:
+            result = ""
+        return result
 
+    def get_longitude(self, user_input):
+        """
+        Returns the longitude extracted from the input.
+        """
+        #for token in word_tokenize(user_input):
+        #    if "longitude:" in token:
+        #        return re.sub("longitude:", "", token)
+        #return ""
+        match = re.search("longitude:(.*)", user_input)
+        if match:
+            result = match.group(1)
+        else:
+            result = ""
+        return result
 
